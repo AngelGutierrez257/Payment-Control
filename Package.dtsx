@@ -3,8 +3,8 @@
   DTS:refId="Package"
   DTS:CreationDate="5/1/2026 4:06:27 PM"
   DTS:CreationName="Microsoft.Package"
-  DTS:CreatorComputerName="LAPTOP-6NT36QS8"
-  DTS:CreatorName="LAPTOP-6NT36QS8\Angel"
+  DTS:CreatorComputerName="PC"
+  DTS:CreatorName="PC\User"
   DTS:DTSID="{11D36DD4-5BBA-4312-BCBE-5CD33C9AA8C4}"
   DTS:EnableConfig="True"
   DTS:ExecutableType="Microsoft.Package"
@@ -2961,7 +2961,7 @@ namespace ScriptTaskProject
         {
             try
             {
-                // 1. Recupera o HTML que o Parameter Mapping injetou na vari�vel como String pura
+                // 1. Recupera o HTML que o Parameter Mapping injetou na vari vel como String pura
                 string htmlBody = Dts.Variables["User::HtmlReportBody"].Value.ToString();
 
                 bool fireAgain = true;
@@ -2974,7 +2974,7 @@ namespace ScriptTaskProject
                     return;
                 }
 
-                // 2. Configura��es de envio
+                // 2. Configura  es de envio
                 string fromEmail = Dts.Variables["$Package::fromEmail"].Value.ToString();
                 string toEmails = Dts.Variables["$Package::toEmails"].Value.ToString();
                 string appPassword = Dts.Variables["$Package::appPass"].GetSensitiveValue()?.ToString();
