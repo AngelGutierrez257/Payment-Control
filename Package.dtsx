@@ -3,8 +3,13 @@
   DTS:refId="Package"
   DTS:CreationDate="5/1/2026 4:06:27 PM"
   DTS:CreationName="Microsoft.Package"
+<<<<<<< HEAD
   DTS:CreatorComputerName="LAPTOP-6NT36QS8"
   DTS:CreatorName="LAPTOP-6NT36QS8\Angel"
+=======
+  DTS:CreatorComputerName="PC"
+  DTS:CreatorName="PC\User"
+>>>>>>> abcf5f16b09e70e0550952408e39771a69479f36
   DTS:DTSID="{11D36DD4-5BBA-4312-BCBE-5CD33C9AA8C4}"
   DTS:EnableConfig="True"
   DTS:ExecutableType="Microsoft.Package"
@@ -12,8 +17,13 @@
   DTS:LocaleID="2057"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
+<<<<<<< HEAD
   DTS:VersionBuild="190"
   DTS:VersionGUID="{FD92DB3E-CE37-4669-BBA7-3A9E379CF147}">
+=======
+  DTS:VersionBuild="247"
+  DTS:VersionGUID="{32C74E7C-0FB3-43CC-ABA7-23B8D520B5C4}">
+>>>>>>> abcf5f16b09e70e0550952408e39771a69479f36
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -28,6 +38,7 @@
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
+<<<<<<< HEAD
       DTS:refId="Package.ConnectionManagers[Excel Connection Manager]"
       DTS:CreationName="EXCEL"
       DTS:DTSID="{23434FB8-D7B3-41BD-BA19-92710E12D094}"
@@ -44,6 +55,12 @@
       DTS:CreationName="EXCEL"
       DTS:DTSID="{898422C9-A5E7-49A7-907A-C63612019049}"
       DTS:ObjectName="Excel Connection Manager 1">
+=======
+      DTS:refId="Package.ConnectionManagers[Excel_ListaFornecedores]"
+      DTS:CreationName="EXCEL"
+      DTS:DTSID="{898422C9-A5E7-49A7-907A-C63612019049}"
+      DTS:ObjectName="Excel_ListaFornecedores">
+>>>>>>> abcf5f16b09e70e0550952408e39771a69479f36
       <DTS:ObjectData>
         <DTS:ConnectionManager
           DTS:ConnectRetryCount="0"
@@ -52,6 +69,21 @@
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
+<<<<<<< HEAD
+=======
+      DTS:refId="Package.ConnectionManagers[Excel_MapaPagamentos2026]"
+      DTS:CreationName="EXCEL"
+      DTS:DTSID="{23434FB8-D7B3-41BD-BA19-92710E12D094}"
+      DTS:ObjectName="Excel_MapaPagamentos2026">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="0"
+          DTS:ConnectRetryInterval="0"
+          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=D:\CrystalCompass\BI\Mapas pagamentos2026.xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+>>>>>>> abcf5f16b09e70e0550952408e39771a69479f36
       DTS:refId="Package.ConnectionManagers[LAPTOP-6NT36QS8\MSSQLSERVER01.Gestao Financeira]"
       DTS:CreationName="OLEDB"
       DTS:DTSID="{5CFB790F-BB7A-4A4C-A531-B99F19146910}"
@@ -64,6 +96,19 @@
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
+<<<<<<< HEAD
+=======
+      DTS:refId="Package.ConnectionManagers[LAPTOP-6NT36QS8\MSSQLSERVER01.Gestao Financeira 1]"
+      DTS:CreationName="ADO.NET:System.Data.SqlClient.SqlConnection, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
+      DTS:DTSID="{3975E0DE-9935-4823-A673-F8B98BE1F790}"
+      DTS:ObjectName="LAPTOP-6NT36QS8\MSSQLSERVER01.Gestao Financeira 1">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Data Source=LAPTOP-6NT36QS8\MSSQLSERVER01;Initial Catalog=Gestao Financeira;Integrated Security=True;TrustServerCertificate=True;Application Name=SSIS-Package-{3975E0DE-9935-4823-A673-F8B98BE1F790}LAPTOP-6NT36QS8\MSSQLSERVER01.Gestao Financeira 1;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+>>>>>>> abcf5f16b09e70e0550952408e39771a69479f36
       DTS:refId="Package.ConnectionManagers[Mapas pagamentos2026.xlsx]"
       DTS:CreationName="FILE"
       DTS:DTSID="{10F209D3-1927-42E6-86A8-756140187FF2}"
@@ -86,7 +131,39 @@
         <DTS:Property
           DTS:DataType="8"
           DTS:Name="ParameterValue"
+<<<<<<< HEAD
           Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAWKrbciU8+k+iuJslCyYNJwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABnHscOgy48fj+dUkOJUYWniOKoL8jIkXu/2NUulwUdgAAAAAAOgAAAAAIAACAAAAC5LOa6j910/oz2/442KJ1yhqpijrK+/R9wlLBj895a4jAAAABrpgE9fJNIJ0RA0U05eQs5gO3fi6uorvz9CmjW5XkflBrPWpyLIiiFyeqXfkeHvddAAAAArUMAH3zm60IpLXC1SgezW0omW4C4q7vzX2C4xKn1AiEIvyXJQKOAi5p3J1PTPIXmoDBsntYMsFPdrB4FE/LXLw</DTS:Property>
+=======
+          Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAWKrbciU8+k+iuJslCyYNJwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABUNwOCUBTdY5u+HHpYbyk9HJU5liOni+7QSp+wNfvXsAAAAAAOgAAAAAIAACAAAAApiG73icYWBJHPpGOcdMSQahz/KNRsy5T3bInp2k8edBAAAADga1tpK5Q8qsMGnoFRp6bjQAAAAHjOVOQy8JXY6Gz/1UDJ+/96e9ix5YPvAo1rUwDxDMIy1dfeyyx+kp5fOezEuSRA8wexh29Wb44wSFY8UlJQq28</DTS:Property>
+      </DTS:Property>
+    </DTS:PackageParameter>
+    <DTS:PackageParameter
+      DTS:CreationName=""
+      DTS:DataType="8"
+      DTS:DTSID="{F3A190E3-6B29-4224-A5F4-66A378ED3CE2}"
+      DTS:ObjectName="ReceivingEmail"
+      DTS:Sensitive="True">
+      <DTS:Property
+        DTS:Name="ParameterValue">
+        <DTS:Property
+          DTS:DataType="8"
+          DTS:Name="ParameterValue"
+          Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAWKrbciU8+k+iuJslCyYNJwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACwKVGZByH7rfsgs2LoGCN8wFbvfvMS3liQj+2A4KoxFgAAAAAOgAAAAAIAACAAAABSwjLO/oQiteqjwJiI79GDwKWysWZRLRzwVttXt9BcsRAAAADi4Uk//oL8G3u6vg3Z6RuzQAAAAKd7XRIGlH7OAfiB5giz7YXVsyYjaL+V/warlKdGQCM2uW3HFjgk3Ld9C8G7itA+/BY9KYzGYce9WIJJePbGeb4</DTS:Property>
+      </DTS:Property>
+    </DTS:PackageParameter>
+    <DTS:PackageParameter
+      DTS:CreationName=""
+      DTS:DataType="8"
+      DTS:DTSID="{509BAEF6-8B78-46AF-BBF0-AB4FEF4BF009}"
+      DTS:ObjectName="SendingEmail"
+      DTS:Sensitive="True">
+      <DTS:Property
+        DTS:Name="ParameterValue">
+        <DTS:Property
+          DTS:DataType="8"
+          DTS:Name="ParameterValue"
+          Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAWKrbciU8+k+iuJslCyYNJwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAK2A4Knq/5R/d4C3NHVwR18Az5D8fvaIRuJ9ryaXZO0QAAAAAOgAAAAAIAACAAAACewVDgbCqXQLC6ihhBpd3AaEGNAd4tXH0rxzxlzIqQJRAAAADbh19AHGrMMNHIqi4p8bK+QAAAAMAaWWJryf0agJULriQSHsO1bKtB+SVbuVkV5Qj05rSyUmRCOEjSSfmOt/Ta0XnMXYzxg7G/V9A566jp5XB1+cQ</DTS:Property>
+>>>>>>> abcf5f16b09e70e0550952408e39771a69479f36
       </DTS:Property>
     </DTS:PackageParameter>
   </DTS:PackageParameters>
@@ -108,7 +185,11 @@
       DTS:Namespace="User"
       DTS:ObjectName="Destination_Excel_MapaPagamentos">
       <DTS:VariableValue
+<<<<<<< HEAD
         DTS:DataType="8">D:\Crystalcompass\Financial management\CopiaMapaPagamentos</DTS:VariableValue>
+=======
+        DTS:DataType="8">D:\CrystalCompass\BI\CopiaMapaPagamentos\</DTS:VariableValue>
+>>>>>>> abcf5f16b09e70e0550952408e39771a69479f36
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
@@ -156,6 +237,7 @@
       DTS:Namespace="User"
       DTS:ObjectName="Source_Excel_MapaPagamentos">
       <DTS:VariableValue
+<<<<<<< HEAD
         DTS:DataType="8">D:\CrystalCompass\Financial management\Mapas pagamentos2026.xlsx</DTS:VariableValue>
     </DTS:Variable>
     <DTS:Variable
@@ -166,6 +248,9 @@
       DTS:ObjectName="Variable">
       <DTS:VariableValue
         DTS:DataType="3">0</DTS:VariableValue>
+=======
+        DTS:DataType="8">D:\CrystalCompass\BI\Mapas pagamentos2026.xlsx</DTS:VariableValue>
+>>>>>>> abcf5f16b09e70e0550952408e39771a69479f36
     </DTS:Variable>
   </DTS:Variables>
   <DTS:LoggingOptions
@@ -173,6 +258,644 @@
     DTS:LoggingMode="1" />
   <DTS:Executables>
     <DTS:Executable
+<<<<<<< HEAD
+=======
+      DTS:refId="Package\Copy MapaPagamentos"
+      DTS:CreationName="Microsoft.ScriptTask"
+      DTS:Description="Script Task"
+      DTS:DTSID="{0506BAC4-82A1-44C2-9662-C08C12E7B244}"
+      DTS:ExecutableType="Microsoft.ScriptTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Copy MapaPagamentos"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <ScriptProject
+          Name="ST_94f6811928024ba19f97e1db27c8c95a"
+          VSTAMajorVersion="16"
+          VSTAMinorVersion="0"
+          Language="CSharp"
+          ReadOnlyVariables="User::Destination_Excel_MapaPagamentos,User::LoadDate,User::Source_Excel_MapaPagamentos">
+          <ProjectItem
+            Name="Properties\AssemblyInfo.cs"
+            Encoding="UTF8"><![CDATA[using System.Reflection;
+using System.Runtime.CompilerServices;
+
+//
+// General Information about an assembly is controlled through the following 
+// set of attributes. Change these attribute values to modify the information
+// associated with an assembly.
+//
+[assembly: AssemblyTitle("ST_94f6811928024ba19f97e1db27c8c95a")]
+[assembly: AssemblyDescription("")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("ST_94f6811928024ba19f97e1db27c8c95a")]
+[assembly: AssemblyCopyright("Copyright @  2026")]
+[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCulture("")]
+//
+// Version information for an assembly consists of the following four values:
+//
+//      Major Version
+//      Minor Version 
+//      Build Number
+//      Revision
+//
+// You can specify all the values or you can default the Revision and Build Numbers 
+// by using the '*' as shown below:
+
+[assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
+          <ProjectItem
+            Name="Properties\Resources.resx"
+            Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+</root>]]></ProjectItem>
+          <ProjectItem
+            Name="Properties\Settings.Designer.cs"
+            Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
+// <auto-generated>
+//     This code was generated by a tool.
+//
+//     Changes to this file may cause incorrect behavior and will be lost if
+//     the code is regenerated.
+// </auto-generated>
+//------------------------------------------------------------------------------
+
+[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="ST_94f6811928024ba19f97e1db27c8c95a.Properties.Settings.get_Default():ST_94f6811928024ba19f97e1db27c8c95a.Properties.Sett" +
+    "ings")]
+
+namespace ST_94f6811928024ba19f97e1db27c8c95a.Properties {
+    
+    
+    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
+        
+        [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
+        private static Settings defaultInstance = new Settings();
+        
+        public static Settings Default {
+            get {
+                return defaultInstance;
+            }
+        }
+    }
+}]]></ProjectItem>
+          <ProjectItem
+            Name="ScriptMain.cs"
+            Encoding="UTF8"><![CDATA[#region Help:  Introduction to the script task
+/* The Script Task allows you to perform virtually any operation that can be accomplished in
+ * a .Net application within the context of an Integration Services control flow. 
+ * 
+ * Expand the other regions which have "Help" prefixes for examples of specific ways to use
+ * Integration Services features within this script task. */
+#endregion
+
+using Microsoft.Win32.SafeHandles;
+using System;
+using System.IO;
+using System.Runtime.InteropServices;
+using System.Text;
+
+namespace ST_ScriptTask
+{
+    [Microsoft.SqlServer.Dts.Tasks.ScriptTask.SSISScriptTaskEntryPointAttribute]
+    public partial class ScriptMain : Microsoft.SqlServer.Dts.Tasks.ScriptTask.VSTARTScriptObjectModelBase
+    {
+        enum ScriptResults
+        {
+            Success = Microsoft.SqlServer.Dts.Runtime.DTSExecResult.Success,
+            Failure = Microsoft.SqlServer.Dts.Runtime.DTSExecResult.Failure
+        }
+
+        private bool _fireAgain = true;
+
+        [DllImport("kernel32.dll", SetLastError = true, CharSet = CharSet.Auto)]
+        static extern SafeFileHandle CreateFile(
+            string lpFileName, uint dwDesiredAccess, uint dwShareMode,
+            IntPtr lpSecurityAttributes, uint dwCreationDisposition,
+            uint dwFlagsAndAttributes, IntPtr hTemplateFile);
+
+        const uint GENERIC_READ = 0x80000000;
+        const uint FILE_SHARE_READ = 0x1;
+        const uint FILE_SHARE_WRITE = 0x2;
+        const uint FILE_SHARE_DELETE = 0x4;
+        const uint OPEN_EXISTING = 3;
+
+        public void Main()
+        {
+            try
+            {
+                string sourcePath = (string)Dts.Variables["User::Source_Excel_MapaPagamentos"].Value;
+                string destinationPath = (string)Dts.Variables["User::Destination_Excel_MapaPagamentos"].Value;
+                DateTime loadDate = (DateTime)Dts.Variables["User::LoadDate"].Value;
+
+                string destFileName = "MapaPagamentos2026.xlsx";
+                string destPath = Path.Combine(destinationPath, destFileName);
+
+                if (!Directory.Exists(destinationPath))
+                {
+                    Directory.CreateDirectory(destinationPath);
+                }
+
+                SafeFileHandle handle = CreateFile(
+                    sourcePath,
+                    GENERIC_READ,
+                    FILE_SHARE_READ | FILE_SHARE_WRITE | FILE_SHARE_DELETE,
+                    IntPtr.Zero,
+                    OPEN_EXISTING,
+                    0,
+                    IntPtr.Zero);
+
+                if (handle.IsInvalid)
+                {
+                    int errorCode = Marshal.GetLastWin32Error();
+                    throw new IOException($"Cannot open source file '{sourcePath}'. Win32 error code: {errorCode}");
+                }
+
+                using (FileStream fsSource = new FileStream(handle, FileAccess.Read))
+                {
+                    if (fsSource.Length == 0)
+                    {
+                        throw new IOException($"Source file '{sourcePath}' is 0 bytes. Aborting copy.");
+                    }
+
+                    using (FileStream fsDestination = new FileStream(destPath, FileMode.Create, FileAccess.Write))
+                    {
+                        fsSource.CopyTo(fsDestination);
+                    }
+                }
+
+                Dts.Events.FireInformation(
+                    0,
+                    "Copy MapaPagamentos2026",
+                    $"Copied '{sourcePath}' to '{destPath}' using LoadDate {loadDate}.",
+                    string.Empty,
+                    0,
+                    ref _fireAgain);
+
+                Dts.TaskResult = (int)ScriptResults.Success;
+            }
+            catch (Exception ex)
+            {
+                Dts.Events.FireError(
+                    0,
+                    "Copy Excel File",
+                    ex.Message,
+                    string.Empty,
+                    0);
+
+                Dts.TaskResult = (int)ScriptResults.Failure;
+            }
+        }
+    }
+}]]></ProjectItem>
+          <ProjectItem
+            Name="Project"
+            Encoding="UTF16LE"><![CDATA[<?xml version="1.0" encoding="UTF-16" standalone="yes"?>
+<c:Project xmlns:c="http://schemas.microsoft.com/codeprojectml/2010/08/main" xmlns:msb="http://schemas.microsoft.com/developer/msbuild/2003" runtimeVersion="4.0" schemaVersion="1.0">
+  <msb:PropertyGroup>
+    <msb:CodeName>ST_94f6811928024ba19f97e1db27c8c95a</msb:CodeName>
+    <msb:Language>msBuild</msb:Language>
+    <msb:DisplayName>ST_94f6811928024ba19f97e1db27c8c95a</msb:DisplayName>
+    <msb:ProjectId>{57F1EDFD-D4AA-46AF-AE16-53E882D42C22}</msb:ProjectId>
+  </msb:PropertyGroup>
+  <msb:ItemGroup>
+    <msb:Project Include="ST_94f6811928024ba19f97e1db27c8c95a.csproj" />
+    <msb:File Include="Properties\Settings.settings" />
+    <msb:File Include="Properties\AssemblyInfo.cs" />
+    <msb:File Include="Properties\Resources.resx" />
+    <msb:File Include="Properties\Resources.Designer.cs" />
+    <msb:File Include="Properties\Settings.Designer.cs" />
+    <msb:File Include="ScriptMain.cs" />
+  </msb:ItemGroup>
+</c:Project>]]></ProjectItem>
+          <ProjectItem
+            Name="ST_94f6811928024ba19f97e1db27c8c95a.csproj"
+            Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectTypeGuids>{30D016F9-3734-4E33-A861-5E7D899E18F3};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{bc266234-cd3c-4ceb-8bbf-3f823953b13d}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ST_94f6811928024ba19f97e1db27c8c95a</RootNamespace>
+    <AssemblyName>ST_94f6811928024ba19f97e1db27c8c95a</AssemblyName>
+    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ResolveAssemblyReferenceIgnoreTargetFrameworkAttributeVersionMismatch>true</ResolveAssemblyReferenceIgnoreTargetFrameworkAttributeVersionMismatch>
+    <TargetFrameworkProfile></TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>.\bin\Debug\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>false</DebugSymbols>
+    <Optimize>true</Optimize>
+    <OutputPath>.\bin\Release\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.SqlServer.ManagedDTS, Version=16.0.0.0, Culture=Neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.SqlServer.ScriptTask, Version=16.0.0.0, Culture=Neutral, PublicKeyToken=89845dcd8080cc91" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="ScriptMain.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <!-- Include the build rules for a C# project.-->
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{30D016F9-3734-4E33-A861-5E7D899E18F3}">
+        <ProjectProperties HostName="ScriptTask" HostPackage="{B3A685AA-7EAF-4BC6-9940-57959FA5AC07}" ApplicationType="usd" Language="cs" TemplatesPath="" DebugInfoCommandLine="" DebugInfoWorkingDir="" IconImageList="" />
+        <Host Name="ScriptTask" GeneratedNamespace="$safeprojectname" IconIndex=""></Host>
+        <ProjectClient>
+          <HostIdentifier>SSIS_ST160</HostIdentifier>
+        </ProjectClient>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>]]></ProjectItem>
+          <ProjectItem
+            Name="Properties\Settings.settings"
+            Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
+<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
+  <Profiles>
+    <Profile Name="(Default)" />
+  </Profiles>
+  <Settings />
+</SettingsFile>]]></ProjectItem>
+          <ProjectItem
+            Name="Properties\Resources.Designer.cs"
+            Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
+// <auto-generated>
+//     This code was generated by a tool.
+//
+//     Changes to this file may cause incorrect behavior and will be lost if
+//     the code is regenerated.
+// </auto-generated>
+//------------------------------------------------------------------------------
+
+[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="ST_94f6811928024ba19f97e1db27c8c95a.Properties.Resources.get_ResourceManager():System.Resources.Resou" +
+    "rceManager")]
+[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="ST_94f6811928024ba19f97e1db27c8c95a.Properties.Resources.get_Culture():System.Globalization.CultureIn" +
+    "fo")]
+[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="ST_94f6811928024ba19f97e1db27c8c95a.Properties.Resources.set_Culture(System.Globalization.CultureInfo" +
+    "):Void")]
+
+namespace ST_94f6811928024ba19f97e1db27c8c95a.Properties {
+    
+    
+    /// <summary>
+    ///   A strongly-typed resource class, for looking up localized strings, etc.
+    /// </summary>
+    // This class was auto-generated by the StronglyTypedResourceBuilder
+    // class via a tool like ResGen or Visual Studio.
+    // To add or remove a member, edit your .ResX file then rerun ResGen
+    // with the /str option, or rebuild your VS project.
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+    internal class Resources {
+        
+        private static global::System.Resources.ResourceManager resourceMan;
+        
+        private static global::System.Globalization.CultureInfo resourceCulture;
+        
+        [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
+        internal Resources() {
+        }
+        
+        /// <summary>
+        ///   Returns the cached ResourceManager instance used by this class.
+        /// </summary>
+        [global::System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        internal static global::System.Resources.ResourceManager ResourceManager {
+            get {
+                if ((resourceMan == null)) {
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("ST_94f6811928024ba19f97e1db27c8c95a.Properties.Resources", typeof(Resources).Assembly);
+                    resourceMan = temp;
+                }
+                return resourceMan;
+            }
+        }
+        
+        /// <summary>
+        ///   Overrides the current thread's CurrentUICulture property for all
+        ///   resource lookups using this strongly typed resource class.
+        /// </summary>
+        [global::System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        internal static global::System.Globalization.CultureInfo Culture {
+            get {
+                return resourceCulture;
+            }
+            set {
+                resourceCulture = value;
+            }
+        }
+    }
+}]]></ProjectItem>
+          <BinaryItem
+            Name="ST_94f6811928024ba19f97e1db27c8c95a.dll">TVqQAAMAAAAEAAAA//8AALgAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAgAAAAA4fug4AtAnNIbgBTM0hVGhpcyBwcm9ncmFtIGNhbm5vdCBiZSBydW4gaW4gRE9TIG1v
+ZGUuDQ0KJAAAAAAAAABQRQAATAEDAIBzymoAAAAAAAAAAOAAIiALATAAABYAAAAIAAAAAAAA3jUA
+AAAgAAAAQAAAAAAAEAAgAAAAAgAABAAAAAAAAAAGAAAAAAAAAACAAAAAAgAAAAAAAAMAYIUAABAA
+ABAAAAAAEAAAEAAAAAAAABAAAAAAAAAAAAAAAIw1AABPAAAAAEAAAHgEAAAAAAAAAAAAAAAAAAAA
+AAAAAGAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAIAAACAAAAAAAAAAAAAAACCAAAEgAAAAAAAAAAAAAAC50ZXh0AAAA5BUAAAAgAAAAFgAAAAIA
+AAAAAAAAAAAAAAAAACAAAGAucnNyYwAAAHgEAAAAQAAAAAYAAAAYAAAAAAAAAAAAAAAAAABAAABA
+LnJlbG9jAAAMAAAAAGAAAAACAAAAHgAAAAAAAAAAAAAAAAAAQAAAQgAAAAAAAAAAAAAAAAAAAADA
+NQAAAAAAAEgAAAACAAUApCIAADASAAABAAAAAAAAANQ0AAC4AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAABswBwCMAQAAAQAAEQIoEAAACm8RAAAKcgEAAHBvEgAACm8T
+AAAKdB8AAAEKAigQAAAKbxEAAApyRQAAcG8SAAAKbxMAAAp0HwAAAQsCKBAAAApvEQAACnKTAABw
+bxIAAApvEwAACqUQAAABDHKxAABwDQcJKBQAAAoTBAcoFQAACi0HBygWAAAKJgYgAAAAgB1+FwAA
+ChkWfhcAAAooAQAABiVvGAAACiwfKBkAAAoTBXLhAABwBhEFjCYAAAEoGgAACnMbAAAKehdzHAAA
+ChMGEQZvHQAACi0WcksBAHAGcmcBAHAoHgAACnMbAAAKehEEGBhzHwAAChMHEQYRB28gAAAK3gwR
+BywHEQdvIQAACtzeDBEGLAcRBm8hAAAK3AIoEAAACm8iAAAKFnKhAQBwctEBAHAGEQQIjBAAAAEo
+IwAACn4kAAAKFgJ8AQAABG8lAAAKAigQAAAKFm8mAAAK3jQTCAIoEAAACm8iAAAKFnIlAgBwEQhv
+JwAACn4kAAAKFm8oAAAKJgIoEAAAChdvJgAACt4AKkFMAAACAAAA7wAAAAsAAAD6AAAADAAAAAAA
+AAACAAAAxQAAAEMAAAAIAQAADAAAAAAAAAAAAAAAAAAAAFcBAABXAQAANAAAABIAAAE6Ahd9AQAA
+BAIoKQAACioeAigqAAAKKq5+BwAABC0eckUCAHDQAwAAAigrAAAKbywAAApzLQAACoAHAAAEfgcA
+AAQqGn4IAAAEKh4CgAgAAAQqGn4JAAAEKh4CKC4AAAoqLnMJAAAGgAkAAAQqAAAAQlNKQgEAAQAA
+AAAADAAAAHY0LjAuMzAzMTkAAAAABQBsAAAAKAUAACN+AACUBQAAzAcAACNTdHJpbmdzAAAAAGAN
+AAC4AgAAI1VTABgQAAAQAAAAI0dVSUQAAAAoEAAACAIAACNCbG9iAAAAAAAAAAIAAAFXHaIVCQMA
+AAD6ATMAFgAAAQAAAC8AAAAFAAAADAAAAAoAAAAIAAAALgAAAAcAAAAQAAAAAQAAAAIAAAADAAAA
+BAAAAAEAAAABAAAAAQAAAAQAAAABAAAAAQAAAAAAlgQBAAAAAAAGABUDHgYGAKQDHgYGAGEC7AUP
+AJIGAAAGAI4COgUGAPgCOgUGANkCOgUGAIsDOgUGADUDOgUGAE4DOgUGAKUCOgUGAMAC0gMKAGkD
+IgQKANgBIgQGABsB3gYGAHIB0gQGAL4EXgAGAGQF0gQGANkE0gQGAEQC7AUGAIYH0gQGAJgFPgYG
+AHUFJQUOABQCcwQOAHUCcwQOAPQBEAUGACkCHgYKAGEEIgQSANQGewESAPsAewEGAOwD0gQGAPMD
+XgAGALsHXgAGAIEFXgAGAOUF0gQGABAB/wUGAFkE/wUGAAEA0gQGAGIFXgAGAD0HXgAGAMIEXgAG
+ANoAXgAGAAQB0gQKAKgFIgQGAKMB0gQGACoB0gQGAKwHOgUAAAAABwAAAAAAAQABAAEAEADqBEsE
+OQABAAEAAAAQAEUGoQZVAAcABAAAARAAJAehBmkACQAIAAMBAABYBwAATQAKAAsAAQD1BPkAUYAQ
+APwAUYAdAPwAUYA/APwAUYAtAPwAUYBQAPwAEQDeBP8AEQDIAQMBEQDKAAcBBgaHAAsBVoBIBw4B
+VoCoAQ4BAAAAAIAAkSBOARIBAQBQIAAAAACGAPAEBgAIADQiAAAAAIYY2AUGAAgAQyIAAAAAgxjY
+BQYACABLIgAAAACTCJQFHgEIAHciAAAAAJMIsAEjAQgAfiIAAAAAkwi8ASgBCACGIgAAAACWCI0H
+LgEJAI0iAAAAAIYY2AUGAAkAlSIAAAAAkRjeBTMBCQAAAAEAZwEAAAIALQcAAAMA4wAAAAQADwcA
+AAUATAUAAAYA+gYAAAcAWQEAAAEAzAMJANgFAQARANgFBgAZANgFCgApANgFEAAxANgFEAA5ANgF
+EABBANgFEABJANgFEABRANgFEABZANgFEABhANgFEABpANgFBgChANgFBgDJANgFFQDZANgFBgBx
+AFAHKwDhANAGMADpAMkENQDxAMIDOwABAZsBPwAJAXEHRQAJAbUHSgAZAY8FUQAhAbwAVAApAbwF
+WAD5AH8HXAA5AdgFEACJANgFYwBJAfgDbAD5AHgHcACJANgFdwBJAW4FggBZAQwCBgDhAGYHiQD5
+AH8HjwD5AMUHlwBhAQAFmgDhAJkHAQCRAO8ApQBhAc4FqQBxANgFBgCpANgFBgBpATwBsgBpAagH
+uwCxANgFwQDRANgFBgAJAAgA2wAJAAwA4AAJABAA5QAJABQA6gAJABgA7wAIACwA9AAIADAA4AAp
+AHMAbgEuAAsARgEuABMATwEuABsAbgEuACMAdwEuACsAoAEuADMAoAEuADsAoAEuAEMAdwEuAEsA
+pgEuAFMAoAEuAFsAvQFDAGMA4ABJAHMAbgFjAGsA4AAhAXsA4AAbAAMAAQAEAAMAAACYBTcBAADQ
+ATwBAACRB0EBAgAFAAMAAgAGAAUAAQAHAAUAAgAIAAcAiQRGAQMATgEBAASAAAABAAAAMybIgAAA
+AAAAAI8AAAAEAAAAAAAAAAAAAADJALMAAAAAABAAAAAAAAAAAAAAANIAAwQAAAAABAAAAAAAAAAA
+AAAAyQDSBAAAAAAQAAAAAAAAAAAAAADSAGgAAAAAAAAAAAABAAAATwYAAAUAAgAAAAAAAEludDMy
+ADxNb2R1bGU+AEdFTkVSSUNfUkVBRABGSUxFX1NIQVJFX1JFQUQARklMRV9TSEFSRV9ERUxFVEUA
+RklMRV9TSEFSRV9XUklURQBPUEVOX0VYSVNUSU5HAFN5c3RlbS5JTwBNaWNyb3NvZnQuU3FsU2Vy
+dmVyLk1hbmFnZWREVFMAdmFsdWVfXwBTVF85NGY2ODExOTI4MDI0YmExOWY5N2UxZGIyN2M4Yzk1
+YQBtc2NvcmxpYgBnZXRfSXNJbnZhbGlkAGRlZmF1bHRJbnN0YW5jZQBGaWxlTW9kZQBkd1NoYXJl
+TW9kZQBnZXRfTWVzc2FnZQBWYXJpYWJsZQBJRGlzcG9zYWJsZQBTYWZlSGFuZGxlAFNhZmVGaWxl
+SGFuZGxlAFJ1bnRpbWVUeXBlSGFuZGxlAEdldFR5cGVGcm9tSGFuZGxlAENyZWF0ZUZpbGUAaFRl
+bXBsYXRlRmlsZQBscEZpbGVOYW1lAERhdGVUaW1lAE1pY3Jvc29mdC5TcWxTZXJ2ZXIuRHRzLlJ1
+bnRpbWUAQ29tYmluZQBUeXBlAEZhaWx1cmUAZ2V0X0N1bHR1cmUAc2V0X0N1bHR1cmUAcmVzb3Vy
+Y2VDdWx0dXJlAFZTVEFSVFNjcmlwdE9iamVjdE1vZGVsQmFzZQBBcHBsaWNhdGlvblNldHRpbmdz
+QmFzZQBEaXNwb3NlAEVkaXRvckJyb3dzYWJsZVN0YXRlAENvbXBpbGVyR2VuZXJhdGVkQXR0cmli
+dXRlAERlYnVnZ2VyTm9uVXNlckNvZGVBdHRyaWJ1dGUARGVidWdnYWJsZUF0dHJpYnV0ZQBFZGl0
+b3JCcm93c2FibGVBdHRyaWJ1dGUAQXNzZW1ibHlUaXRsZUF0dHJpYnV0ZQBBc3NlbWJseVRyYWRl
+bWFya0F0dHJpYnV0ZQBUYXJnZXRGcmFtZXdvcmtBdHRyaWJ1dGUAQXNzZW1ibHlDb25maWd1cmF0
+aW9uQXR0cmlidXRlAEFzc2VtYmx5RGVzY3JpcHRpb25BdHRyaWJ1dGUAQ29tcGlsYXRpb25SZWxh
+eGF0aW9uc0F0dHJpYnV0ZQBBc3NlbWJseVByb2R1Y3RBdHRyaWJ1dGUAQXNzZW1ibHlDb3B5cmln
+aHRBdHRyaWJ1dGUAU1NJU1NjcmlwdFRhc2tFbnRyeVBvaW50QXR0cmlidXRlAEFzc2VtYmx5Q29t
+cGFueUF0dHJpYnV0ZQBSdW50aW1lQ29tcGF0aWJpbGl0eUF0dHJpYnV0ZQBnZXRfVmFsdWUAdmFs
+dWUAU3lzdGVtLlJ1bnRpbWUuVmVyc2lvbmluZwBTdHJpbmcAUGF0aABnZXRfTGVuZ3RoAE1pY3Jv
+c29mdC5TcWxTZXJ2ZXIuU2NyaXB0VGFzawBNaWNyb3NvZnQuU3FsU2VydmVyLkR0cy5UYXNrcy5T
+Y3JpcHRUYXNrAFNUX1NjcmlwdFRhc2sATWFyc2hhbABTY3JpcHRPYmplY3RNb2RlbABTeXN0ZW0u
+Q29tcG9uZW50TW9kZWwAa2VybmVsMzIuZGxsAFNUXzk0ZjY4MTE5MjgwMjRiYTE5Zjk3ZTFkYjI3
+YzhjOTVhLmRsbABGaWxlU3RyZWFtAGdldF9JdGVtAFN5c3RlbQBFbnVtAHJlc291cmNlTWFuAFNj
+cmlwdE1haW4AX2ZpcmVBZ2FpbgBGaXJlSW5mb3JtYXRpb24AU3lzdGVtLkNvbmZpZ3VyYXRpb24A
+U3lzdGVtLkdsb2JhbGl6YXRpb24AU3lzdGVtLlJlZmxlY3Rpb24AZHdDcmVhdGlvbkRpc3Bvc2l0
+aW9uAElPRXhjZXB0aW9uAENvcHlUbwBDdWx0dXJlSW5mbwBEaXJlY3RvcnlJbmZvAFplcm8AZ2V0
+X1Jlc291cmNlTWFuYWdlcgBFdmVudHNPYmplY3RXcmFwcGVyAEdldExhc3RXaW4zMkVycm9yAEZp
+cmVFcnJvcgAuY3RvcgAuY2N0b3IASW50UHRyAFN5c3RlbS5EaWFnbm9zdGljcwBTeXN0ZW0uUnVu
+dGltZS5JbnRlcm9wU2VydmljZXMAU3lzdGVtLlJ1bnRpbWUuQ29tcGlsZXJTZXJ2aWNlcwBTeXN0
+ZW0uUmVzb3VyY2VzAFNUXzk0ZjY4MTE5MjgwMjRiYTE5Zjk3ZTFkYjI3YzhjOTVhLlByb3BlcnRp
+ZXMuUmVzb3VyY2VzLnJlc291cmNlcwBEZWJ1Z2dpbmdNb2RlcwBTVF85NGY2ODExOTI4MDI0YmEx
+OWY5N2UxZGIyN2M4Yzk1YS5Qcm9wZXJ0aWVzAGdldF9WYXJpYWJsZXMATWljcm9zb2Z0LldpbjMy
+LlNhZmVIYW5kbGVzAGR3RmxhZ3NBbmRBdHRyaWJ1dGVzAGxwU2VjdXJpdHlBdHRyaWJ1dGVzAFNl
+dHRpbmdzAGR3RGVzaXJlZEFjY2VzcwBGaWxlQWNjZXNzAFN1Y2Nlc3MAZ2V0X0R0cwBTY3JpcHRS
+ZXN1bHRzAGdldF9FdmVudHMARXhpc3RzAENvbmNhdABGb3JtYXQAT2JqZWN0AGdldF9EZWZhdWx0
+AHNldF9UYXNrUmVzdWx0AGdldF9Bc3NlbWJseQBDcmVhdGVEaXJlY3RvcnkARW1wdHkAAABDVQBz
+AGUAcgA6ADoAUwBvAHUAcgBjAGUAXwBFAHgAYwBlAGwAXwBNAGEAcABhAFAAYQBnAGEAbQBlAG4A
+dABvAHMAAE1VAHMAZQByADoAOgBEAGUAcwB0AGkAbgBhAHQAaQBvAG4AXwBFAHgAYwBlAGwAXwBN
+AGEAcABhAFAAYQBnAGEAbQBlAG4AdABvAHMAAB1VAHMAZQByADoAOgBMAG8AYQBkAEQAYQB0AGUA
+AC9NAGEAcABhAFAAYQBnAGEAbQBlAG4AdABvAHMAMgAwADIANgAuAHgAbABzAHgAAGlDAGEAbgBu
+AG8AdAAgAG8AcABlAG4AIABzAG8AdQByAGMAZQAgAGYAaQBsAGUAIAAnAHsAMAB9ACcALgAgAFcA
+aQBuADMAMgAgAGUAcgByAG8AcgAgAGMAbwBkAGUAOgAgAHsAMQB9AAEbUwBvAHUAcgBjAGUAIABm
+AGkAbABlACAAJwABOScAIABpAHMAIAAwACAAYgB5AHQAZQBzAC4AIABBAGIAbwByAHQAaQBuAGcA
+IABjAG8AcAB5AC4AAS9DAG8AcAB5ACAATQBhAHAAYQBQAGEAZwBhAG0AZQBuAHQAbwBzADIAMAAy
+ADYAAFNDAG8AcABpAGUAZAAgACcAewAwAH0AJwAgAHQAbwAgACcAewAxAH0AJwAgAHUAcwBpAG4A
+ZwAgAEwAbwBhAGQARABhAHQAZQAgAHsAMgB9AC4AAR9DAG8AcAB5ACAARQB4AGMAZQBsACAARgBp
+AGwAZQAAcVMAVABfADkANABmADYAOAAxADEAOQAyADgAMAAyADQAYgBhADEAOQBmADkANwBlADEA
+ZABiADIANwBjADgAYwA5ADUAYQAuAFAAcgBvAHAAZQByAHQAaQBlAHMALgBSAGUAcwBvAHUAcgBj
+AGUAcwAAADmhlwxYIEtCo6bUvkseJBQABCABAQgDIAABBSABARERBCABAQ4FIAEBEWEPBwkODhFB
+Dg4IEkUSRRJJBCAAEnEEIAASdQUgARJ5HAMgABwFAAIODg4EAAECDgYAARKAiQ4CBhgDIAACAwAA
+CAYAAw4OHBwIIAIBEj0RgKEDIAAKBgADDg4ODgogAwEOEYCpEYChBiABARKApQUgABKAsQcABA4O
+HBwcAgYOCiAGAQgODg4IEAIDIAAOCCAFAggODg4ICAABEoC1EYC5BSAAEoC9ByACAQ4SgL0It3pc
+Vhk04IkIiYRdzYCAzJEEAAAAgAQBAAAABAIAAAAEBAAAAAQDAAAABAAAAAACBgICBgkDBhJZAwYS
+XQMGEhACBggDBhEUCwAHEj0OCQkYCQkYBAAAElkEAAASXQUAAQESXQQAABIQAwAAAQQIABJZBAgA
+El0ECAASEAgBAAgAAAAAAB4BAAEAVAIWV3JhcE5vbkV4Y2VwdGlvblRocm93cwEIAQACAAAAAAAo
+AQAjU1RfOTRmNjgxMTkyODAyNGJhMTlmOTdlMWRiMjdjOGM5NWEAAAUBAAAAABYBABFDb3B5cmln
+aHQgQCAgMjAyNgAASQEAGi5ORVRGcmFtZXdvcmssVmVyc2lvbj12NC43AQBUDhRGcmFtZXdvcmtE
+aXNwbGF5TmFtZRIuTkVUIEZyYW1ld29yayA0LjcAtAAAAM7K774BAAAAkQAAAGxTeXN0ZW0uUmVz
+b3VyY2VzLlJlc291cmNlUmVhZGVyLCBtc2NvcmxpYiwgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJl
+PW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkjU3lzdGVtLlJlc291cmNl
+cy5SdW50aW1lUmVzb3VyY2VTZXQCAAAAAAAAAAAAAABQQURQQURQtAAAALQ1AAAAAAAAAAAAAM41
+AAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAADANQAAAAAAAAAAAAAAAF9Db3JEbGxNYWluAG1zY29y
+ZWUuZGxsAAAAAAD/JQAgABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAABABAAAAAYAACAAAAAAAAAAAAAAAAAAAABAAEAAAAwAACAAAAAAAAAAAAAAAAAAAABAAAAAABI
+AAAAWEAAABoEAAAAAAAAAAAAABoENAAAAFYAUwBfAFYARQBSAFMASQBPAE4AXwBJAE4ARgBPAAAA
+AAC9BO/+AAABAAAAAQDIgDMmAAABAMiAMyY/AAAAAAAAAAQAAAACAAAAAAAAAAAAAAAAAAAARAAA
+AAEAVgBhAHIARgBpAGwAZQBJAG4AZgBvAAAAAAAkAAQAAABUAHIAYQBuAHMAbABhAHQAaQBvAG4A
+AAAAAAAAsAR6AwAAAQBTAHQAcgBpAG4AZwBGAGkAbABlAEkAbgBmAG8AAABWAwAAAQAwADAAMAAw
+ADAANABiADAAAAAaAAEAAQBDAG8AbQBtAGUAbgB0AHMAAAAAAAAAIgABAAEAQwBvAG0AcABhAG4A
+eQBOAGEAbQBlAAAAAAAAAAAAcAAkAAEARgBpAGwAZQBEAGUAcwBjAHIAaQBwAHQAaQBvAG4AAAAA
+AFMAVABfADkANABmADYAOAAxADEAOQAyADgAMAAyADQAYgBhADEAOQBmADkANwBlADEAZABiADIA
+NwBjADgAYwA5ADUAYQAAAD4ADwABAEYAaQBsAGUAVgBlAHIAcwBpAG8AbgAAAAAAMQAuADAALgA5
+ADcANwA5AC4AMwAyADkANgA4AAAAAABwACgAAQBJAG4AdABlAHIAbgBhAGwATgBhAG0AZQAAAFMA
+VABfADkANABmADYAOAAxADEAOQAyADgAMAAyADQAYgBhADEAOQBmADkANwBlADEAZABiADIANwBj
+ADgAYwA5ADUAYQAuAGQAbABsAAAASAASAAEATABlAGcAYQBsAEMAbwBwAHkAcgBpAGcAaAB0AAAA
+QwBvAHAAeQByAGkAZwBoAHQAIABAACAAIAAyADAAMgA2AAAAKgABAAEATABlAGcAYQBsAFQAcgBh
+AGQAZQBtAGEAcgBrAHMAAAAAAAAAAAB4ACgAAQBPAHIAaQBnAGkAbgBhAGwARgBpAGwAZQBuAGEA
+bQBlAAAAUwBUAF8AOQA0AGYANgA4ADEAMQA5ADIAOAAwADIANABiAGEAMQA5AGYAOQA3AGUAMQBk
+AGIAMgA3AGMAOABjADkANQBhAC4AZABsAGwAAABoACQAAQBQAHIAbwBkAHUAYwB0AE4AYQBtAGUA
+AAAAAFMAVABfADkANABmADYAOAAxADEAOQAyADgAMAAyADQAYgBhADEAOQBmADkANwBlADEAZABi
+ADIANwBjADgAYwA5ADUAYQAAAEIADwABAFAAcgBvAGQAdQBjAHQAVgBlAHIAcwBpAG8AbgAAADEA
+LgAwAC4AOQA3ADcAOQAuADMAMgA5ADYAOAAAAAAARgAPAAEAQQBzAHMAZQBtAGIAbAB5ACAAVgBl
+AHIAcwBpAG8AbgAAADEALgAwAC4AOQA3ADcAOQAuADMAMgA5ADYAOAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAAAAwAAADgNQAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
+        </ScriptProject>
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+>>>>>>> abcf5f16b09e70e0550952408e39771a69479f36
       DTS:refId="Package\Delete_Copia_MapaPagamentos"
       DTS:CreationName="Microsoft.ScriptTask"
       DTS:Description="Script Task"
@@ -185,9 +908,15 @@
       <DTS:ObjectData>
         <ScriptProject
           Name="ST_c57de490b6ce44cfbba594de5efce4b9"
+<<<<<<< HEAD
           VSTAMajorVersion="15"
           VSTAMinorVersion="0"
           Language="VisualBasic" />
+=======
+          VSTAMajorVersion="16"
+          VSTAMinorVersion="0"
+          Language="CSharp" />
+>>>>>>> abcf5f16b09e70e0550952408e39771a69479f36
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
@@ -202,6 +931,7 @@
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
+<<<<<<< HEAD
           SQLTask:Connection="{5CFB790F-BB7A-4A4C-A531-B99F19146910}"
           SQLTask:SqlStatementSource="EXEC dbo.sp_GenerateFinancialHtmlReport @OutputHTML = ? OUTPUT;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask">
           <SQLTask:ParameterBinding
@@ -210,6 +940,14 @@
             SQLTask:ParameterDirection="Output"
             SQLTask:DataType="130"
             SQLTask:ParameterSize="-1" />
+=======
+          SQLTask:Connection="{3975E0DE-9935-4823-A673-F8B98BE1F790}"
+          SQLTask:SqlStatementSource="SET NOCOUNT ON;&#xA;   DECLARE @Html NVARCHAR(MAX);&#xA;   EXEC dbo.GenerateFinancialHtmlReport @OutputHTML = @Html OUTPUT;&#xA;   SELECT @Html AS HtmlReport;"
+          SQLTask:ResultType="ResultSetType_SingleRow" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask">
+          <SQLTask:ResultBinding
+            SQLTask:ResultName="0"
+            SQLTask:DtsVariableName="User::HtmlReportBody" />
+>>>>>>> abcf5f16b09e70e0550952408e39771a69479f36
         </SQLTask:SqlTaskData>
       </DTS:ObjectData>
     </DTS:Executable>
@@ -356,8 +1094,13 @@
                   <connections>
                     <connection
                       refId="Package\Import Raw Data\Import excel data  to Mapa Pagamentos Stagging\Excel Source.Connections[OleDbConnection]"
+<<<<<<< HEAD
                       connectionManagerID="Package.ConnectionManagers[Excel Connection Manager]"
                       connectionManagerRefId="Package.ConnectionManagers[Excel Connection Manager]"
+=======
+                      connectionManagerID="Package.ConnectionManagers[Excel_MapaPagamentos2026]"
+                      connectionManagerRefId="Package.ConnectionManagers[Excel_MapaPagamentos2026]"
+>>>>>>> abcf5f16b09e70e0550952408e39771a69479f36
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -793,6 +1536,7 @@
                   </outputs>
                 </component>
                 <component
+<<<<<<< HEAD
                   refId="Package\Import Raw Data\Import excel data  to Mapa Pagamentos Stagging\Lookup"
                   componentClassID="Microsoft.Lookup"
                   contactInfo="Lookup;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;6"
@@ -934,6 +1678,8 @@ where [refTable].[LoadDate] = ?</property>
                   </outputs>
                 </component>
                 <component
+=======
+>>>>>>> abcf5f16b09e70e0550952408e39771a69479f36
                   refId="Package\Import Raw Data\Import excel data  to Mapa Pagamentos Stagging\OLE DB Destination"
                   componentClassID="Microsoft.OLEDBDestination"
                   contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
@@ -949,7 +1695,11 @@ where [refTable].[LoadDate] = ?</property>
                     <property
                       dataType="System.String"
                       description="Specifies the name of the database object used to open a rowset."
+<<<<<<< HEAD
                       name="OpenRowset">[MapaPagamentos_Stagging]</property>
+=======
+                      name="OpenRowset">[dbo].[MapaPagamentos_Stagging]</property>
+>>>>>>> abcf5f16b09e70e0550952408e39771a69479f36
                     <property
                       dataType="System.String"
                       description="Specifies the variable that contains the name of the database object used to open a rowset."
@@ -971,7 +1721,11 @@ where [refTable].[LoadDate] = ?</property>
                       dataType="System.Int32"
                       description="Specifies the mode used to access the database."
                       name="AccessMode"
+<<<<<<< HEAD
                       typeConverter="AccessMode">0</property>
+=======
+                      typeConverter="AccessMode">3</property>
+>>>>>>> abcf5f16b09e70e0550952408e39771a69479f36
                     <property
                       dataType="System.Boolean"
                       description="Indicates whether the values supplied for identity columns will be copied to the destination. If false, values for identity columns will be auto-generated at the destination. Applies only if fast load is turned on."
@@ -983,7 +1737,11 @@ where [refTable].[LoadDate] = ?</property>
                     <property
                       dataType="System.String"
                       description="Specifies options to be used with fast load.  Applies only if fast load is turned on."
+<<<<<<< HEAD
                       name="FastLoadOptions"></property>
+=======
+                      name="FastLoadOptions">TABLOCK,CHECK_CONSTRAINTS</property>
+>>>>>>> abcf5f16b09e70e0550952408e39771a69479f36
                     <property
                       dataType="System.Int32"
                       description="Specifies when commits are issued during data insertion.  A value of 0 specifies that one commit will be issued at the end of data insertion.  Applies only if fast load is turned on."
@@ -1280,7 +2038,11 @@ where [refTable].[LoadDate] = ?</property>
               <paths>
                 <path
                   refId="Package\Import Raw Data\Import excel data  to Mapa Pagamentos Stagging.Paths[Derived Column Output]"
+<<<<<<< HEAD
                   endId="Package\Import Raw Data\Import excel data  to Mapa Pagamentos Stagging\Lookup.Inputs[Lookup Input]"
+=======
+                  endId="Package\Import Raw Data\Import excel data  to Mapa Pagamentos Stagging\OLE DB Destination.Inputs[OLE DB Destination Input]"
+>>>>>>> abcf5f16b09e70e0550952408e39771a69479f36
                   name="Derived Column Output"
                   startId="Package\Import Raw Data\Import excel data  to Mapa Pagamentos Stagging\Derived Column.Outputs[Derived Column Output]" />
                 <path
@@ -1288,11 +2050,14 @@ where [refTable].[LoadDate] = ?</property>
                   endId="Package\Import Raw Data\Import excel data  to Mapa Pagamentos Stagging\Derived Column.Inputs[Derived Column Input]"
                   name="Excel Source Output"
                   startId="Package\Import Raw Data\Import excel data  to Mapa Pagamentos Stagging\Excel Source.Outputs[Excel Source Output]" />
+<<<<<<< HEAD
                 <path
                   refId="Package\Import Raw Data\Import excel data  to Mapa Pagamentos Stagging.Paths[Lookup No Match Output]"
                   endId="Package\Import Raw Data\Import excel data  to Mapa Pagamentos Stagging\OLE DB Destination.Inputs[OLE DB Destination Input]"
                   name="Lookup No Match Output"
                   startId="Package\Import Raw Data\Import excel data  to Mapa Pagamentos Stagging\Lookup.Outputs[Lookup No Match Output]" />
+=======
+>>>>>>> abcf5f16b09e70e0550952408e39771a69479f36
               </paths>
             </pipeline>
           </DTS:ObjectData>
@@ -1429,8 +2194,13 @@ where [refTable].[LoadDate] = ?</property>
                   <connections>
                     <connection
                       refId="Package\Import Raw Data\Import excel data to Fornecedores Stagging\Excel Source.Connections[OleDbConnection]"
+<<<<<<< HEAD
                       connectionManagerID="Package.ConnectionManagers[Excel Connection Manager 1]"
                       connectionManagerRefId="Package.ConnectionManagers[Excel Connection Manager 1]"
+=======
+                      connectionManagerID="Package.ConnectionManagers[Excel_ListaFornecedores]"
+                      connectionManagerRefId="Package.ConnectionManagers[Excel_ListaFornecedores]"
+>>>>>>> abcf5f16b09e70e0550952408e39771a69479f36
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -1802,14 +2572,22 @@ where [refTable].[LoadDate] = ?</property>
           DTS:ExecutableType="Microsoft.ExecuteSQLTask"
           DTS:LocaleID="-1"
           DTS:ObjectName="Truncate Fornecedores Stagging table"
+<<<<<<< HEAD
           DTS:ThreadHint="1">
+=======
+          DTS:ThreadHint="0">
+>>>>>>> abcf5f16b09e70e0550952408e39771a69479f36
           <DTS:Variables />
           <DTS:LoggingOptions
             DTS:FilterKind="0" />
           <DTS:ObjectData>
             <SQLTask:SqlTaskData
               SQLTask:Connection="{5CFB790F-BB7A-4A4C-A531-B99F19146910}"
+<<<<<<< HEAD
               SQLTask:SqlStatementSource="TRUNCATE TABLE DBO.Staging_Fornecedores" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+=======
+              SQLTask:SqlStatementSource="TRUNCATE TABLE fornecedores.Staging_Fornecedores" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+>>>>>>> abcf5f16b09e70e0550952408e39771a69479f36
           </DTS:ObjectData>
         </DTS:Executable>
         <DTS:Executable
@@ -1820,7 +2598,11 @@ where [refTable].[LoadDate] = ?</property>
           DTS:ExecutableType="Microsoft.ExecuteSQLTask"
           DTS:LocaleID="-1"
           DTS:ObjectName="Truncate Mapa Pagamentos Stagging table"
+<<<<<<< HEAD
           DTS:ThreadHint="0">
+=======
+          DTS:ThreadHint="1">
+>>>>>>> abcf5f16b09e70e0550952408e39771a69479f36
           <DTS:Variables />
           <DTS:LoggingOptions
             DTS:FilterKind="0" />
@@ -1890,7 +2672,11 @@ where [refTable].[LoadDate] = ?</property>
           <DTS:ObjectData>
             <SQLTask:SqlTaskData
               SQLTask:Connection="{5CFB790F-BB7A-4A4C-A531-B99F19146910}"
+<<<<<<< HEAD
               SQLTask:SqlStatementSource="use [Gestao Financeira]&#xA;go&#xA;&#xA;&#xA;&#xA; with cte_stagging as (&#xA; select [ImportID] , &#xA; [Data], &#xA; dbo.fn_ClassificacaoBancos([Banco Pagamento]) as NomeBanco, -- use of function to standradized dim merge logic with fact merge logic. Increases performance and avoids logic drifting&#xA; isnull(trim(upper([Nome Entidade])),'Nao definido') as [NomeEntidade],&#xA; dbo.fn_ClassificacaoTipoEntidade([Tipo Entidade]) as TipoEntidade, -- use of function to standradized dim merge logic with fact merge logic. Increases performance and avoids logic drifting&#xA; dbo.fn_ClassificacaoTipoFornecimento([Tipo Fornecimento]) as TipoFornecimento, -- use of function to standradized dim merge logic with fact merge logic. Increases performance and avoids logic drifting&#xA; dbo.fn_ClassificacaoTipoPagamento([Forma Pagamento]) as TipoPagamento, -- use of function to standradized dim merge logic with fact merge logic. Increases performance and avoids logic drifting&#xA; isnull(trim(upper([Empresa])),'Nao definido') as Empresa,&#xA; [Descricao],&#xA; [Banco de debito Previsto],&#xA; [Valor],&#xA; [Em atraso?] as [Estado Pagamento],&#xA; [Data Situação actual], &#xA; getdate() as LoadDate, &#xA; convert(varbinary(32), hashbytes('SHA2_256', concat([Data], '|',isnull(trim(upper([Nome Entidade])),'Nao definido'),'|',&#xA; dbo.fn_ClassificacaoTipoEntidade([Tipo Entidade]), '|',dbo.fn_ClassificacaoTipoFornecimento([Tipo Fornecimento]),'|',&#xA; dbo.fn_ClassificacaoTipoPagamento([Forma Pagamento]), '|',dbo.fn_ClassificacaoBancos([Banco Pagamento]), '|',&#xA; isnull(trim(upper([Empresa])),'Nao definido'), '|',[Valor]))) as [BusinessHashValue],&#xA; convert(varbinary(32), hashbytes('SHA2_256', concat([Data], '|',isnull(trim(upper([Nome Entidade])),'Nao definido'),'|',&#xA; dbo.fn_ClassificacaoTipoEntidade([Tipo Entidade]), '|',dbo.fn_ClassificacaoTipoFornecimento([Tipo Fornecimento]),'|',&#xA; dbo.fn_ClassificacaoTipoPagamento([Forma Pagamento]), '|',dbo.fn_ClassificacaoBancos([Banco Pagamento]), '|',&#xA; isnull(trim(upper([Empresa])),'Nao definido'), '|',[Valor], '|', isnull(trim(upper([Em atraso?])),'Nao definido'), '|',[Data Situação actual])))  &#xA; as [ControlChangeRowHash] -- controls changes to payment state and compares to the same payment in the busines hash value&#xA; from [dbo].[MapaPagamentos_Stagging] where [Data] is not null&#xA; ),&#xA; cte_pagamentos as (&#xA;&#x9;&#x9;select &#xA;&#x9;&#x9;a.[ImportID],&#xA;&#x9;&#x9;a.[Data],&#xA;&#x9;&#x9;isnull(b.[ID],6) as BancoID,&#xA;&#x9;&#x9;isnull(c.[ID],3) as EmpresaID,&#xA;&#x9;&#x9;isnull(d.[ID],1002) as FornecedorID,&#xA;&#x9;&#x9;isnull(e.ID,5)  as [Tipo Entidade ID],&#xA;&#x9;&#x9;isnull(f.ID,10) as[Tipo Fornecimento ID],&#xA;&#x9;&#x9;isnull(h.ID,4) as [Tipo Pagamento ID],&#xA;&#x9;&#x9;a.[NomeEntidade],&#xA;&#x9;&#x9;a.[Descricao],&#xA;&#x9;&#x9;a.[Valor],&#xA;&#x9;&#x9;a.[Banco de debito Previsto],&#xA;&#x9;&#x9;a.[Estado Pagamento],&#xA;&#x9;&#x9;a.[Data Situação actual],&#xA;&#x9;&#x9;a.[LoadDate],&#xA;&#x9;&#x9;a.[BusinessHashValue],&#xA;&#x9;&#x9;a.[ControlChangeRowHash]&#xA;&#x9;&#x9;from cte_stagging a&#xA;&#x9;&#x9;left join [dbo].[Bancos] b on b.[Nome Banco] = a.NomeBanco and b.IsCurrent = 1&#xA;&#x9;&#x9;left join [dbo].[Empresa] c on c.[Empresa] = a.Empresa and c.[IsCurrent] = 1&#xA;&#x9;&#x9;left join [dbo].[Fornecedores] d on trim(upper(d.[Nome])) = trim(upper(a.NomeEntidade)) and d.[IsCurrent] = 1&#xA;&#x9;&#x9;left join [dbo].[Tipo Entidade] e on e.[Tipo Entidade] = a.TipoEntidade and e.[IsCurrent] = 1&#xA;&#x9;&#x9;left join [dbo].[Tipo Fornecimento] f on f.[Tipo Fornecimento] = a.TipoFornecimento and f.[IsCurrent] = 1&#xA;&#x9;&#x9;left join [dbo].[Tipo Pagamento] h on h.[Tipo de Pagamento] = a.TipoPagamento and h.[IsCurrent] = 1&#xA;&#x9;&#x9;),&#xA;&#x9;&#x9;cte_pagamentos_dedup as (&#xA;&#x9;&#x9;select * from (select *, row_number() over (partition by [BusinessHashValue] order by [ImportID] desc ) as rownumber from cte_pagamentos ) as [rowcount] where rownumber =1&#xA;&#x9;&#x9;)&#xA;&#x9;&#x9;--select * from cte_pagamentos_dedup&#xA;&#xA;&#x9;merge [dbo].[Pagamentos] as target using cte_pagamentos_dedup as source &#xA;&#x9;&#x9;on target.[BusinessHashValue] = source.[BusinessHashValue]&#xA;&#x9;when matched and target.[ControlChangeRowHash] &lt;&gt; source.[ControlChangeRowHash] then&#xA;&#x9;update set&#xA;&#x9;&#x9;target.Data = source.Data,&#xA;&#x9;&#x9;target.BancoID = source.BancoID,&#xA;&#x9;&#x9;target.[FornecedorID] = source.FornecedorID,&#xA;&#x9;&#x9;target.[Tipo Fornecimento ID] =source.[Tipo Fornecimento ID],&#xA;&#x9;&#x9;target.[Tipo Pagamento ID] = source.[Tipo Pagamento ID],&#xA;&#x9;&#x9;target.[Tipo Entidade ID] = source.[Tipo Entidade ID],&#xA;&#x9;&#x9;target.[EmpresaID] = source.EmpresaID,&#xA;&#x9;&#x9;target.[Nome Entidade] =  source.[NomeEntidade],&#xA;&#x9;&#x9;target.[Descricao] = source.[Descricao],&#xA;&#x9;&#x9;target.[Valor] = source.[Valor],&#xA;&#x9;&#x9;target.[Banco de debito Previsto] = source.[Banco de debito Previsto],&#xA;&#x9;&#x9;target.[Estado Pagamento] = source.[Estado Pagamento],&#xA;&#x9;&#x9;target.[Data Situação actual]  =source.[Data Situação actual],&#xA;&#x9;&#x9;target.[LoadDate] =  source.[LoadDate],&#xA;&#x9;&#x9;target.[ControlChangeRowHash] = source.[ControlChangeRowHash]&#xA;&#x9;when not matched by target then&#xA;&#x9;insert (&#xA;&#x9;&#x9;[ImportID],&#xA;&#x9;&#x9;[Data],&#xA;&#x9;&#x9;[BancoID],&#xA;&#x9;&#x9;[FornecedorID],&#xA;&#x9;&#x9;[Tipo Fornecimento ID],&#xA;&#x9;&#x9;[Tipo Pagamento ID],&#xA;&#x9;&#x9;[Tipo Entidade ID],&#xA;&#x9;&#x9;[EmpresaID],&#xA;&#x9;&#x9;[Nome Entidade],&#xA;&#x9;&#x9;[Descricao],&#xA;&#x9;&#x9;[Valor],&#xA;&#x9;&#x9;[Banco de debito Previsto],&#xA;&#x9;&#x9;[Estado Pagamento],&#xA;&#x9;&#x9;[Data Situação actual],&#xA;&#x9;&#x9;[LoadDate],&#xA;&#x9;&#x9;[BusinessHashValue],&#xA;&#x9;&#x9;[ControlChangeRowHash]&#xA;&#x9;&#x9;)&#xA;&#x9;&#x9;values (&#xA;&#x9;&#x9;source.[ImportID],&#xA;&#x9;&#x9;source.[Data],&#xA;&#x9;&#x9;source.[BancoID],&#xA;&#x9;&#x9;source.[FornecedorID],&#xA;&#x9;&#x9;source.[Tipo Fornecimento ID],&#xA;&#x9;&#x9;source.[Tipo Pagamento ID],&#xA;&#x9;&#x9;source.[Tipo Entidade ID],&#xA;&#x9;&#x9;source.[EmpresaID],&#xA;&#x9;&#x9;source.[NomeEntidade],&#xA;&#x9;&#x9;source.[Descricao],&#xA;&#x9;&#x9;source.[Valor],&#xA;&#x9;&#x9;source.[Banco de debito Previsto],&#xA;&#x9;&#x9;source.[Estado Pagamento],&#xA;&#x9;&#x9;source.[Data Situação actual],&#xA;&#x9;&#x9;source.[LoadDate],&#xA;&#x9;&#x9;source.[BusinessHashValue],&#xA;&#x9;&#x9;source.[ControlChangeRowHash]&#xA;&#x9;&#x9;);&#xA;&#x9;&#x9;&#xA;&#xA;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+=======
+              SQLTask:SqlStatementSource="with cte_stagging as (&#xA; select [ImportID] , &#xA; [Data], &#xA; dbo.fn_ClassificacaoBancos([Banco Pagamento]) as NomeBanco, -- use of function to standradized dim merge logic with fact merge logic. Increases performance and avoids logic drifting&#xA; isnull(trim(upper([Nome Entidade])),'Nao definido') as [NomeEntidade],&#xA; dbo.fn_ClassificacaoTipoEntidade([Tipo Entidade]) as TipoEntidade, -- use of function to standradized dim merge logic with fact merge logic. Increases performance and avoids logic drifting&#xA; dbo.fn_ClassificacaoTipoFornecimento([Tipo Fornecimento]) as TipoFornecimento, -- use of function to standradized dim merge logic with fact merge logic. Increases performance and avoids logic drifting&#xA; dbo.fn_ClassificacaoTipoPagamento([Forma Pagamento]) as TipoPagamento, -- use of function to standradized dim merge logic with fact merge logic. Increases performance and avoids logic drifting&#xA; isnull(trim(upper([Empresa])),'Nao definido') as Empresa,&#xA; [Descricao],&#xA; [Banco de debito Previsto],&#xA; [Valor],&#xA; [Em atraso?] as [Estado Pagamento],&#xA; [Data Situação actual], &#xA; getdate() as LoadDate, &#xA; convert(varbinary(32), hashbytes('SHA2_256', concat([Data], '|',isnull(trim(upper([Nome Entidade])),'Nao definido'),'|',&#xA; dbo.fn_ClassificacaoTipoEntidade([Tipo Entidade]), '|',dbo.fn_ClassificacaoTipoFornecimento([Tipo Fornecimento]),'|',&#xA; dbo.fn_ClassificacaoTipoPagamento([Forma Pagamento]), '|',dbo.fn_ClassificacaoBancos([Banco Pagamento]), '|',&#xA; isnull(trim(upper([Empresa])),'Nao definido'), '|',[Valor]))) as [BusinessHashValue],&#xA; convert(varbinary(32), hashbytes('SHA2_256', concat([Data], '|',isnull(trim(upper([Nome Entidade])),'Nao definido'),'|',&#xA; dbo.fn_ClassificacaoTipoEntidade([Tipo Entidade]), '|',dbo.fn_ClassificacaoTipoFornecimento([Tipo Fornecimento]),'|',&#xA; dbo.fn_ClassificacaoTipoPagamento([Forma Pagamento]), '|',dbo.fn_ClassificacaoBancos([Banco Pagamento]), '|',&#xA; isnull(trim(upper([Empresa])),'Nao definido'), '|',[Valor], '|', isnull(trim(upper([Em atraso?])),'Nao definido'), '|',[Data Situação actual])))  &#xA; as [ControlChangeRowHash] -- controls changes to payment state and compares to the same payment in the busines hash value&#xA; from [dbo].[MapaPagamentos_Stagging] where [Data] is not null&#xA; ),&#xA; cte_pagamentos as (&#xA;&#x9;&#x9;select &#xA;&#x9;&#x9;a.[ImportID],&#xA;&#x9;&#x9;a.[Data],&#xA;&#x9;&#x9;isnull(b.[ID],6) as BancoID,&#xA;&#x9;&#x9;isnull(c.[ID],3) as EmpresaID,&#xA;&#x9;&#x9;isnull(d.[ID],1002) as FornecedorID,&#xA;&#x9;&#x9;isnull(e.ID,5)  as [Tipo Entidade ID],&#xA;&#x9;&#x9;isnull(f.ID,10) as[Tipo Fornecimento ID],&#xA;&#x9;&#x9;isnull(h.ID,4) as [Tipo Pagamento ID],&#xA;&#x9;&#x9;a.[NomeEntidade],&#xA;&#x9;&#x9;a.[Descricao],&#xA;&#x9;&#x9;a.[Valor],&#xA;&#x9;&#x9;a.[Banco de debito Previsto],&#xA;&#x9;&#x9;a.[Estado Pagamento],&#xA;&#x9;&#x9;a.[Data Situação actual],&#xA;&#x9;&#x9;a.[LoadDate],&#xA;&#x9;&#x9;a.[BusinessHashValue],&#xA;&#x9;&#x9;a.[ControlChangeRowHash]&#xA;&#x9;&#x9;from cte_stagging a&#xA;&#x9;&#x9;left join [dbo].[Bancos] b on b.[Nome Banco] = a.NomeBanco and b.IsCurrent = 1&#xA;&#x9;&#x9;left join [dbo].[Empresa] c on c.[Empresa] = a.Empresa and c.[IsCurrent] = 1&#xA;&#x9;&#x9;left join [dbo].[Fornecedores] d on trim(upper(d.[Nome])) = trim(upper(a.NomeEntidade)) and d.[IsCurrent] = 1&#xA;&#x9;&#x9;left join [dbo].[Tipo Entidade] e on e.[Tipo Entidade] = a.TipoEntidade and e.[IsCurrent] = 1&#xA;&#x9;&#x9;left join [dbo].[Tipo Fornecimento] f on f.[Tipo Fornecimento] = a.TipoFornecimento and f.[IsCurrent] = 1&#xA;&#x9;&#x9;left join [dbo].[Tipo Pagamento] h on h.[Tipo de Pagamento] = a.TipoPagamento and h.[IsCurrent] = 1&#xA;&#x9;&#x9;),&#xA;&#x9;&#x9;cte_pagamentos_dedup as (&#xA;&#x9;&#x9;select * from (select *, row_number() over (partition by [BusinessHashValue] order by [ImportID] desc ) as rownumber from cte_pagamentos ) as [rowcount] where rownumber =1&#xA;&#x9;&#x9;)&#xA;&#x9;&#x9;--select * from cte_pagamentos_dedup&#xA;&#xA;&#x9;merge [dbo].[Pagamentos] as target using cte_pagamentos_dedup as source &#xA;&#x9;&#x9;on target.[BusinessHashValue] = source.[BusinessHashValue]&#xA;&#x9;when matched and target.[ControlChangeRowHash] &lt;&gt; source.[ControlChangeRowHash] then&#xA;&#x9;update set&#xA;&#x9;&#x9;target.Data = source.Data,&#xA;&#x9;&#x9;target.BancoID = source.BancoID,&#xA;&#x9;&#x9;target.[FornecedorID] = source.FornecedorID,&#xA;&#x9;&#x9;target.[Tipo Fornecimento ID] =source.[Tipo Fornecimento ID],&#xA;&#x9;&#x9;target.[Tipo Pagamento ID] = source.[Tipo Pagamento ID],&#xA;&#x9;&#x9;target.[Tipo Entidade ID] = source.[Tipo Entidade ID],&#xA;&#x9;&#x9;target.[EmpresaID] = source.EmpresaID,&#xA;&#x9;&#x9;target.[Nome Entidade] =  source.[NomeEntidade],&#xA;&#x9;&#x9;target.[Descricao] = source.[Descricao],&#xA;&#x9;&#x9;target.[Valor] = source.[Valor],&#xA;&#x9;&#x9;target.[Banco de debito Previsto] = source.[Banco de debito Previsto],&#xA;&#x9;&#x9;target.[Estado Pagamento] = source.[Estado Pagamento],&#xA;&#x9;&#x9;target.[Data Situação actual]  =source.[Data Situação actual],&#xA;&#x9;&#x9;target.[LoadDate] =  source.[LoadDate],&#xA;&#x9;&#x9;target.[ControlChangeRowHash] = source.[ControlChangeRowHash]&#xA;&#x9;when not matched by target then&#xA;&#x9;insert (&#xA;&#x9;&#x9;[ImportID],&#xA;&#x9;&#x9;[Data],&#xA;&#x9;&#x9;[BancoID],&#xA;&#x9;&#x9;[FornecedorID],&#xA;&#x9;&#x9;[Tipo Fornecimento ID],&#xA;&#x9;&#x9;[Tipo Pagamento ID],&#xA;&#x9;&#x9;[Tipo Entidade ID],&#xA;&#x9;&#x9;[EmpresaID],&#xA;&#x9;&#x9;[Nome Entidade],&#xA;&#x9;&#x9;[Descricao],&#xA;&#x9;&#x9;[Valor],&#xA;&#x9;&#x9;[Banco de debito Previsto],&#xA;&#x9;&#x9;[Estado Pagamento],&#xA;&#x9;&#x9;[Data Situação actual],&#xA;&#x9;&#x9;[LoadDate],&#xA;&#x9;&#x9;[BusinessHashValue],&#xA;&#x9;&#x9;[ControlChangeRowHash]&#xA;&#x9;&#x9;)&#xA;&#x9;&#x9;values (&#xA;&#x9;&#x9;source.[ImportID],&#xA;&#x9;&#x9;source.[Data],&#xA;&#x9;&#x9;source.[BancoID],&#xA;&#x9;&#x9;source.[FornecedorID],&#xA;&#x9;&#x9;source.[Tipo Fornecimento ID],&#xA;&#x9;&#x9;source.[Tipo Pagamento ID],&#xA;&#x9;&#x9;source.[Tipo Entidade ID],&#xA;&#x9;&#x9;source.[EmpresaID],&#xA;&#x9;&#x9;source.[NomeEntidade],&#xA;&#x9;&#x9;source.[Descricao],&#xA;&#x9;&#x9;source.[Valor],&#xA;&#x9;&#x9;source.[Banco de debito Previsto],&#xA;&#x9;&#x9;source.[Estado Pagamento],&#xA;&#x9;&#x9;source.[Data Situação actual],&#xA;&#x9;&#x9;source.[LoadDate],&#xA;&#x9;&#x9;source.[BusinessHashValue],&#xA;&#x9;&#x9;source.[ControlChangeRowHash]&#xA;&#x9;&#x9;);&#xA;&#x9;&#x9;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+>>>>>>> abcf5f16b09e70e0550952408e39771a69479f36
           </DTS:ObjectData>
         </DTS:Executable>
         <DTS:Executable
@@ -1906,7 +2692,11 @@ where [refTable].[LoadDate] = ?</property>
           <DTS:ObjectData>
             <SQLTask:SqlTaskData
               SQLTask:Connection="{5CFB790F-BB7A-4A4C-A531-B99F19146910}"
+<<<<<<< HEAD
               SQLTask:SqlStatementSource="use [Gestao Financeira];&#xA;go&#xA;&#xA;&#xA;&#xA;&#xA;with cte_TipoEntidade as (&#xA;select distinct &#xA;[dbo].[fn_ClassificacaoTipoEntidade]([Tipo Entidade]) as [Tipo Entidade],&#xA;&#x9;[dbo].[fn_DescricaoTipoEntidade]([Tipo Entidade]) as [Descricao],&#xA;&#x9;&#x9;&#x9;&#x9;getdate() as [DataInicio],&#xA;&#x9;&#x9;&#x9;&#x9;'9999-12-31' as [DataFim],&#xA;&#x9;&#x9;&#x9;&#x9;1 as [IsCurrent],&#xA;&#x9;&#x9;&#x9;&#x9;convert(varbinary(32), hashbytes('SHA2_256', &#xA;&#x9;&#x9;&#x9;&#x9;[dbo].[fn_ClassificacaoTipoEntidade]([Tipo Entidade]) &#x9;&#x9;&#x9;&#x9;)) as [HashValue]&#xA;&#x9;&#x9;&#x9;&#x9;from [dbo].[MapaPagamentos_Stagging]&#xA;&#x9;)&#xA;&#xA;merge [dbo].[Tipo Entidade] as target using cte_TipoEntidade as source&#xA;&#x9;on target.[Tipo Entidade] =  source.[Tipo Entidade] &#xA;&#x9;and target.IsCurrent = 1&#xA;&#x9;when matched and target.[HashValue] &lt;&gt; source.[HashValue] then&#xA;&#x9;update set&#xA;&#x9;target.IsCurrent = 0,&#xA;&#x9;target.[DataFim] = dateadd(day,-1,source.[DataInicio])&#xA;&#xA;&#x9;when not matched by target then&#xA;&#x9;insert (&#xA;&#x9;&#x9;[Tipo Entidade],&#xA;&#x9;&#x9;[Descricao],&#xA;&#x9;&#x9;[DataInicio],&#xA;&#x9;&#x9;[DataFim],&#xA;&#x9;&#x9;[IsCurrent],&#xA;&#x9;&#x9;[HashValue]&#xA;&#x9;&#x9;)&#xA;&#x9;values (&#xA;&#x9;&#x9;source.[Tipo Entidade],&#xA;&#x9;&#x9;source.[Descricao], &#xA;&#x9;&#x9;source.[DataInicio], &#xA;&#x9;&#x9;source.[DataFim], &#xA;&#x9;&#x9;source.[IsCurrent], &#xA;&#x9;&#x9;source.[HashValue]&#xA;&#x9;&#x9;);&#xA;&#xA;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+=======
+              SQLTask:SqlStatementSource="with cte_TipoEntidade as (&#xA;select distinct &#xA;[dbo].[fn_ClassificacaoTipoEntidade]([Tipo Entidade]) as [Tipo Entidade],&#xA;&#x9;[dbo].[fn_DescricaoTipoEntidade]([Tipo Entidade]) as [Descricao],&#xA;&#x9;&#x9;&#x9;&#x9;getdate() as [DataInicio],&#xA;&#x9;&#x9;&#x9;&#x9;'9999-12-31' as [DataFim],&#xA;&#x9;&#x9;&#x9;&#x9;1 as [IsCurrent],&#xA;&#x9;&#x9;&#x9;&#x9;convert(varbinary(32), hashbytes('SHA2_256', &#xA;&#x9;&#x9;&#x9;&#x9;[dbo].[fn_ClassificacaoTipoEntidade]([Tipo Entidade]) &#x9;&#x9;&#x9;&#x9;)) as [HashValue]&#xA;&#x9;&#x9;&#x9;&#x9;from [dbo].[MapaPagamentos_Stagging]&#xA;&#x9;)&#xA;&#xA;merge [dbo].[Tipo Entidade] as target using cte_TipoEntidade as source&#xA;&#x9;on target.[Tipo Entidade] =  source.[Tipo Entidade] &#xA;&#x9;and target.IsCurrent = 1&#xA;&#x9;when matched and target.[HashValue] &lt;&gt; source.[HashValue] then&#xA;&#x9;update set&#xA;&#x9;target.IsCurrent = 0,&#xA;&#x9;target.[DataFim] = dateadd(day,-1,source.[DataInicio])&#xA;&#xA;&#x9;when not matched by target then&#xA;&#x9;insert (&#xA;&#x9;&#x9;[Tipo Entidade],&#xA;&#x9;&#x9;[Descricao],&#xA;&#x9;&#x9;[DataInicio],&#xA;&#x9;&#x9;[DataFim],&#xA;&#x9;&#x9;[IsCurrent],&#xA;&#x9;&#x9;[HashValue]&#xA;&#x9;&#x9;)&#xA;&#x9;values (&#xA;&#x9;&#x9;source.[Tipo Entidade],&#xA;&#x9;&#x9;source.[Descricao], &#xA;&#x9;&#x9;source.[DataInicio], &#xA;&#x9;&#x9;source.[DataFim], &#xA;&#x9;&#x9;source.[IsCurrent], &#xA;&#x9;&#x9;source.[HashValue]&#xA;&#x9;&#x9;);" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+>>>>>>> abcf5f16b09e70e0550952408e39771a69479f36
           </DTS:ObjectData>
         </DTS:Executable>
         <DTS:Executable
@@ -1922,7 +2712,11 @@ where [refTable].[LoadDate] = ?</property>
           <DTS:ObjectData>
             <SQLTask:SqlTaskData
               SQLTask:Connection="{5CFB790F-BB7A-4A4C-A531-B99F19146910}"
+<<<<<<< HEAD
               SQLTask:SqlStatementSource="use [Gestao Financeira];&#xA;go&#xA;&#xA;&#xA;with cte_TipoPagamento as (&#xA;select distinct &#xA;[dbo].[fn_ClassificacaoTipoPagamento]([Forma Pagamento]) as [Tipo de Pagamento],&#xA;[dbo].[fn_DescricaoTipoPagamento]([Forma Pagamento]) as Descricao,&#xA;&#x9;GETDATE() as DataInicio,&#xA;&#x9;'9999-12-31' as DataFim,&#xA;&#x9;1 as IsCurrent,&#xA;&#x9;convert(varbinary(32), hashbytes('SHA2_256', &#xA;[dbo].[fn_ClassificacaoTipoPagamento]([Forma Pagamento]) &#x9;&#x9;)) as [HashValue]&#xA;&#x9;&#x9;from [dbo].[MapaPagamentos_Stagging]&#xA;)&#xA;&#xA;Merge [dbo].[Tipo Pagamento] as target using cte_TipoPagamento as source &#xA;&#x9;on target.[Tipo de Pagamento] = source.[Tipo de Pagamento]&#xA;&#x9;and target.IsCurrent = 1&#xA;&#xA;when matched&#xA;&#x9;and target.HashValue &lt;&gt; source.HashValue then&#xA;&#x9;update set&#xA;&#x9;target.[IsCurrent] = 0,&#xA;&#x9;target.[DataFim] = DATEADD(Day, -1, source.[DataInicio])&#xA;when not matched by target then&#xA;&#x9;insert( &#xA;&#x9;&#x9;[Tipo de Pagamento],&#xA;&#x9;&#x9;[Descricao],&#xA;&#x9;&#x9;[DataInicio],&#xA;&#x9;&#x9;[DataFim],&#xA;&#x9;&#x9;[IsCurrent],&#xA;&#x9;&#x9;[HashValue])&#xA;values (&#xA;&#x9;&#x9;source.[Tipo de Pagamento],&#xA;&#x9;&#x9;source.[Descricao],&#xA;&#x9;&#x9;source.[DataInicio],&#xA;&#x9;&#x9;source.[DataFim],&#xA;&#x9;&#x9;source.[IsCurrent],&#xA;&#x9;&#x9;source.[HashValue]&#xA;&#x9;&#x9;);" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+=======
+              SQLTask:SqlStatementSource="&#xA;&#xA;with cte_TipoPagamento as (&#xA;select distinct &#xA;[dbo].[fn_ClassificacaoTipoPagamento]([Forma Pagamento]) as [Tipo de Pagamento],&#xA;[dbo].[fn_DescricaoTipoPagamento]([Forma Pagamento]) as Descricao,&#xA;&#x9;GETDATE() as DataInicio,&#xA;&#x9;'9999-12-31' as DataFim,&#xA;&#x9;1 as IsCurrent,&#xA;&#x9;convert(varbinary(32), hashbytes('SHA2_256', &#xA;[dbo].[fn_ClassificacaoTipoPagamento]([Forma Pagamento]) &#x9;&#x9;)) as [HashValue]&#xA;&#x9;&#x9;from [dbo].[MapaPagamentos_Stagging]&#xA;)&#xA;&#xA;Merge [dbo].[Tipo Pagamento] as target using cte_TipoPagamento as source &#xA;&#x9;on target.[Tipo de Pagamento] = source.[Tipo de Pagamento]&#xA;&#x9;and target.IsCurrent = 1&#xA;&#xA;when matched&#xA;&#x9;and target.HashValue &lt;&gt; source.HashValue then&#xA;&#x9;update set&#xA;&#x9;target.[IsCurrent] = 0,&#xA;&#x9;target.[DataFim] = DATEADD(Day, -1, source.[DataInicio])&#xA;when not matched by target then&#xA;&#x9;insert( &#xA;&#x9;&#x9;[Tipo de Pagamento],&#xA;&#x9;&#x9;[Descricao],&#xA;&#x9;&#x9;[DataInicio],&#xA;&#x9;&#x9;[DataFim],&#xA;&#x9;&#x9;[IsCurrent],&#xA;&#x9;&#x9;[HashValue])&#xA;values (&#xA;&#x9;&#x9;source.[Tipo de Pagamento],&#xA;&#x9;&#x9;source.[Descricao],&#xA;&#x9;&#x9;source.[DataInicio],&#xA;&#x9;&#x9;source.[DataFim],&#xA;&#x9;&#x9;source.[IsCurrent],&#xA;&#x9;&#x9;source.[HashValue]&#xA;&#x9;&#x9;);" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+>>>>>>> abcf5f16b09e70e0550952408e39771a69479f36
           </DTS:ObjectData>
         </DTS:Executable>
         <DTS:Executable
@@ -1938,7 +2732,11 @@ where [refTable].[LoadDate] = ?</property>
           <DTS:ObjectData>
             <SQLTask:SqlTaskData
               SQLTask:Connection="{5CFB790F-BB7A-4A4C-A531-B99F19146910}"
+<<<<<<< HEAD
               SQLTask:SqlStatementSource="use [Gestao Financeira]&#xA;go&#xA;&#xA;WITH&#xA;  cte_bancos AS (&#xA;    SELECT DISTINCT&#x9;&#xA;     [dbo].[fn_ClassificacaoBancos]([Banco Pagamento])  AS [Nome Banco],&#xA;      'Nao definido' AS Contacto,&#xA;      999999999 AS [Contacto Telefonico],&#xA;      GETDATE() AS [DataInicio],&#xA;      '9999-12-31' AS [DataFim],&#xA;      1 AS IsCurrent,&#xA;      convert(&#xA;        varbinary(32),&#xA;        hashbytes('SHA2_256', isnull([dbo].[fn_ClassificacaoBancos]([Banco Pagamento]), 'Nao definido'))) AS HashValue&#xA;    FROM&#xA;      [dbo].[MapaPagamentos_Stagging]&#xA;    WHERE&#xA;      [Banco Pagamento] NOT LIKE '%[0-9]%' OR [Banco Pagamento] IS NULL&#xA;  )&#xA;MERGE&#xA;  [dbo].[Bancos] AS target using cte_bancos AS source ON target.[Nome Banco] = source.[Nome Banco]&#xA;  AND target.[IsCurrent] = 1&#xA;WHEN MATCHED&#xA;  AND target.HashValue &lt;&gt; source.HashValue THEN&#xA;UPDATE SET&#xA;  target.IsCurrent = 0,&#xA;  target.DataFim = DATEADD(Day, -1, source.DataInicio)&#xA;WHEN NOT MATCHED BY target THEN&#xA;INSERT(&#xA;    [Nome Banco],&#xA;    [Contacto],&#xA;    [Contacto Telefonico],&#xA;    [DataInicio],&#xA;    [DataFim],&#xA;    [IsCurrent],&#xA;    [HashValue]&#xA;  )&#xA;VALUES&#xA;  (&#xA;    source.[Nome Banco],&#xA;    source.[Contacto],&#xA;    source.[Contacto Telefonico],&#xA;    source.[DataInicio],&#xA;    source.[DataFim],&#xA;    source.[IsCurrent],&#xA;    source.[HashValue]&#xA;  );&#xA;&#xA;&#xA;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+=======
+              SQLTask:SqlStatementSource="&#xA;&#xA;WITH&#xA;  cte_bancos AS (&#xA;    SELECT DISTINCT&#x9;&#xA;     [dbo].[fn_ClassificacaoBancos]([Banco Pagamento])  AS [Nome Banco],&#xA;      'Nao definido' AS Contacto,&#xA;      999999999 AS [Contacto Telefonico],&#xA;      GETDATE() AS [DataInicio],&#xA;      '9999-12-31' AS [DataFim],&#xA;      1 AS IsCurrent,&#xA;      convert(&#xA;        varbinary(32),&#xA;        hashbytes('SHA2_256', isnull([dbo].[fn_ClassificacaoBancos]([Banco Pagamento]), 'Nao definido'))) AS HashValue&#xA;    FROM&#xA;      [dbo].[MapaPagamentos_Stagging]&#xA;    WHERE&#xA;      [Banco Pagamento] NOT LIKE '%[0-9]%' OR [Banco Pagamento] IS NULL&#xA;  )&#xA;MERGE&#xA;  [dbo].[Bancos] AS target using cte_bancos AS source ON target.[Nome Banco] = source.[Nome Banco]&#xA;  AND target.[IsCurrent] = 1&#xA;WHEN MATCHED&#xA;  AND target.HashValue &lt;&gt; source.HashValue THEN&#xA;UPDATE SET&#xA;  target.IsCurrent = 0,&#xA;  target.DataFim = DATEADD(Day, -1, source.DataInicio)&#xA;WHEN NOT MATCHED BY target THEN&#xA;INSERT(&#xA;    [Nome Banco],&#xA;    [Contacto],&#xA;    [Contacto Telefonico],&#xA;    [DataInicio],&#xA;    [DataFim],&#xA;    [IsCurrent],&#xA;    [HashValue]&#xA;  )&#xA;VALUES&#xA;  (&#xA;    source.[Nome Banco],&#xA;    source.[Contacto],&#xA;    source.[Contacto Telefonico],&#xA;    source.[DataInicio],&#xA;    source.[DataFim],&#xA;    source.[IsCurrent],&#xA;    source.[HashValue]&#xA;  );&#xA;&#xA;&#xA;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+>>>>>>> abcf5f16b09e70e0550952408e39771a69479f36
           </DTS:ObjectData>
         </DTS:Executable>
         <DTS:Executable
@@ -1954,7 +2752,11 @@ where [refTable].[LoadDate] = ?</property>
           <DTS:ObjectData>
             <SQLTask:SqlTaskData
               SQLTask:Connection="{5CFB790F-BB7A-4A4C-A531-B99F19146910}"
+<<<<<<< HEAD
               SQLTask:SqlStatementSource="use [Gestao Financeira]&#xA;go&#xA;&#xA;&#xA;with cte_Empresas as (&#xA;select distinct &#xA;&#x9;case&#xA;&#x9;&#x9;when trim(upper([Empresa])) is null then 'Nao indicado'&#xA;&#x9;&#x9;else trim(upper([Empresa]))&#xA;&#x9;end as [Empresa],&#xA;&#x9;NULL AS NIF,&#xA;&#x9;Getdate() as [DataInicio],&#xA;&#x9;'9999-12-31' as [DataFim],&#xA;&#x9;1 as [IsCurrent],&#xA;&#x9;convert(&#xA;        varbinary(32),&#xA;        hashbytes('SHA2_256', isnull(trim(upper([Empresa])), 'Nao indicado'))&#xA;      ) AS HashValue&#xA;&#x9;  from [dbo].[MapaPagamentos_Stagging]&#xA;&#x9;  ),&#xA;&#x9;  format_empresa_cte as (&#xA;&#x9;  select upper(left([Empresa],1)) + lower(substring([Empresa],2,len([Empresa]))) as [Empresa], NIF, [DataInicio],[DataFim],IsCurrent,HashValue&#xA;  from cte_Empresas&#xA;&#x9;  )&#xA;&#xA;merge &#xA;&#x9;&#x9;[dbo].[Empresa] as target using format_empresa_cte as source&#xA;&#x9;&#x9;on target.Empresa = source.Empresa and target.IsCurrent = 1&#xA;&#x9;  when matched &#xA;&#x9;&#x9;and target.[HashValue] &lt;&gt; source.[HashValue] then&#xA;&#x9;update set&#xA;&#x9;  target.[IsCurrent] = 0,&#xA;&#x9;  target.[DataFim] = dateadd(day,-1,source.[DataInicio])&#xA;&#x9;when not matched by target then&#xA;&#x9;insert (&#xA;&#x9;&#x9;&#x9;[Empresa],&#xA;&#x9;&#x9;&#x9;[NIF],&#xA;&#x9;&#x9;&#x9;[DataInicio],&#xA;&#x9;&#x9;&#x9;[DataFim],&#xA;&#x9;&#x9;&#x9;[IsCurrent],&#xA;&#x9;&#x9;&#x9;[HashValue]&#xA;&#x9;&#x9;&#x9;)&#xA;&#x9;values (&#xA;&#x9;&#x9;&#x9;source.[Empresa],&#xA;&#x9;&#x9;&#x9;source.[NIF],&#xA;&#x9;&#x9;&#x9;source.[DataInicio],&#xA;&#x9;&#x9;&#x9;source.[DataFim],&#xA;&#x9;&#x9;&#x9;source.[IsCurrent],&#xA;&#x9;&#x9;&#x9;source.[HashValue]&#xA;&#x9;&#x9;&#x9;);&#xA;&#xA;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+=======
+              SQLTask:SqlStatementSource="with cte_Empresas as (&#xA;select distinct &#xA;&#x9;case&#xA;&#x9;&#x9;when trim(upper([Empresa])) is null then 'Nao indicado'&#xA;&#x9;&#x9;else trim(upper([Empresa]))&#xA;&#x9;end as [Empresa],&#xA;&#x9;case when Empresa like '%Crystal%' then '510901247'&#xA;&#x9;&#x9; when Empresa like '%Instal%' then &#x9;'517406756' else 'Não definido' end AS NIF,&#xA;&#x9;Getdate() as [DataInicio],&#xA;&#x9;'9999-12-31' as [DataFim],&#xA;&#x9;1 as [IsCurrent],&#xA;&#x9;convert(&#xA;        varbinary(32),&#xA;        hashbytes('SHA2_256', isnull(trim(upper([Empresa])), 'Nao indicado'))&#xA;      ) AS HashValue&#xA;&#x9;  from [dbo].[MapaPagamentos_Stagging]&#xA;&#x9;  ),&#xA;&#x9;  format_empresa_cte as (&#xA;&#x9;  select upper(left([Empresa],1)) + lower(substring([Empresa],2,len([Empresa]))) as [Empresa], NIF, [DataInicio],[DataFim],IsCurrent,HashValue&#xA;  from cte_Empresas&#xA;&#x9;  )&#xA;&#xA;merge &#xA;&#x9;&#x9;[dbo].[Empresa] as target using format_empresa_cte as source&#xA;&#x9;&#x9;on target.Empresa = source.Empresa and target.IsCurrent = 1&#xA;&#x9;  when matched &#xA;&#x9;&#x9;and target.[HashValue] &lt;&gt; source.[HashValue] then&#xA;&#x9;update set&#xA;&#x9;  target.[IsCurrent] = 0,&#xA;&#x9;  target.[DataFim] = dateadd(day,-1,source.[DataInicio])&#xA;&#x9;when not matched by target then&#xA;&#x9;insert (&#xA;&#x9;&#x9;&#x9;[Empresa],&#xA;&#x9;&#x9;&#x9;[NIF],&#xA;&#x9;&#x9;&#x9;[DataInicio],&#xA;&#x9;&#x9;&#x9;[DataFim],&#xA;&#x9;&#x9;&#x9;[IsCurrent],&#xA;&#x9;&#x9;&#x9;[HashValue]&#xA;&#x9;&#x9;&#x9;)&#xA;&#x9;values (&#xA;&#x9;&#x9;&#x9;source.[Empresa],&#xA;&#x9;&#x9;&#x9;source.[NIF],&#xA;&#x9;&#x9;&#x9;source.[DataInicio],&#xA;&#x9;&#x9;&#x9;source.[DataFim],&#xA;&#x9;&#x9;&#x9;source.[IsCurrent],&#xA;&#x9;&#x9;&#x9;source.[HashValue]&#xA;&#x9;&#x9;&#x9;);&#xA;&#xA;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+>>>>>>> abcf5f16b09e70e0550952408e39771a69479f36
           </DTS:ObjectData>
         </DTS:Executable>
         <DTS:Executable
@@ -1972,6 +2774,7 @@ where [refTable].[LoadDate] = ?</property>
           <DTS:ObjectData>
             <SQLTask:SqlTaskData
               SQLTask:Connection="{5CFB790F-BB7A-4A4C-A531-B99F19146910}"
+<<<<<<< HEAD
               SQLTask:SqlStatementSource="use [Gestao Financeira]&#xA;go&#xA;&#xA;&#xA;with&#xA;  cte_staging_fornecedores AS (&#xA;    select&#xA;      [Cód] AS Codigo,&#xA;      trim([Nome]) AS Nome,&#xA;      trim([Localidade]) AS Localidade,&#xA;      isnull([Telefone], 999999999) AS Telefone,&#xA;      isnull(trim([Desig.Comercial]), 'Nao definido') AS [Desig.Comercial],&#xA;      trim(NºContrib) AS [Nº Contribuinte],&#xA;      ImportDate AS DataInicio,&#xA;      1 AS IsCurrent,&#xA;      '9999-12-31' AS DataFim,&#xA;      convert(&#xA;        varbinary(32),&#xA;        hashbytes(&#xA;          'SHA2_256',&#xA;          CONCAT(&#xA;            [Cód],&#xA;            '|',&#xA;            [Nome],&#xA;            '|',&#xA;            [Localidade],&#xA;            '|',&#xA;            [Telefone],&#xA;            '|',&#xA;            [Desig.Comercial],&#xA;            '|',&#xA;            [NºContrib]&#xA;          )&#xA;        ),&#xA;        2&#xA;      ) AS HashValue&#xA;    FROM&#xA;      [fornecedores].[Staging_Fornecedores]&#xA;  )&#xA;MERGE&#xA;  [dbo].[Fornecedores] AS target using cte_staging_fornecedores AS source ON target.Codigo = source.[Codigo]&#xA;  AND target.IsCurrent = 1&#xA;WHEN MATCHED&#xA;  AND target.HashValue &lt;&gt; source.HashValue THEN&#xA;UPDATE SET&#xA;  target.IsCurrent = 0,&#xA;  target.DataFim = DATEADD(Day, -1, source.DataInicio)&#xA;WHEN NOT MATCHED BY target THEN&#xA;INSERT(&#xA;    Codigo,&#xA;    Nome,&#xA;    Localidade,&#xA;    Telefone,&#xA;    [Desig.Comercial],&#xA;    [Nº Contribuinte],&#xA;    DataInicio,&#xA;    DataFim,&#xA;    IsCurrent,&#xA;    HashValue&#xA;  )&#xA;VALUES&#xA;  (&#xA;    source.Codigo,&#xA;    source.Nome,&#xA;    source.Localidade,&#xA;    source.Telefone,&#xA;    source.[Desig.Comercial],&#xA;    source.[Nº Contribuinte],&#xA;    source.DataInicio,&#xA;    source.DataFim,&#xA;    source.IsCurrent,&#xA;    source.HashValue&#xA;  );&#xA;&#xA;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask">
               <SQLTask:ParameterBinding
                 SQLTask:ParameterName="0"
@@ -1980,6 +2783,9 @@ where [refTable].[LoadDate] = ?</property>
                 SQLTask:DataType="7"
                 SQLTask:ParameterSize="-1" />
             </SQLTask:SqlTaskData>
+=======
+              SQLTask:SqlStatementSource="&#xA;&#xA;&#xA;&#xA;with&#xA;  cte_staging_fornecedores AS (&#xA;    select&#xA;      [Cód] AS Codigo,&#xA;      trim([Nome]) AS Nome,&#xA;      trim([Localidade]) AS Localidade,&#xA;      isnull([Telefone], 999999999) AS Telefone,&#xA;      isnull(trim([Desig.Comercial]), 'Nao definido') AS [Desig.Comercial],&#xA;      trim(NºContrib) AS [Nº Contribuinte],&#xA;      ImportDate AS DataInicio,&#xA;      1 AS IsCurrent,&#xA;      '9999-12-31' AS DataFim,&#xA;      convert(&#xA;        varbinary(32),&#xA;        hashbytes(&#xA;          'SHA2_256',&#xA;          CONCAT(&#xA;            [Cód],&#xA;            '|',&#xA;            [Nome],&#xA;            '|',&#xA;            [Localidade],&#xA;            '|',&#xA;            [Telefone],&#xA;            '|',&#xA;            [Desig.Comercial],&#xA;            '|',&#xA;            [NºContrib]&#xA;          )&#xA;        ),&#xA;        2&#xA;      ) AS HashValue&#xA;    FROM&#xA;      [fornecedores].[Staging_Fornecedores]&#xA;  )&#xA;MERGE&#xA;  [dbo].[Fornecedores] AS target using cte_staging_fornecedores AS source ON target.Codigo = source.[Codigo]&#xA;  AND target.IsCurrent = 1&#xA;WHEN MATCHED&#xA;  AND target.HashValue &lt;&gt; source.HashValue THEN&#xA;UPDATE SET&#xA;  target.IsCurrent = 0,&#xA;  target.DataFim = DATEADD(Day, -1, source.DataInicio)&#xA;WHEN NOT MATCHED BY target THEN&#xA;INSERT(&#xA;    Codigo,&#xA;    Nome,&#xA;    Localidade,&#xA;    Telefone,&#xA;    [Desig.Comercial],&#xA;    [Nº Contribuinte],&#xA;    DataInicio,&#xA;    DataFim,&#xA;    IsCurrent,&#xA;    HashValue&#xA;  )&#xA;VALUES&#xA;  (&#xA;    source.Codigo,&#xA;    source.Nome,&#xA;    source.Localidade,&#xA;    source.Telefone,&#xA;    source.[Desig.Comercial],&#xA;    source.[Nº Contribuinte],&#xA;    source.DataInicio,&#xA;    source.DataFim,&#xA;    source.IsCurrent,&#xA;    source.HashValue&#xA;  );&#xA;&#xA;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+>>>>>>> abcf5f16b09e70e0550952408e39771a69479f36
           </DTS:ObjectData>
         </DTS:Executable>
         <DTS:Executable
@@ -1995,7 +2801,11 @@ where [refTable].[LoadDate] = ?</property>
           <DTS:ObjectData>
             <SQLTask:SqlTaskData
               SQLTask:Connection="{5CFB790F-BB7A-4A4C-A531-B99F19146910}"
+<<<<<<< HEAD
               SQLTask:SqlStatementSource="use [Gestao Financeira];&#xA;go&#xA;&#xA;WITH&#xA;  cte_TipoFornecimento AS (&#xA;    SELECT DISTINCT&#xA;    [dbo].[fn_ClassificacaoTipoFornecimento]([Tipo Fornecimento]) S [Tipo Fornecimento Limpo],&#xA;      getdate() AS [Data de Inicio],&#xA;      '9999-12-31' AS [Data de Fim],&#xA;      1 AS [IsCurrent],&#xA;      convert(&#xA;        varbinary(32),&#xA;        hashbytes(&#xA;          'SHA2_256',&#xA;           [dbo].[fn_ClassificacaoTipoFornecimento]([Tipo Fornecimento])         )&#xA;      ) AS [hashbytes]&#xA;    FROM&#xA;      [dbo].[MapaPagamentos_Stagging]&#xA;  )&#xA;MERGE&#xA;  [dbo].[Tipo Fornecimento] AS target using (select * from ( select *, row_number() over (partition by [Tipo Fornecimento Limpo] Order by  [Data de Inicio] desc ) as RowID from cte_TipoFornecimento) t where RowID = 1) AS source ON target.[Tipo Fornecimento] = source.[Tipo Fornecimento Limpo]&#xA;  AND target.[IsCurrent] = 1&#xA;WHEN MATCHED&#xA;  AND target.[hashbytes] &lt;&gt; source.[hashbytes] THEN&#xA;UPDATE SET&#xA;  target.[IsCurrent] = 0,&#xA;  target.[Data de Fim] = DATEADD(Day, -1, source.[Data de Inicio])&#xA;WHEN NOT MATCHED BY target THEN&#xA;INSERT(&#xA;    [Tipo Fornecimento],&#xA;    [Data de Inicio],&#xA;    [Data de Fim],&#xA;    [IsCurrent],&#xA;    [hashbytes]&#xA;  )&#xA;VALUES&#xA;  (&#xA;    source.[Tipo Fornecimento Limpo],&#xA;    source.[Data de Inicio],&#xA;    source.[Data de Fim],&#xA;    source.[IsCurrent],&#xA;    source.[hashbytes]&#xA;  );&#xA;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+=======
+              SQLTask:SqlStatementSource="WITH&#xA;  cte_TipoFornecimento AS (&#xA;    SELECT DISTINCT&#xA;    [dbo].[fn_ClassificacaoTipoFornecimento]([Tipo Fornecimento]) as [Tipo Fornecimento Limpo],&#xA;      getdate() AS [Data de Inicio],&#xA;      '9999-12-31' AS [Data de Fim],&#xA;      1 AS [IsCurrent],&#xA;      convert(&#xA;        varbinary(32),&#xA;        hashbytes(&#xA;          'SHA2_256',&#xA;           [dbo].[fn_ClassificacaoTipoFornecimento]([Tipo Fornecimento]))) AS [hashbytes]&#xA;    FROM&#xA;      [dbo].[MapaPagamentos_Stagging]&#xA;  )&#xA;MERGE&#xA;  [dbo].[Tipo Fornecimento] AS target using (select * from ( select *, row_number() over (partition by [Tipo Fornecimento Limpo] Order by  [Data de Inicio] desc ) as RowID from cte_TipoFornecimento) t where RowID = 1) AS source ON target.[Tipo Fornecimento] = source.[Tipo Fornecimento Limpo]&#xA;  AND target.[IsCurrent] = 1&#xA;WHEN MATCHED&#xA;  AND target.[hashbytes] &lt;&gt; source.[hashbytes] THEN&#xA;UPDATE SET&#xA;  target.[IsCurrent] = 0,&#xA;  target.[Data de Fim] = DATEADD(Day, -1, source.[Data de Inicio])&#xA;WHEN NOT MATCHED BY target THEN&#xA;INSERT(&#xA;    [Tipo Fornecimento],&#xA;    [Data de Inicio],&#xA;    [Data de Fim],&#xA;    [IsCurrent],&#xA;    [hashbytes]&#xA;  )&#xA;VALUES&#xA;  (&#xA;    source.[Tipo Fornecimento Limpo],&#xA;    source.[Data de Inicio],&#xA;    source.[Data de Fim],&#xA;    source.[IsCurrent],&#xA;    source.[hashbytes]&#xA;  );&#xA;&#xA;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+>>>>>>> abcf5f16b09e70e0550952408e39771a69479f36
           </DTS:ObjectData>
         </DTS:Executable>
       </DTS:Executables>
@@ -2061,6 +2871,25 @@ where [refTable].[LoadDate] = ?</property>
       <DTS:Variables />
       <DTS:Executables>
         <DTS:Executable
+<<<<<<< HEAD
+=======
+          DTS:refId="Package\Refresh Views Statement\Update View Lista Pagamentos em atraso"
+          DTS:CreationName="Microsoft.ExecuteSQLTask"
+          DTS:Description="Execute SQL Task"
+          DTS:DTSID="{E259E1BF-5079-44C6-A17C-73E80749D62A}"
+          DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+          DTS:LocaleID="-1"
+          DTS:ObjectName="Update View Lista Pagamentos em atraso"
+          DTS:ThreadHint="0">
+          <DTS:Variables />
+          <DTS:ObjectData>
+            <SQLTask:SqlTaskData
+              SQLTask:Connection="{5CFB790F-BB7A-4A4C-A531-B99F19146910}"
+              SQLTask:SqlStatementSource="SELECT [Data de pagamento]&#xA;      ,[Montante]&#xA;      ,[Estado Pagamento]&#xA;      ,[UltimaActualizacao]&#xA;      ,[Nome Entidade]&#xA;      ,[Tipo Entidade]&#xA;      ,[Tipo Fornecimento]&#xA;      ,[Banco de Pagamento]&#xA;      ,[Empresa]&#xA;  FROM [Gestao Financeira].[dbo].[Pagamentos_em_Atraso]&#xA;order by [Data de pagamento]" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+          </DTS:ObjectData>
+        </DTS:Executable>
+        <DTS:Executable
+>>>>>>> abcf5f16b09e70e0550952408e39771a69479f36
           DTS:refId="Package\Refresh Views Statement\Update View Pag Atras Agreg"
           DTS:CreationName="Microsoft.ExecuteSQLTask"
           DTS:Description="Execute SQL Task"
@@ -2093,6 +2922,7 @@ where [refTable].[LoadDate] = ?</property>
           </DTS:ObjectData>
         </DTS:Executable>
         <DTS:Executable
+<<<<<<< HEAD
           DTS:refId="Package\Refresh Views Statement\Update View Pagamentos em atraso"
           DTS:CreationName="Microsoft.ExecuteSQLTask"
           DTS:Description="Execute SQL Task"
@@ -2109,6 +2939,8 @@ where [refTable].[LoadDate] = ?</property>
           </DTS:ObjectData>
         </DTS:Executable>
         <DTS:Executable
+=======
+>>>>>>> abcf5f16b09e70e0550952408e39771a69479f36
           DTS:refId="Package\Refresh Views Statement\Update View Payments Due 15 Days"
           DTS:CreationName="Microsoft.ExecuteSQLTask"
           DTS:Description="Execute SQL Task"
@@ -2153,7 +2985,11 @@ where [refTable].[LoadDate] = ?</property>
           <DTS:ObjectData>
             <SQLTask:SqlTaskData
               SQLTask:Connection="{5CFB790F-BB7A-4A4C-A531-B99F19146910}"
+<<<<<<< HEAD
               SQLTask:SqlStatementSource="SELECT [Numero de pagamentos]&#xA;      ,[Montante Total de pagamentos efectuados à data]&#xA;      ,[Montante Total Próximos 7 dias]&#xA;      ,[Montante Total para a semana seguinte]&#xA;      ,[Montante Total Próximos 15 dias]&#xA;      ,[Montante total de pagamentos em atraso]&#xA;      ,[Montante de prestações bancárias e leasing em atraso]&#xA;      ,[Montante de consumos básicos em atraso]&#xA;      ,[Montante de TSU em atraso]&#xA;      ,[Montante de IRS em atraso]&#xA;      ,[Montante de IUC em atraso]&#xA;      ,[Montante de pagamentos com viaturas em atraso]&#xA;  FROM [Gestao Financeira].[dbo].[Resumo Pagamentos Instalpro]&#xA;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+=======
+              SQLTask:SqlStatementSource="SELECT&#xA;       [Montante Total de pagamentos efectuados à data]&#xA;      ,[Montante Total Próximos 7 dias]&#xA;      ,[Montante Total para a semana seguinte]&#xA;      ,[Montante Total Próximos 15 dias]&#xA;      ,[Montante total de pagamentos em atraso]&#xA;      ,[Montante de prestações bancárias e leasing em atraso]&#xA;      ,[Montante de consumos básicos em atraso]&#xA;      ,[Montante de TSU em atraso]&#xA;      ,[Montante de IRS em atraso]&#xA;      ,[Montante de IUC em atraso]&#xA;      ,[Montante de pagamentos com viaturas em atraso]&#xA;  FROM [Gestao Financeira].[dbo].[Resumo Pagamentos Instalpro]&#xA;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+>>>>>>> abcf5f16b09e70e0550952408e39771a69479f36
           </DTS:ObjectData>
         </DTS:Executable>
       </DTS:Executables>
@@ -2173,12 +3009,20 @@ where [refTable].[LoadDate] = ?</property>
           DTS:From="Package\Refresh Views Statement\Update View Pag Due7Days Agreg"
           DTS:LogicalAnd="True"
           DTS:ObjectName="Constraint 1"
+<<<<<<< HEAD
           DTS:To="Package\Refresh Views Statement\Update View Pagamentos em atraso" />
+=======
+          DTS:To="Package\Refresh Views Statement\Update View Lista Pagamentos em atraso" />
+>>>>>>> abcf5f16b09e70e0550952408e39771a69479f36
         <DTS:PrecedenceConstraint
           DTS:refId="Package\Refresh Views Statement.PrecedenceConstraints[Constraint 2]"
           DTS:CreationName=""
           DTS:DTSID="{FC34D34B-7FB5-4839-B30B-85F72AF467A4}"
+<<<<<<< HEAD
           DTS:From="Package\Refresh Views Statement\Update View Pagamentos em atraso"
+=======
+          DTS:From="Package\Refresh Views Statement\Update View Lista Pagamentos em atraso"
+>>>>>>> abcf5f16b09e70e0550952408e39771a69479f36
           DTS:LogicalAnd="True"
           DTS:ObjectName="Constraint 2"
           DTS:To="Package\Refresh Views Statement\Update View Payments Due 15 Days" />
@@ -2201,6 +3045,7 @@ where [refTable].[LoadDate] = ?</property>
       </DTS:PrecedenceConstraints>
     </DTS:Executable>
     <DTS:Executable
+<<<<<<< HEAD
       DTS:refId="Package\Script Task"
       DTS:CreationName="Microsoft.ScriptTask"
       DTS:Description="Script Task"
@@ -2208,10 +3053,20 @@ where [refTable].[LoadDate] = ?</property>
       DTS:ExecutableType="Microsoft.ScriptTask"
       DTS:LocaleID="-1"
       DTS:ObjectName="Script Task"
+=======
+      DTS:refId="Package\Send email"
+      DTS:CreationName="Microsoft.ScriptTask"
+      DTS:Description="Script Task"
+      DTS:DTSID="{75CFC1C6-E5C1-469D-B01D-07B31EEE5554}"
+      DTS:ExecutableType="Microsoft.ScriptTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Send email"
+>>>>>>> abcf5f16b09e70e0550952408e39771a69479f36
       DTS:ThreadHint="0">
       <DTS:Variables />
       <DTS:ObjectData>
         <ScriptProject
+<<<<<<< HEAD
           Name="ST_94f6811928024ba19f97e1db27c8c95a"
           VSTAMajorVersion="15"
           VSTAMinorVersion="0"
@@ -2247,6 +3102,22 @@ using System.Runtime.CompilerServices;
 // by using the '*' as shown below:
 
 [assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
+=======
+          Name="ST_51b7e8f956424d418fc735e4b2f72bf3"
+          VSTAMajorVersion="16"
+          VSTAMinorVersion="0"
+          Language="CSharp"
+          ReadOnlyVariables="User::HtmlReportBody,$Package::appPass,$Package::ReceivingEmail,$Package::SendingEmail">
+          <ProjectItem
+            Name="Properties\Settings.settings"
+            Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
+<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
+  <Profiles>
+    <Profile Name="(Default)" />
+  </Profiles>
+  <Settings />
+</SettingsFile>]]></ProjectItem>
+>>>>>>> abcf5f16b09e70e0550952408e39771a69479f36
           <ProjectItem
             Name="Properties\Resources.resx"
             Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
@@ -2367,6 +3238,189 @@ using System.Runtime.CompilerServices;
   </resheader>
 </root>]]></ProjectItem>
           <ProjectItem
+<<<<<<< HEAD
+=======
+            Name="ST_51b7e8f956424d418fc735e4b2f72bf3.csproj"
+            Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectTypeGuids>{30D016F9-3734-4E33-A861-5E7D899E18F3};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{CCEAFAD9-0637-4BF0-82AC-CFC2319A62F0}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ST_51b7e8f956424d418fc735e4b2f72bf3</RootNamespace>
+    <AssemblyName>ST_51b7e8f956424d418fc735e4b2f72bf3</AssemblyName>
+    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ResolveAssemblyReferenceIgnoreTargetFrameworkAttributeVersionMismatch>true</ResolveAssemblyReferenceIgnoreTargetFrameworkAttributeVersionMismatch>
+    <TargetFrameworkProfile></TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>.\bin\Debug\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>false</DebugSymbols>
+    <Optimize>true</Optimize>
+    <OutputPath>.\bin\Release\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.SqlServer.ManagedDTS, Version=16.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.SqlServer.ScriptTask, Version=16.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="ScriptMain.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <!-- Include the build rules for a C# project.-->
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{30D016F9-3734-4E33-A861-5E7D899E18F3}">
+        <ProjectProperties HostName="VSTAHostName" HostPackage="{B3A685AA-7EAF-4BC6-9940-57959FA5AC07}" ApplicationType="usd" Language="cs" TemplatesPath="" />
+        <Host Name="ScriptTask" />
+        <ProjectClient>
+          <HostIdentifier>SSIS_ST160</HostIdentifier>
+        </ProjectClient>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>]]></ProjectItem>
+          <ProjectItem
+            Name="ScriptMain.cs"
+            Encoding="UTF8"><![CDATA[#region Help:  Introduction to the script task
+/* The Script Task allows you to perform virtually any operation that can be accomplished in
+ * a .Net application within the context of an Integration Services control flow. 
+ * 
+ * Expand the other regions which have "Help" prefixes for examples of specific ways to use
+ * Integration Services features within this script task. */
+#endregion
+using System;
+using Microsoft.SqlServer.Dts.Runtime;
+
+namespace ScriptTaskProject
+{
+    [Microsoft.SqlServer.Dts.Tasks.ScriptTask.SSISScriptTaskEntryPointAttribute]
+    public partial class ScriptMain : Microsoft.SqlServer.Dts.Tasks.ScriptTask.VSTARTScriptObjectModelBase
+    {
+        public void Main()
+        {
+            try
+            {
+                // 1. Recupera o HTML que o Parameter Mapping injetou na vari vel como String pura
+                string htmlBody = Dts.Variables["User::HtmlReportBody"].Value.ToString();
+
+                bool fireAgain = true;
+                Dts.Events.FireInformation(0, "Email", "HtmlReportBody length: " + htmlBody.Length, "", 0, ref fireAgain);
+
+                if (string.IsNullOrWhiteSpace(htmlBody))
+                {
+                    Dts.Events.FireError(0, "Email", "HtmlReportBody is empty when the script runs.", "", 0);
+                    Dts.TaskResult = (int)ScriptResults.Failure;
+                    return;
+                }
+
+                // 2. Configura  es de envio
+                string fromEmail = Dts.Variables["$Package::fromEmail"].Value.ToString();
+                string toEmails = Dts.Variables["$Package::toEmails"].Value.ToString();
+                string appPassword = Dts.Variables["$Package::appPass"].GetSensitiveValue()?.ToString();
+
+                // 3. Construir a mensagem
+                System.Net.Mail.MailMessage mail = new System.Net.Mail.MailMessage();
+                mail.From = new System.Net.Mail.MailAddress(fromEmail);
+                mail.To.Add(toEmails);
+
+                mail.Subject = "Relatório de Controlo de Pagamentos";
+                mail.SubjectEncoding = System.Text.Encoding.UTF8;
+                mail.Body = htmlBody;
+                mail.BodyEncoding = System.Text.Encoding.UTF8;
+                mail.IsBodyHtml = true;
+
+                // 4. Configurar o Cliente SMTP
+                System.Net.Mail.SmtpClient smtp = new System.Net.Mail.SmtpClient("smtp.gmail.com", 587);
+                smtp.Credentials = new System.Net.NetworkCredential(fromEmail, appPassword);
+                smtp.EnableSsl = true;
+
+                // 5. Enviar
+                smtp.Send(mail);
+
+                Dts.TaskResult = (int)ScriptResults.Success;
+            }
+            catch (Exception ex)
+            {
+                Dts.Events.FireError(0, "Erro no Script de Envio de E-mail", ex.Message, string.Empty, 0);
+                Dts.TaskResult = (int)ScriptResults.Failure;
+            }
+        }
+
+        enum ScriptResults
+        {
+            Success = Microsoft.SqlServer.Dts.Runtime.DTSExecResult.Success,
+            Failure = Microsoft.SqlServer.Dts.Runtime.DTSExecResult.Failure
+        };
+    }
+}]]></ProjectItem>
+          <ProjectItem
+            Name="Project"
+            Encoding="UTF16LE"><![CDATA[<?xml version="1.0" encoding="UTF-16" standalone="yes"?>
+<c:Project xmlns:c="http://schemas.microsoft.com/codeprojectml/2010/08/main" xmlns:msb="http://schemas.microsoft.com/developer/msbuild/2003" runtimeVersion="4.0" schemaVersion="1.0">
+  <msb:PropertyGroup>
+    <msb:CodeName>ST_51b7e8f956424d418fc735e4b2f72bf3</msb:CodeName>
+    <msb:Language>msBuild</msb:Language>
+    <msb:DisplayName>ST_51b7e8f956424d418fc735e4b2f72bf3</msb:DisplayName>
+    <msb:ProjectId>{6DD2D1F6-D3C8-4D9B-9B91-F14532F0B4D7}</msb:ProjectId>
+  </msb:PropertyGroup>
+  <msb:ItemGroup>
+    <msb:Project Include="ST_51b7e8f956424d418fc735e4b2f72bf3.csproj" />
+    <msb:File Include="Properties\Settings.settings" />
+    <msb:File Include="Properties\AssemblyInfo.cs" />
+    <msb:File Include="Properties\Resources.resx" />
+    <msb:File Include="Properties\Resources.Designer.cs" />
+    <msb:File Include="Properties\Settings.Designer.cs" />
+    <msb:File Include="ScriptMain.cs" />
+  </msb:ItemGroup>
+</c:Project>]]></ProjectItem>
+          <ProjectItem
+>>>>>>> abcf5f16b09e70e0550952408e39771a69479f36
             Name="Properties\Settings.Designer.cs"
             Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
 // <auto-generated>
@@ -2377,10 +3431,17 @@ using System.Runtime.CompilerServices;
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+<<<<<<< HEAD
 [assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="ST_94f6811928024ba19f97e1db27c8c95a.Properties.Settings.get_Default():ST_94f6811928024ba19f97e1db27c8c95a.Properties.Sett" +
     "ings")]
 
 namespace ST_94f6811928024ba19f97e1db27c8c95a.Properties {
+=======
+[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="ST_51b7e8f956424d418fc735e4b2f72bf3.Properties.Settings.get_Default():ST_51b7e8f956424d418fc735e4b2f72bf3.Properties.Sett" +
+    "ings")]
+
+namespace ST_51b7e8f956424d418fc735e4b2f72bf3.Properties {
+>>>>>>> abcf5f16b09e70e0550952408e39771a69479f36
     
     
     internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
@@ -2396,6 +3457,7 @@ namespace ST_94f6811928024ba19f97e1db27c8c95a.Properties {
     }
 }]]></ProjectItem>
           <ProjectItem
+<<<<<<< HEAD
             Name="ScriptMain.cs"
             Encoding="UTF8"><![CDATA[#region Help:  Introduction to the script task
 /* The Script Task allows you to perform virtually any operation that can be accomplished in
@@ -2632,6 +3694,37 @@ namespace ST_ScriptTask
   </Profiles>
   <Settings />
 </SettingsFile>]]></ProjectItem>
+=======
+            Name="Properties\AssemblyInfo.cs"
+            Encoding="UTF8"><![CDATA[using System.Reflection;
+using System.Runtime.CompilerServices;
+
+//
+// General Information about an assembly is controlled through the following 
+// set of attributes. Change these attribute values to modify the information
+// associated with an assembly.
+//
+[assembly: AssemblyTitle("ST_51b7e8f956424d418fc735e4b2f72bf3")]
+[assembly: AssemblyDescription("")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("ST_51b7e8f956424d418fc735e4b2f72bf3")]
+[assembly: AssemblyCopyright("Copyright @  2026")]
+[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCulture("")]
+//
+// Version information for an assembly consists of the following four values:
+//
+//      Major Version
+//      Minor Version 
+//      Build Number
+//      Revision
+//
+// You can specify all the values or you can default the Revision and Build Numbers 
+// by using the '*' as shown below:
+
+[assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
+>>>>>>> abcf5f16b09e70e0550952408e39771a69479f36
           <ProjectItem
             Name="Properties\Resources.Designer.cs"
             Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
@@ -2643,6 +3736,7 @@ namespace ST_ScriptTask
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+<<<<<<< HEAD
 [assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="ST_94f6811928024ba19f97e1db27c8c95a.Properties.Resources.get_ResourceManager():System.Resources.Resou" +
     "rceManager")]
 [assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="ST_94f6811928024ba19f97e1db27c8c95a.Properties.Resources.get_Culture():System.Globalization.CultureIn" +
@@ -2651,6 +3745,16 @@ namespace ST_ScriptTask
     "):Void")]
 
 namespace ST_94f6811928024ba19f97e1db27c8c95a.Properties {
+=======
+[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="ST_51b7e8f956424d418fc735e4b2f72bf3.Properties.Resources.get_ResourceManager():System.Resources.Resou" +
+    "rceManager")]
+[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="ST_51b7e8f956424d418fc735e4b2f72bf3.Properties.Resources.get_Culture():System.Globalization.CultureIn" +
+    "fo")]
+[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="ST_51b7e8f956424d418fc735e4b2f72bf3.Properties.Resources.set_Culture(System.Globalization.CultureInfo" +
+    "):Void")]
+
+namespace ST_51b7e8f956424d418fc735e4b2f72bf3.Properties {
+>>>>>>> abcf5f16b09e70e0550952408e39771a69479f36
     
     
     /// <summary>
@@ -2678,7 +3782,11 @@ namespace ST_94f6811928024ba19f97e1db27c8c95a.Properties {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if ((resourceMan == null)) {
+<<<<<<< HEAD
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("ST_94f6811928024ba19f97e1db27c8c95a.Properties.Resources", typeof(Resources).Assembly);
+=======
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("ST_51b7e8f956424d418fc735e4b2f72bf3.Properties.Resources", typeof(Resources).Assembly);
+>>>>>>> abcf5f16b09e70e0550952408e39771a69479f36
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -2701,6 +3809,7 @@ namespace ST_94f6811928024ba19f97e1db27c8c95a.Properties {
     }
 }]]></ProjectItem>
           <BinaryItem
+<<<<<<< HEAD
             Name="ST_94f6811928024ba19f97e1db27c8c95a.dll">TVqQAAMAAAAEAAAA//8AALgAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAgAAAAA4fug4AtAnNIbgBTM0hVGhpcyBwcm9ncmFtIGNhbm5vdCBiZSBydW4gaW4gRE9TIG1v
 ZGUuDQ0KJAAAAAAAAABQRQAATAEDAEVayWoAAAAAAAAAAOAAIiALATAAABYAAAAIAAAAAAAA3jUA
@@ -2829,13 +3938,138 @@ AAAAAFMAVABfADkANABmADYAOAAxADEAOQAyADgAMAAyADQAYgBhADEAOQBmADkANwBlADEAZABi
 ADIANwBjADgAYwA5ADUAYQAAAEIADwABAFAAcgBvAGQAdQBjAHQAVgBlAHIAcwBpAG8AbgAAADEA
 LgAwAC4AOQA3ADcAOAAuADQAMAAxADcAMAAAAAAARgAPAAEAQQBzAHMAZQBtAGIAbAB5ACAAVgBl
 AHIAcwBpAG8AbgAAADEALgAwAC4AOQA3ADcAOAAuADQAMAAxADcAMAAAAAAAAAAAAAAAAAAAAAAA
+=======
+            Name="ST_51b7e8f956424d418fc735e4b2f72bf3.dll">TVqQAAMAAAAEAAAA//8AALgAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAgAAAAA4fug4AtAnNIbgBTM0hVGhpcyBwcm9ncmFtIGNhbm5vdCBiZSBydW4gaW4gRE9TIG1v
+ZGUuDQ0KJAAAAAAAAABQRQAATAEDADgWzWoAAAAAAAAAAOAAIiALATAAABQAAAAIAAAAAAAA+jMA
+AAAgAAAAQAAAAAAAEAAgAAAAAgAABAAAAAAAAAAGAAAAAAAAAACAAAAAAgAAAAAAAAMAYIUAABAA
+ABAAAAAAEAAAEAAAAAAAABAAAAAAAAAAAAAAAKgzAABPAAAAAEAAAHgEAAAAAAAAAAAAAAAAAAAA
+AAAAAGAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAIAAACAAAAAAAAAAAAAAACCAAAEgAAAAAAAAAAAAAAC50ZXh0AAAAABQAAAAgAAAAFAAAAAIA
+AAAAAAAAAAAAAAAAACAAAGAucnNyYwAAAHgEAAAAQAAAAAYAAAAWAAAAAAAAAAAAAAAAAABAAABA
+LnJlbG9jAAAMAAAAAGAAAAACAAAAHAAAAAAAAAAAAAAAAAAAQAAAQgAAAAAAAAAAAAAAAAAAAADc
+MwAAAAAAAEgAAAACAAUAoCIAAFAQAAABAAAAAAAAAPAyAAC4AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAABswBwC/AQAAAQAAEQIoEAAACm8RAAAKcgEAAHBvEgAACm8T
+AAAKbxQAAAoKFwsCKBAAAApvFQAAChZyKwAAcHI3AABwBm8WAAAKEwYSBigXAAAKKBgAAApyZwAA
+cBYSAW8ZAAAKBigaAAAKLDMCKBAAAApvFQAAChZyKwAAcHJpAABwcmcAAHAWbxsAAAomAigQAAAK
+F28cAAAK3SoBAAACKBAAAApvEQAACnLFAABwbxIAAApvEwAACm8UAAAKDAIoEAAACm8RAAAKcu0A
+AHBvEgAACm8TAAAKbxQAAAoNAigQAAAKbxEAAApyEwEAcG8SAAAKbx0AAAolLQQmFCsFbxQAAAoT
+BHMeAAAKEwURBQhzHwAACm8gAAAKEQVvIQAACglvIgAAChEFcjcBAHBvIwAAChEFKCQAAApvJQAA
+ChEFBm8mAAAKEQUoJAAACm8nAAAKEQUXbygAAApyfwEAcCBLAgAAcykAAAolCBEEcyoAAApvKwAA
+CiUXbywAAAoRBW8tAAAKAigQAAAKFm8cAAAK3jQTBwIoEAAACm8VAAAKFnKdAQBwEQdvLgAACn4v
+AAAKFm8bAAAKJgIoEAAAChdvHAAACt4AKgBBHAAAAAAAAAAAAACKAQAAigEAADQAAAAQAAABHgIo
+MAAACioeAigxAAAKKq5+AQAABC0ecuEBAHDQAwAAAigyAAAKbzMAAApzNAAACoABAAAEfgEAAAQq
+Gn4CAAAEKh4CgAIAAAQqGn4DAAAEKh4CKDUAAAoqLnMIAAAGgAMAAAQqAABCU0pCAQABAAAAAAAM
+AAAAdjQuMC4zMDMxOQAAAAAFAGwAAACcBAAAI34AAAgFAAAQBwAAI1N0cmluZ3MAAAAAGAwAAFQC
+AAAjVVMAbA4AABAAAAAjR1VJRAAAAHwOAADUAQAAI0Jsb2IAAAAAAAAAAgAAAVcdogEJAwAAAPoB
+MwAWAAABAAAAKAAAAAUAAAAGAAAACQAAAAEAAAA1AAAAAgAAABAAAAABAAAAAgAAAAMAAAAEAAAA
+AQAAAAQAAAABAAAAAQAAAAAAHAQBAAAAAAAGAGgCZwUGAPcCZwUGALQBVAUPANsFAAAGAOEB0AQG
+AEsC0AQGACwC0AQGAN4C0AQGAIgC0AQGAKEC0AQGAPgB0AQGABMCXAMKALwCqQMKADMBqQMOAKUA
+DAQGAPgEagQGAHoEagQGAJcBVAUGAHwGagQGABkFhwUGAAkFuwQOAGcB9gMOAMgB9gMOAE8BpgQG
+AHwBZwUKAOQDqQMSAB0G3gASALEA3gAKACkFqQMGAHgDagQGAAEAagQOAEgGDAQOAOIEDAQGAFMD
+5QYOAMcGDAQOANIDoQYOANIGoQYGAP4AagQGALoAagQGAP4G0AQAAAAANAAAAAAAAQABAAEAEACL
+BI8GOQABAAEAAAAQAI4F6gVNAAEAAwAAARAAJwbqBWEAAwAHAAMBAABcBgAARQAEAAoAEQB/BNYA
+EQAjAdoAEQCJAN4ABgZcAOIAVoBABuUAVoADAeUAUCAAAAAAhgCRBAYAAQA4IgAAAACGGEcFBgAB
+AEAiAAAAAIMYRwUGAAEASCIAAAAAkwgVBekAAQB0IgAAAACTCAsB7gABAHsiAAAAAJMIFwHzAAEA
+gyIAAAAAlgisBvkAAgCKIgAAAACGGEcFBgACAJIiAAAAAJEYTQX+AAIAAAABADEDCQBHBQEAEQBH
+BQYAGQBHBQoAKQBHBRAAMQBHBRAAOQBHBRAAQQBHBRAASQBHBRAAUQBHBRAAWQBHBRAAYQBHBRAA
+aQBHBQYAkQBHBQYAuQBHBRUAyQBHBQYAcQBUBigA0QAZBi0A2QBhBDIA4QAVAzgAmQB2AzwA0QBq
+BkAA8QB/A0UA+QB2AzwA8QB1BkkA6QCWBE8A8QB2AFoA6QA9BV8A0QC4BgEA4QAfAzgAeQBHBQYA
+AQFHBRAAeQBxBGgAeQACBW8ACQFtABAAeQCDBhAAEQErAHUAeQA3A3sAeQDxBhAAeQBLA3sAeQBE
+BIIAGQFHBYcAIQFHBY0AGQEwBpMAGQFTBIIAGQFxAJoAgQCZADwA8QAHB6AAcQBHBQYAmQBHBQYA
+MQHMAKMAMQH6BqwAoQBHBbIAwQBHBQYACAAUAMwACAAYANEAKQBzADkBLgALABEBLgATABoBLgAb
+ADkBLgAjAEIBLgArAGsBLgAzAGsBLgA7AGsBLgBDAEIBLgBLAHEBLgBTAGsBLgBbAIgBQwBjANEA
+SQBzADkBYQB7ANEAYwBrANEAGwADAAEABAADAAAAGQUCAQAAKwEHAQAAsAYMAQIABAADAAIABQAF
+AAEABgAFAAIABwAHAASAAAABAAAANSajgAAAAAAAAAcAAAAEAAAAAAAAAAAAAAC6AGQAAAAAABAA
+AAAAAAAAAAAAAMMAigMAAAAABAAAAAAAAAAAAAAAugBqBAAAAAAQAAAAAAAAAAAAAADDAD0AAAAA
+AAAAAAABAAAAmAUAAAUAAgAAAAAAAEludDMyAFNUXzUxYjdlOGY5NTY0MjRkNDE4ZmM3MzVlNGIy
+ZjcyYmYzAGdldF9VVEY4ADxNb2R1bGU+AE1pY3Jvc29mdC5TcWxTZXJ2ZXIuTWFuYWdlZERUUwB2
+YWx1ZV9fAG1zY29ybGliAEFkZABTZW5kAElzTnVsbE9yV2hpdGVTcGFjZQBkZWZhdWx0SW5zdGFu
+Y2UAZ2V0X01lc3NhZ2UATWFpbE1lc3NhZ2UAVmFyaWFibGUAUnVudGltZVR5cGVIYW5kbGUAR2V0
+VHlwZUZyb21IYW5kbGUATWljcm9zb2Z0LlNxbFNlcnZlci5EdHMuUnVudGltZQBUeXBlAEZhaWx1
+cmUAZ2V0X0N1bHR1cmUAc2V0X0N1bHR1cmUAcmVzb3VyY2VDdWx0dXJlAFZTVEFSVFNjcmlwdE9i
+amVjdE1vZGVsQmFzZQBBcHBsaWNhdGlvblNldHRpbmdzQmFzZQBFZGl0b3JCcm93c2FibGVTdGF0
+ZQBDb21waWxlckdlbmVyYXRlZEF0dHJpYnV0ZQBEZWJ1Z2dlck5vblVzZXJDb2RlQXR0cmlidXRl
+AERlYnVnZ2FibGVBdHRyaWJ1dGUARWRpdG9yQnJvd3NhYmxlQXR0cmlidXRlAEFzc2VtYmx5VGl0
+bGVBdHRyaWJ1dGUAQXNzZW1ibHlUcmFkZW1hcmtBdHRyaWJ1dGUAVGFyZ2V0RnJhbWV3b3JrQXR0
+cmlidXRlAEFzc2VtYmx5Q29uZmlndXJhdGlvbkF0dHJpYnV0ZQBBc3NlbWJseURlc2NyaXB0aW9u
+QXR0cmlidXRlAENvbXBpbGF0aW9uUmVsYXhhdGlvbnNBdHRyaWJ1dGUAQXNzZW1ibHlQcm9kdWN0
+QXR0cmlidXRlAEFzc2VtYmx5Q29weXJpZ2h0QXR0cmlidXRlAFNTSVNTY3JpcHRUYXNrRW50cnlQ
+b2ludEF0dHJpYnV0ZQBBc3NlbWJseUNvbXBhbnlBdHRyaWJ1dGUAUnVudGltZUNvbXBhdGliaWxp
+dHlBdHRyaWJ1dGUAZ2V0X1ZhbHVlAEdldFNlbnNpdGl2ZVZhbHVlAHZhbHVlAHNldF9TdWJqZWN0
+RW5jb2RpbmcAc2V0X0JvZHlFbmNvZGluZwBTeXN0ZW0uUnVudGltZS5WZXJzaW9uaW5nAFRvU3Ry
+aW5nAGdldF9MZW5ndGgATWljcm9zb2Z0LlNxbFNlcnZlci5TY3JpcHRUYXNrAE1pY3Jvc29mdC5T
+cWxTZXJ2ZXIuRHRzLlRhc2tzLlNjcmlwdFRhc2sATmV0d29ya0NyZWRlbnRpYWwAU2NyaXB0T2Jq
+ZWN0TW9kZWwAU3lzdGVtLkNvbXBvbmVudE1vZGVsAFN5c3RlbS5OZXQuTWFpbABTVF81MWI3ZThm
+OTU2NDI0ZDQxOGZjNzM1ZTRiMmY3MmJmMy5kbGwAc2V0X0lzQm9keUh0bWwAc2V0X0VuYWJsZVNz
+bABnZXRfSXRlbQBTeXN0ZW0Ac2V0X0Zyb20ARW51bQByZXNvdXJjZU1hbgBTY3JpcHRNYWluAEZp
+cmVJbmZvcm1hdGlvbgBTeXN0ZW0uQ29uZmlndXJhdGlvbgBTeXN0ZW0uR2xvYmFsaXphdGlvbgBT
+eXN0ZW0uUmVmbGVjdGlvbgBNYWlsQWRkcmVzc0NvbGxlY3Rpb24ARXhjZXB0aW9uAGdldF9UbwBD
+dWx0dXJlSW5mbwBnZXRfUmVzb3VyY2VNYW5hZ2VyAEV2ZW50c09iamVjdFdyYXBwZXIARmlyZUVy
+cm9yAC5jdG9yAC5jY3RvcgBTeXN0ZW0uRGlhZ25vc3RpY3MAU3lzdGVtLlJ1bnRpbWUuQ29tcGls
+ZXJTZXJ2aWNlcwBTeXN0ZW0uUmVzb3VyY2VzAFNUXzUxYjdlOGY5NTY0MjRkNDE4ZmM3MzVlNGIy
+ZjcyYmYzLlByb3BlcnRpZXMuUmVzb3VyY2VzLnJlc291cmNlcwBEZWJ1Z2dpbmdNb2RlcwBTVF81
+MWI3ZThmOTU2NDI0ZDQxOGZjNzM1ZTRiMmY3MmJmMy5Qcm9wZXJ0aWVzAGdldF9WYXJpYWJsZXMA
+U2V0dGluZ3MAc2V0X0NyZWRlbnRpYWxzAFN1Y2Nlc3MATWFpbEFkZHJlc3MAZ2V0X0R0cwBTY3Jp
+cHRSZXN1bHRzAGdldF9FdmVudHMAQ29uY2F0AE9iamVjdABzZXRfU3ViamVjdABTY3JpcHRUYXNr
+UHJvamVjdABTeXN0ZW0uTmV0AGdldF9EZWZhdWx0AHNldF9UYXNrUmVzdWx0AFNtdHBDbGllbnQA
+SUNyZWRlbnRpYWxzQnlIb3N0AFN5c3RlbS5UZXh0AHNldF9Cb2R5AGdldF9Bc3NlbWJseQBFbXB0
+eQAAAAAAKVUAcwBlAHIAOgA6AEgAdABtAGwAUgBlAHAAbwByAHQAQgBvAGQAeQAAC0UAbQBhAGkA
+bAAAL0gAdABtAGwAUgBlAHAAbwByAHQAQgBvAGQAeQAgAGwAZQBuAGcAdABoADoAIAAAAQBbSAB0
+AG0AbABSAGUAcABvAHIAdABCAG8AZAB5ACAAaQBzACAAZQBtAHAAdAB5ACAAdwBoAGUAbgAgAHQA
+aABlACAAcwBjAHIAaQBwAHQAIAByAHUAbgBzAC4AACckAFAAYQBjAGsAYQBnAGUAOgA6AGYAcgBv
+AG0ARQBtAGEAaQBsAAAlJABQAGEAYwBrAGEAZwBlADoAOgB0AG8ARQBtAGEAaQBsAHMAACMkAFAA
+YQBjAGsAYQBnAGUAOgA6AGEAcABwAFAAYQBzAHMAAEdSAGUAbABhAHQA8wByAGkAbwAgAGQAZQAg
+AEMAbwBuAHQAcgBvAGwAbwAgAGQAZQAgAFAAYQBnAGEAbQBlAG4AdABvAHMAAR1zAG0AdABwAC4A
+ZwBtAGEAaQBsAC4AYwBvAG0AAENFAHIAcgBvACAAbgBvACAAUwBjAHIAaQBwAHQAIABkAGUAIABF
+AG4AdgBpAG8AIABkAGUAIABFAC0AbQBhAGkAbAABcVMAVABfADUAMQBiADcAZQA4AGYAOQA1ADYA
+NAAyADQAZAA0ADEAOABmAGMANwAzADUAZQA0AGIAMgBmADcAMgBiAGYAMwAuAFAAcgBvAHAAZQBy
+AHQAaQBlAHMALgBSAGUAcwBvAHUAcgBjAGUAcwAAAKlcs+hhhpZIs2NPyqxpCX0ABCABAQgDIAAB
+BSABARERBCABAQ4FIAEBEVkMBwgOAg4ODhI9CBJBBCAAEmkEIAASbQUgARJxHAMgABwDIAAOBCAA
+EnUDIAAIBQACDg4OCiAGAQgODg4IEAIEAAECDgggBQIIDg4OCAYgAQESgIEFIAASgIUFAAASgIkG
+IAEBEoCJBCABAQIFIAIBDggFIAIBDg4GIAEBEoCVBSABARI9AgYOCAABEoCZEYCdBSAAEoChByAC
+AQ4SgKEIt3pcVhk04IkIiYRdzYCAzJEEAAAAAAQBAAAAAwYSUQMGElUDBhIQAgYIAwYRFAQAABJR
+BAAAElUFAAEBElUEAAASEAMAAAEECAASUQQIABJVBAgAEhAIAQAIAAAAAAAeAQABAFQCFldyYXBO
+b25FeGNlcHRpb25UaHJvd3MBCAEAAgAAAAAAKAEAI1NUXzUxYjdlOGY5NTY0MjRkNDE4ZmM3MzVl
+NGIyZjcyYmYzAAAFAQAAAAAWAQARQ29weXJpZ2h0IEAgIDIwMjYAAEkBABouTkVURnJhbWV3b3Jr
+LFZlcnNpb249djQuNwEAVA4URnJhbWV3b3JrRGlzcGxheU5hbWUSLk5FVCBGcmFtZXdvcmsgNC43
+AAC0AAAAzsrvvgEAAACRAAAAbFN5c3RlbS5SZXNvdXJjZXMuUmVzb3VyY2VSZWFkZXIsIG1zY29y
+bGliLCBWZXJzaW9uPTQuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjc3
+YTVjNTYxOTM0ZTA4OSNTeXN0ZW0uUmVzb3VyY2VzLlJ1bnRpbWVSZXNvdXJjZVNldAIAAAAAAAAA
+AAAAAFBBRFBBRFC0AAAA0DMAAAAAAAAAAAAA6jMAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAANwz
+AAAAAAAAAAAAAAAAX0NvckRsbE1haW4AbXNjb3JlZS5kbGwAAAAAAP8lACAAEAAAAAAAAAAAAAAA
+AAAAAQAQAAAAGAAAgAAAAAAAAAAAAAAAAAAAAQABAAAAMAAAgAAAAAAAAAAAAAAAAAAAAQAAAAAA
+SAAAAFhAAAAaBAAAAAAAAAAAAAAaBDQAAABWAFMAXwBWAEUAUgBTAEkATwBOAF8ASQBOAEYATwAA
+AAAAvQTv/gAAAQAAAAEAo4A1JgAAAQCjgDUmPwAAAAAAAAAEAAAAAgAAAAAAAAAAAAAAAAAAAEQA
+AAABAFYAYQByAEYAaQBsAGUASQBuAGYAbwAAAAAAJAAEAAAAVAByAGEAbgBzAGwAYQB0AGkAbwBu
+AAAAAAAAALAEegMAAAEAUwB0AHIAaQBuAGcARgBpAGwAZQBJAG4AZgBvAAAAVgMAAAEAMAAwADAA
+MAAwADQAYgAwAAAAGgABAAEAQwBvAG0AbQBlAG4AdABzAAAAAAAAACIAAQABAEMAbwBtAHAAYQBu
+AHkATgBhAG0AZQAAAAAAAAAAAHAAJAABAEYAaQBsAGUARABlAHMAYwByAGkAcAB0AGkAbwBuAAAA
+AABTAFQAXwA1ADEAYgA3AGUAOABmADkANQA2ADQAMgA0AGQANAAxADgAZgBjADcAMwA1AGUANABi
+ADIAZgA3ADIAYgBmADMAAAA+AA8AAQBGAGkAbABlAFYAZQByAHMAaQBvAG4AAAAAADEALgAwAC4A
+OQA3ADgAMQAuADMAMgA5ADMAMQAAAAAAcAAoAAEASQBuAHQAZQByAG4AYQBsAE4AYQBtAGUAAABT
+AFQAXwA1ADEAYgA3AGUAOABmADkANQA2ADQAMgA0AGQANAAxADgAZgBjADcAMwA1AGUANABiADIA
+ZgA3ADIAYgBmADMALgBkAGwAbAAAAEgAEgABAEwAZQBnAGEAbABDAG8AcAB5AHIAaQBnAGgAdAAA
+AEMAbwBwAHkAcgBpAGcAaAB0ACAAQAAgACAAMgAwADIANgAAACoAAQABAEwAZQBnAGEAbABUAHIA
+YQBkAGUAbQBhAHIAawBzAAAAAAAAAAAAeAAoAAEATwByAGkAZwBpAG4AYQBsAEYAaQBsAGUAbgBh
+AG0AZQAAAFMAVABfADUAMQBiADcAZQA4AGYAOQA1ADYANAAyADQAZAA0ADEAOABmAGMANwAzADUA
+ZQA0AGIAMgBmADcAMgBiAGYAMwAuAGQAbABsAAAAaAAkAAEAUAByAG8AZAB1AGMAdABOAGEAbQBl
+AAAAAABTAFQAXwA1ADEAYgA3AGUAOABmADkANQA2ADQAMgA0AGQANAAxADgAZgBjADcAMwA1AGUA
+NABiADIAZgA3ADIAYgBmADMAAABCAA8AAQBQAHIAbwBkAHUAYwB0AFYAZQByAHMAaQBvAG4AAAAx
+AC4AMAAuADkANwA4ADEALgAzADIAOQAzADEAAAAAAEYADwABAEEAcwBzAGUAbQBiAGwAeQAgAFYA
+ZQByAHMAaQBvAG4AAAAxAC4AMAAuADkANwA4ADEALgAzADIAOQAzADEAAAAAAAAAAAAAAAAAAAAA
+>>>>>>> abcf5f16b09e70e0550952408e39771a69479f36
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+<<<<<<< HEAD
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAAAAwAAADgNQAAAAAA
+=======
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwAAAMAAAA/DMAAAAA
+>>>>>>> abcf5f16b09e70e0550952408e39771a69479f36
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
@@ -2844,6 +4078,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+<<<<<<< HEAD
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
         </ScriptProject>
       </DTS:ObjectData>
@@ -2866,6 +4101,12 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           Language="VisualBasic" />
       </DTS:ObjectData>
     </DTS:Executable>
+=======
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
+        </ScriptProject>
+      </DTS:ObjectData>
+    </DTS:Executable>
+>>>>>>> abcf5f16b09e70e0550952408e39771a69479f36
   </DTS:Executables>
   <DTS:PrecedenceConstraints>
     <DTS:PrecedenceConstraint
@@ -2875,7 +4116,11 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
       DTS:From="Package\LoadDate Package Variable"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint"
+<<<<<<< HEAD
       DTS:To="Package\Script Task" />
+=======
+      DTS:To="Package\Copy MapaPagamentos" />
+>>>>>>> abcf5f16b09e70e0550952408e39771a69479f36
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Constraint 1]"
       DTS:CreationName=""
@@ -2912,7 +4157,11 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
       DTS:refId="Package.PrecedenceConstraints[Constraint 5]"
       DTS:CreationName=""
       DTS:DTSID="{DB40223B-0810-41EC-A371-3F639C56401A}"
+<<<<<<< HEAD
       DTS:From="Package\Script Task"
+=======
+      DTS:From="Package\Copy MapaPagamentos"
+>>>>>>> abcf5f16b09e70e0550952408e39771a69479f36
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 5"
       DTS:To="Package\Import Raw Data" />
@@ -3003,6 +4252,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
       <GraphLayout
         Capacity="64" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
+<<<<<<< HEAD
           Size="232,41.6"
           Id="Package\Delete_Copia_MapaPagamentos"
           TopLeft="383.333312388924,2067.93333037423" />
@@ -3010,6 +4260,19 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           Size="164.8,41.6"
           Id="Package\Execute SP Generate HTML Report"
           TopLeft="362.499980193874,1857.06666382207" />
+=======
+          Size="189.6,41.6"
+          Id="Package\Copy MapaPagamentos"
+          TopLeft="384.166645676726,64.3333329415984" />
+        <NodeLayout
+          Size="232,41.6"
+          Id="Package\Delete_Copia_MapaPagamentos"
+          TopLeft="349.166647589041,1930.13333133247" />
+        <NodeLayout
+          Size="164.8,41.6"
+          Id="Package\Execute SP Generate HTML Report"
+          TopLeft="364.99998005728,1739.19999797503" />
+>>>>>>> abcf5f16b09e70e0550952408e39771a69479f36
         <NodeLayout
           Size="305.6,41.6"
           Id="Package\Import Raw Data\Import excel data  to Mapa Pagamentos Stagging"
@@ -3074,7 +4337,11 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           HeaderHeight="43"
           IsExpanded="True"
           PanelSize="686.4,215.2"
+<<<<<<< HEAD
           Size="686.4,257.6"
+=======
+          Size="686.4,258.4"
+>>>>>>> abcf5f16b09e70e0550952408e39771a69479f36
           Id="Package\Import Raw Data"
           TopLeft="98.3333279606372,115.266665865117" />
         <NodeLayout
@@ -3098,7 +4365,11 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           Id="Package\Merge Statements\Execute merge to Dim Bancos"
           TopLeft="62.399991257986,104.866665575835" />
         <NodeLayout
+<<<<<<< HEAD
           Size="164.8,41.6"
+=======
+          Size="225.6,41.6"
+>>>>>>> abcf5f16b09e70e0550952408e39771a69479f36
           Id="Package\Merge Statements\Execute Merge to Dim Empresa"
           TopLeft="58.2333248189761,176.333331422872" />
         <NodeLayout
@@ -3111,6 +4382,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           TopLeft="31.5666596093118,260.73333091663" />
         <EdgeLayout
           Id="Package\Merge Statements.PrecedenceConstraints[Constraint]"
+<<<<<<< HEAD
           TopLeft="142.716658038481,146.466665575835">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -3118,11 +4390,36 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
               EndConnector="0,29.8666658470362"
               Start="0,0"
               End="0,22.3666658470362">
+=======
+          TopLeft="144.799991257986,146.466665575835">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="26.2333335609901,29.866665847037"
+              Start="0,0"
+              End="26.2333335609901,22.366665847037">
+>>>>>>> abcf5f16b09e70e0550952408e39771a69479f36
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
+<<<<<<< HEAD
                     End="0,22.3666658470362" />
+=======
+                    End="0,10.9333329235185" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,10.9333329235185"
+                    Point2="0,14.9333329235185"
+                    Point3="4,14.9333329235185" />
+                  <mssgle:LineSegment
+                    End="22.2333335609901,14.9333329235185" />
+                  <mssgle:CubicBezierSegment
+                    Point1="22.2333335609901,14.9333329235185"
+                    Point2="26.2333335609901,14.9333329235185"
+                    Point3="26.2333335609901,18.9333329235185" />
+                  <mssgle:LineSegment
+                    End="26.2333335609901,22.366665847037" />
+>>>>>>> abcf5f16b09e70e0550952408e39771a69479f36
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -3155,6 +4452,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Merge Statements.PrecedenceConstraints[Constraint 2]"
+<<<<<<< HEAD
           TopLeft="137.899992214144,217.933331422872">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -3162,11 +4460,36 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
               EndConnector="0,42.7999994937586"
               Start="0,0"
               End="0,35.2999994937586">
+=======
+          TopLeft="171.033324818976,217.933331422872">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-35.8666652096643,42.799999493758"
+              Start="0,0"
+              End="-35.8666652096643,35.299999493758">
+>>>>>>> abcf5f16b09e70e0550952408e39771a69479f36
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
+<<<<<<< HEAD
                     End="0,35.2999994937586" />
+=======
+                    End="0,17.399999746879" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,17.399999746879"
+                    Point2="0,21.399999746879"
+                    Point3="-4,21.399999746879" />
+                  <mssgle:LineSegment
+                    End="-31.8666652096643,21.399999746879" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-31.8666652096643,21.399999746879"
+                    Point2="-35.8666652096643,21.399999746879"
+                    Point3="-35.8666652096643,25.399999746879" />
+                  <mssgle:LineSegment
+                    End="-35.8666652096643,35.299999493758" />
+>>>>>>> abcf5f16b09e70e0550952408e39771a69479f36
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -3261,17 +4584,28 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           Id="Package\Merge Statements"
           TopLeft="96.6666613850333,389.999997287989" />
         <NodeLayout
+<<<<<<< HEAD
+=======
+          Size="272,41.6"
+          Id="Package\Refresh Views Statement\Update View Lista Pagamentos em atraso"
+          TopLeft="33.4666591995295,189.933331712153" />
+        <NodeLayout
+>>>>>>> abcf5f16b09e70e0550952408e39771a69479f36
           Size="216,41.6"
           Id="Package\Refresh Views Statement\Update View Pag Atras Agreg"
           TopLeft="46.7999918043615,18.2666655215951" />
         <NodeLayout
           Size="240,43.2"
           Id="Package\Refresh Views Statement\Update View Pag Due7Days Agreg"
+<<<<<<< HEAD
           TopLeft="36.799992350738,99.7333316217528" />
         <NodeLayout
           Size="247.2,41.6"
           Id="Package\Refresh Views Statement\Update View Pagamentos em atraso"
           TopLeft="33.4666591995295,189.933331712153" />
+=======
+          TopLeft="36.799992350738,98.8666649611127" />
+>>>>>>> abcf5f16b09e70e0550952408e39771a69479f36
         <NodeLayout
           Size="254.4,41.6"
           Id="Package\Refresh Views Statement\Update View Payments Due 15 Days"
@@ -3279,25 +4613,43 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
         <NodeLayout
           Size="264,41.6"
           Id="Package\Refresh Views Statement\Update View Resumo Pagamentos Crystalcompass"
+<<<<<<< HEAD
           TopLeft="27.5666596093115,444.266665630075" />
         <NodeLayout
           Size="271.2,41.6"
           Id="Package\Refresh Views Statement\Update View Resumo Pagamentos Instalpro"
           TopLeft="30.0666594727175,523.999998408953" />
+=======
+          TopLeft="34.2333259117276,360.199999547998" />
+        <NodeLayout
+          Size="271.2,41.6"
+          Id="Package\Refresh Views Statement\Update View Resumo Pagamentos Instalpro"
+          TopLeft="27.5666596093115,445.999998951355" />
+>>>>>>> abcf5f16b09e70e0550952408e39771a69479f36
         <EdgeLayout
           Id="Package\Refresh Views Statement.PrecedenceConstraints[Constraint]"
           TopLeft="155.79999207755,59.8666655215951">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
+<<<<<<< HEAD
               EndConnector="0,39.8666661001577"
               Start="0,0"
               End="0,32.3666661001577">
+=======
+              EndConnector="0,38.9999994395177"
+              Start="0,0"
+              End="0,31.4999994395177">
+>>>>>>> abcf5f16b09e70e0550952408e39771a69479f36
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
+<<<<<<< HEAD
                     End="0,32.3666661001577" />
+=======
+                    End="0,31.4999994395177" />
+>>>>>>> abcf5f16b09e70e0550952408e39771a69479f36
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -3308,6 +4660,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Refresh Views Statement.PrecedenceConstraints[Constraint 1]"
+<<<<<<< HEAD
           TopLeft="156.933325775134,142.933331621753">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -3315,11 +4668,36 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
               EndConnector="0,47.0000000904004"
               Start="0,0"
               End="0,39.5000000904004">
+=======
+          TopLeft="156.799992350738,142.066664961113">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="12.6666668487915,47.8666667510403"
+              Start="0,0"
+              End="12.6666668487915,40.3666667510403">
+>>>>>>> abcf5f16b09e70e0550952408e39771a69479f36
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
+<<<<<<< HEAD
                     End="0,39.5000000904004" />
+=======
+                    End="0,19.9333333755201" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,19.9333333755201"
+                    Point2="0,23.9333333755201"
+                    Point3="4,23.9333333755201" />
+                  <mssgle:LineSegment
+                    End="8.66666684879149,23.9333333755201" />
+                  <mssgle:CubicBezierSegment
+                    Point1="8.66666684879149,23.9333333755201"
+                    Point2="12.6666668487915,23.9333333755201"
+                    Point3="12.6666668487915,27.9333333755201" />
+                  <mssgle:LineSegment
+                    End="12.6666668487915,40.3666667510403" />
+>>>>>>> abcf5f16b09e70e0550952408e39771a69479f36
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -3330,6 +4708,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Refresh Views Statement.PrecedenceConstraints[Constraint 2]"
+<<<<<<< HEAD
           TopLeft="157.816659267826,231.533331712153">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -3337,11 +4716,36 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
               EndConnector="0,42.2666666787199"
               Start="0,0"
               End="0,34.7666666787199">
+=======
+          TopLeft="169.46665919953,231.533331712153">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-10.499999863406,42.26666667872"
+              Start="0,0"
+              End="-10.499999863406,34.76666667872">
+>>>>>>> abcf5f16b09e70e0550952408e39771a69479f36
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
+<<<<<<< HEAD
                     End="0,34.7666666787199" />
+=======
+                    End="0,17.13333333936" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,17.13333333936"
+                    Point2="0,21.13333333936"
+                    Point3="-4,21.13333333936" />
+                  <mssgle:LineSegment
+                    End="-6.499999863406,21.13333333936" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-6.499999863406,21.13333333936"
+                    Point2="-10.499999863406,21.13333333936"
+                    Point3="-10.499999863406,25.13333333936" />
+                  <mssgle:LineSegment
+                    End="-10.499999863406,34.76666667872" />
+>>>>>>> abcf5f16b09e70e0550952408e39771a69479f36
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -3352,6 +4756,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Refresh Views Statement.PrecedenceConstraints[Constraint 3]"
+<<<<<<< HEAD
           TopLeft="159.266659472717,315.399998390873">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -3359,11 +4764,24 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
               EndConnector="0,128.866667239202"
               Start="0,0"
               End="0,121.366667239202">
+=======
+          TopLeft="162.599992623926,315.399998390873">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,44.8000011571245"
+              Start="0,0"
+              End="0,37.3000011571245">
+>>>>>>> abcf5f16b09e70e0550952408e39771a69479f36
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
+<<<<<<< HEAD
                     End="0,121.366667239202" />
+=======
+                    End="0,37.3000011571245" />
+>>>>>>> abcf5f16b09e70e0550952408e39771a69479f36
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -3374,6 +4792,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Refresh Views Statement.PrecedenceConstraints[Constraint 5]"
+<<<<<<< HEAD
           TopLeft="162.616659541014,485.866665630075">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -3381,11 +4800,24 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
               EndConnector="0,38.1333327788776"
               Start="0,0"
               End="0,30.6333327788776">
+=======
+          TopLeft="164.69999276052,401.799999547998">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,44.1999994033578"
+              Start="0,0"
+              End="0,36.6999994033578">
+>>>>>>> abcf5f16b09e70e0550952408e39771a69479f36
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
+<<<<<<< HEAD
                     End="0,30.6333327788776" />
+=======
+                    End="0,36.6999994033578" />
+>>>>>>> abcf5f16b09e70e0550952408e39771a69479f36
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -3397,6 +4829,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
         <ContainerLayout
           HeaderHeight="43"
           IsExpanded="True"
+<<<<<<< HEAD
           PanelSize="680.8,659.2"
           Size="680.8,702.4"
           Id="Package\Refresh Views Statement"
@@ -3414,6 +4847,53 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
               EndConnector="-0.866666575603745,466.733331422872"
               Start="0,0"
               End="6.63333342439626,466.733331422872">
+=======
+          PanelSize="680.8,552"
+          Size="680.8,595.2"
+          Id="Package\Refresh Views Statement"
+          TopLeft="100.833327824043,1083.13333131439" />
+        <NodeLayout
+          Size="130.4,41.6"
+          Id="Package\Send email"
+          TopLeft="385.83331225233,1825.39999842703" />
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint]"
+          TopLeft="538.499983881912,21.633333574401">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-59.5333382051859,42.6999993671974"
+              Start="0,0"
+              End="-59.5333382051859,35.1999993671974">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="-55.5333382051859,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-55.5333382051859,0"
+                    Point2="-59.5333382051859,0"
+                    Point3="-59.5333382051859,4" />
+                  <mssgle:LineSegment
+                    End="-59.5333382051859,35.1999993671974" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 1]"
+          TopLeft="784.733327960637,244.466665865117">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-0.866666575603745,466.333331422872"
+              Start="0,0"
+              End="6.63333342439626,466.333331422872">
+>>>>>>> abcf5f16b09e70e0550952408e39771a69479f36
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
@@ -3424,6 +4904,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
                     Point2="22.5,0"
                     Point3="22.5,4" />
                   <mssgle:LineSegment
+<<<<<<< HEAD
                     End="22.5,462.733331422872" />
                   <mssgle:CubicBezierSegment
                     Point1="22.5,462.733331422872"
@@ -3431,6 +4912,15 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
                     Point3="18.5,466.733331422872" />
                   <mssgle:LineSegment
                     End="6.63333342439626,466.733331422872" />
+=======
+                    End="22.5,462.333331422872" />
+                  <mssgle:CubicBezierSegment
+                    Point1="22.5,462.333331422872"
+                    Point2="22.5,466.333331422872"
+                    Point3="18.5,466.333331422872" />
+                  <mssgle:LineSegment
+                    End="6.63333342439626,466.333331422872" />
+>>>>>>> abcf5f16b09e70e0550952408e39771a69479f36
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -3463,6 +4953,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 3]"
+<<<<<<< HEAD
           TopLeft="443.066654008958,1785.53333131439">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -3470,11 +4961,24 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
               EndConnector="0,71.5333325076799"
               Start="0,0"
               End="0,64.0333325076799">
+=======
+          TopLeft="444.316653940661,1678.33333131439">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,60.86666666064"
+              Start="0,0"
+              End="0,53.36666666064">
+>>>>>>> abcf5f16b09e70e0550952408e39771a69479f36
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
+<<<<<<< HEAD
                     End="0,64.0333325076799" />
+=======
+                    End="0,53.36666666064" />
+>>>>>>> abcf5f16b09e70e0550952408e39771a69479f36
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -3485,6 +4989,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 4]"
+<<<<<<< HEAD
           TopLeft="446.716646291399,1898.66666382207">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -3492,10 +4997,20 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
               EndConnector="0,57.6000003616"
               Start="0,0"
               End="0,50.1000003616">
+=======
+          TopLeft="449.216646154805,1780.79999797503">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,44.6000004519999"
+              Start="0,0"
+              End="0,37.1000004519999">
+>>>>>>> abcf5f16b09e70e0550952408e39771a69479f36
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
+<<<<<<< HEAD
                     End="0,50.1000003616" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
@@ -3563,6 +5078,9 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
                     Point3="4,42.6999993671973" />
                   <mssgle:LineSegment
                     End="72.5666617948145,42.6999993671973" />
+=======
+                    End="0,37.1000004519999" />
+>>>>>>> abcf5f16b09e70e0550952408e39771a69479f36
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -3577,13 +5095,20 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
+<<<<<<< HEAD
               EndConnector="57.3666822839107,30.1333329235186"
               Start="0,0"
               End="57.3666822839107,22.6333329235186">
+=======
+              EndConnector="57.3666822839112,30.1333329235186"
+              Start="0,0"
+              End="57.3666822839112,22.6333329235186">
+>>>>>>> abcf5f16b09e70e0550952408e39771a69479f36
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
+<<<<<<< HEAD
                     End="53.3666822839107,0" />
                   <mssgle:CubicBezierSegment
                     Point1="53.3666822839107,0"
@@ -3591,6 +5116,49 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
                     Point3="57.3666822839107,4" />
                   <mssgle:LineSegment
                     End="57.3666822839107,22.6333329235186" />
+=======
+                    End="53.3666822839112,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="53.3666822839112,0"
+                    Point2="57.3666822839112,0"
+                    Point3="57.3666822839112,4" />
+                  <mssgle:LineSegment
+                    End="57.3666822839112,22.6333329235186" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 6]"
+          TopLeft="451.03331225233,1866.99999842703">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="14.133335336711,63.1333329054403"
+              Start="0,0"
+              End="14.133335336711,55.6333329054403">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,27.5666664527201" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,27.5666664527201"
+                    Point2="0,31.5666664527201"
+                    Point3="4,31.5666664527201" />
+                  <mssgle:LineSegment
+                    End="10.133335336711,31.5666664527201" />
+                  <mssgle:CubicBezierSegment
+                    Point1="10.133335336711,31.5666664527201"
+                    Point2="14.133335336711,31.5666664527201"
+                    Point3="14.133335336711,35.5666664527201" />
+                  <mssgle:LineSegment
+                    End="14.133335336711,55.6333329054403" />
+>>>>>>> abcf5f16b09e70e0550952408e39771a69479f36
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -3620,10 +5188,13 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
       <GraphLayout
         Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
+<<<<<<< HEAD
           Size="171.2,41.6"
           Id="Package\Import Raw Data\Import excel data  to Mapa Pagamentos Stagging\OLE DB Destination"
           TopLeft="581.666634885803,316.333331133591" />
         <NodeLayout
+=======
+>>>>>>> abcf5f16b09e70e0550952408e39771a69479f36
           Size="140,41.6"
           Id="Package\Import Raw Data\Import excel data  to Mapa Pagamentos Stagging\Excel Source"
           TopLeft="117.999993853271,49.6999996926387" />
@@ -3632,6 +5203,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           Id="Package\Import Raw Data\Import excel data  to Mapa Pagamentos Stagging\Derived Column"
           TopLeft="304.999983335535,151.666665611996" />
         <NodeLayout
+<<<<<<< HEAD
           Size="112.8,41.6"
           Id="Package\Import Raw Data\Import excel data  to Mapa Pagamentos Stagging\Lookup"
           TopLeft="492.499973090988,234.199998571674" />
@@ -3707,6 +5279,11 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
+=======
+          Size="171.2,41.6"
+          Id="Package\Import Raw Data\Import excel data  to Mapa Pagamentos Stagging\OLE DB Destination"
+          TopLeft="385.83331225233,259.133331531353" />
+>>>>>>> abcf5f16b09e70e0550952408e39771a69479f36
         <EdgeLayout
           Id="Package\Import Raw Data\Import excel data  to Mapa Pagamentos Stagging.Paths[Excel Source Output]"
           TopLeft="187.999993853271,91.2999996926387">
@@ -3743,10 +5320,50 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
+<<<<<<< HEAD
+=======
+        <EdgeLayout
+          Id="Package\Import Raw Data\Import excel data  to Mapa Pagamentos Stagging.Paths[Derived Column Output]"
+          TopLeft="381.399983335535,193.266665611996">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="90.0333289167954,65.8666659193566"
+              Start="0,0"
+              End="90.0333289167954,58.3666659193566">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,28.9333329596783" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,28.9333329596783"
+                    Point2="0,32.9333329596783"
+                    Point3="4,32.9333329596783" />
+                  <mssgle:LineSegment
+                    End="86.0333289167954,32.9333329596783" />
+                  <mssgle:CubicBezierSegment
+                    Point1="86.0333289167954,32.9333329596783"
+                    Point2="90.0333289167954,32.9333329596783"
+                    Point3="90.0333289167954,36.9333329596783" />
+                  <mssgle:LineSegment
+                    End="90.0333289167954,58.3666659193566" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+>>>>>>> abcf5f16b09e70e0550952408e39771a69479f36
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
+<<<<<<< HEAD
     design-time-name="Package\Import Raw Data\Import excel data  to Mapa Pagamentos Stagging\OLE DB Destination">
     <Properties>
       <Property>
@@ -3760,6 +5377,8 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
+=======
+>>>>>>> abcf5f16b09e70e0550952408e39771a69479f36
     design-time-name="Package\Import Raw Data\Import excel data  to Mapa Pagamentos Stagging\Excel Source">
     <Properties>
       <Property>
@@ -3773,6 +5392,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
+<<<<<<< HEAD
     design-time-name="Package\Import Raw Data\Import excel data  to Mapa Pagamentos Stagging\Lookup">
     <Properties>
       <Property>
@@ -3784,14 +5404,24 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
         <Name>UsedTableName</Name>
         <Value
           type="q3:string">[dbo].[MapaPagamentos_Stagging]</Value>
+=======
+    design-time-name="Package\Import Raw Data\Import excel data  to Mapa Pagamentos Stagging\OLE DB Destination">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+>>>>>>> abcf5f16b09e70e0550952408e39771a69479f36
       </Property>
       <Property>
         <Name>TableInfoObjectType</Name>
         <Value
+<<<<<<< HEAD
           type="q4:string">0</Value>
       </Property>
       <Property>
         <Name>DataSourceViewID</Name>
+=======
+          type="q2:string">Table</Value>
+>>>>>>> abcf5f16b09e70e0550952408e39771a69479f36
       </Property>
     </Properties>
   </PipelineComponentMetadata>
@@ -3799,7 +5429,11 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
     design-time-name="Package\Import Raw Data\Import excel data to Fornecedores Stagging">
     <LayoutInfo>
       <GraphLayout
+<<<<<<< HEAD
         Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+=======
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+>>>>>>> abcf5f16b09e70e0550952408e39771a69479f36
         <NodeLayout
           Size="140,41.6"
           Id="Package\Import Raw Data\Import excel data to Fornecedores Stagging\Excel Source"
@@ -3843,7 +5477,13 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
+<<<<<<< HEAD
             <EdgeLabelCollection />
+=======
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+>>>>>>> abcf5f16b09e70e0550952408e39771a69479f36
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -3877,7 +5517,13 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
+<<<<<<< HEAD
             <EdgeLabelCollection />
+=======
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+>>>>>>> abcf5f16b09e70e0550952408e39771a69479f36
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>

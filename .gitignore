@@ -1,0 +1,9 @@
+.vs/
+bin/
+obj/
+*.user
+*.suo
+*.dtsx.designer
+*.ispac
+*.pfx
+*.params.local
