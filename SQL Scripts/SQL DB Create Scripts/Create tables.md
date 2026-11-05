@@ -3,7 +3,7 @@
 
 ### original Excel file structure:
 
-  The original Excel file, MapaPgamanetos2026, has several sheets that are not relevant for the initial objective. The relevant sheet is named MapaPagamentos2026 as well, and the staging payments
+  The original Excel file, MapaPagamentos2026, has several sheets that are not relevant for the initial objective. The relevant sheet is named MapaPagamentos2026 as well, and the staging payments
 table reflects the structure of this sheet, adding only the LoadDate column that is a derived column defined in a control flow task and populated with an SSIS variable, and the ImportID that is populated on import, as defined by the IDENTITY keyword to auto increment the id number of the imported rows, starting by one, adding one. 
 
 #### 1. MapaPagamentos_Stagging:
@@ -75,7 +75,7 @@ GO
 --GO
 ```
 
-The alter table was for testing. The ssis etl pipeline provides the ImportDate data through a derived column.
+The alter table was for testing. The ssis etl pipeline provides the ImportDate data through a derived column transformation.
 
 
 
@@ -166,6 +166,224 @@ option (maxrecursion 0);
 create unique clustered index PK_DimDate on dbo.Calendario([Data]); 
 ```
 
+### 4. Dim Empresa (Dim_Company)
+
+This dimension table will contain only two rows, has there are two different companies managed by the same team. This will allow analysis of costs per company, which existed only at a very high level and for accounting proposes. 
+
+```sql
+
+use [Gestao Financeira];
+go
+
+
+drop table if exists dbo.Empresa;
+go
+
+create table dbo.Empresa (
+ID int identity(1,1) primary key not null,
+[Empresa] nvarchar(256) not null,
+NIF nvarchar(500) null,
+DataInicio date not null,
+DataFim date not null,
+IsCurrent bit not null,
+HashValue varbinary(32) not null
+)
+```
 
 
 
+
+
+### 5. Dim Fornecedores Stagging (Import table for suppliers info)
+
+This table is the import/stagging table to receive supplier data coming directly from ssis. This table is not imported from the same excel source as the others tables, but comes, as you can see in the ssis documentation, from a suppliers table extratected manually from the erp program.
+
+```sql
+USE [Gestao Financeira]
+GO
+
+
+DROP TABLE IF EXISTS dbo.Staging_Fornecedores;
+go
+
+CREATE TABLE dbo.Staging_Fornecedores (
+    [Cód]          FLOAT,
+    Nome           NVARCHAR(500),
+    Localidade     NVARCHAR(500),
+    Telefone       NVARCHAR(255),
+    [Desig.Comercial] NVARCHAR(500),
+    [NºContrib]    NVARCHAR(255),
+    ImportDate     DATE DEFAULT CAST(GETDATE() AS DATE)
+);
+
+```
+
+
+
+
+### 6. Dim Fornecedores (Dim_Suppliers)
+
+This dimension contains the relevant cleaned information through a merge transformation from the previous stagging table. Similarly to Dim Calendar, the dim tables contain an index to increase query performance and refential integrity.
+
+```sql
+USE [Gestao Financeira]
+GO
+
+/****** Object:  Table [dbo].[Fornecedores]    Script Date: 05/11/2026 11:47:11 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[Fornecedores](
+	[ID] [int] IDENTITY(1,1) NOT NULL,
+	[Codigo] [float] NULL,
+	[Nome] [nvarchar](500) NOT NULL,
+	[Localidade] [nvarchar](500) NULL,
+	[Telefone] [nvarchar](255) NULL,
+	[Desig.Comercial] [nvarchar](500) NULL,
+	[Nº Contribuinte] [nvarchar](255) NULL,
+	[DataInicio] [date] NOT NULL,
+	[DataFim] [date] NULL,
+	[IsCurrent] [bit] NOT NULL,
+	[HashValue] [varbinary](32) NOT NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[ID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
+```
+
+### 7. Dim Tipo Entidade (Entity Type)
+
+This dimension table contains the type of entities defined in the original excel document as well their change over time (SCD). As well, contain an index to increase query performance and referential integrity.
+
+```sql
+use [Gestao Financeira]
+go
+
+-- Confirm you are in the right context:
+
+ -- select DB_NAME() as currentDatabase;
+
+
+ drop table if exists dbo.[Tipo Entidade];
+ go
+
+ create table dbo.[Tipo Entidade] (
+	ID int identity (1,1) primary key not null,
+	[Tipo Entidade] nvarchar(256) not null,
+	[Descricao] nvarchar(500) not null,
+	[DataInicio] date not null,
+	[DataFim] date null,
+	[IsCurrent] bit not null,
+	[HashValue] varbinary(32) not null
+
+ )
+
+	CREATE NONCLUSTERED INDEX IX_TipoEntidade
+	ON dbo.[Tipo Entidade]([Tipo Entidade]);
+
+```
+
+### 8. Dim Tipo Fonecimento (Type of Supply)
+
+This dimension table contains the categorizations of the type of supply paid. The primary key provides both better query performance and referential integrity. 
+
+```sql
+Use [Gestao Financeira] 
+go
+
+drop table if exists [dbo].[Tipo Fornecimento];
+go
+create table [Tipo Fornecimento] (
+ID int identity(1,1) not null primary key,
+[Tipo Fornecimento] nvarchar(500) not null,
+[Data de Inicio] datetime not null,
+[Data de Fim] datetime,
+[IsCurrent] bit default 1,
+[Hashbytes] varbinary (32)
+)
+```
+
+### 9. Dim Tipo Pagamento  (Type of payment method)
+
+This is the last dimension table for Payment Control. It contains the payment method used to process a given payment. This information is important for control of payments, so, when a payment made with physical money took place.
+
+```sql
+USE [Gestao Financeira]
+GO
+
+-- Confirm you are in the right context:
+
+-- select DB_NAME() as currentDatabase;
+
+DROP TABLE IF EXISTS [dbo].[Tipos Pagamento]
+GO
+CREATE TABLE dbo.[Tipos Pagamento] (
+    ID                  INT IDENTITY(1,1) PRIMARY KEY NOT NULL,
+    [Tipo de Pagamento]	NVARCHAR(500) NOT NULL,
+    Descricao           NVARCHAR(500) NULL,
+    
+    DataInicio          DATE NOT NULL,
+    DataFim             DATE NULL,           
+    IsCurrent           BIT NOT NULL DEFAULT 1,
+    HashValue           VARBINARY(32) NOT NULL,
+    
+    INDEX IX_Dim_Clientes_Current (IsCurrent)
+);
+```
+### 10. Fact Pagamentos
+
+This is the main fact table, that contains the cleaned and normalized data inserted from the MapaPagamentos_Stagging table, the dimensional keys that are connected to the dimensions, extracted from the original MapaPagamentos excel table and Fornecedores table, by the respective keys. The index created are the ones based on the keys most used in joins for the views that provide the calculation for the html email sent daily.
+
+```sql
+use [Gestao Financeira];
+go
+
+
+
+ drop table if exists dbo.Pagamentos;
+ go
+
+ create table dbo.Pagamentos (
+ ID_Pagamento int identity (1,1) primary key not null,
+ ImportID int not null, -- Business key
+ [Data] date not null, -- all null dates in stagging: in all null dates the row is all null
+ BancoID int not null, -- conecta com Banco Pagamento
+ FornecedorID int not null,
+ [Tipo Fornecimento ID] int not null,
+ [Tipo Pagamento ID] int not null,
+ [Tipo Entidade ID] int not null,
+ EmpresaID int not null,
+[Nome Entidade] nvarchar(256) null,
+Descricao nvarchar(500) null,
+Valor float null,
+[Banco de debito Previsto] nvarchar(256)  null,
+[Estado Pagamento] nvarchar(256) null, --substitui Em atraso?
+[Data Situação actual] date null,
+[LoadDate] date not null,
+HashValue varbinary(32)
+)
+
+CREATE NONCLUSTERED INDEX IX_FactPagamentos_FornecedorID
+ON dbo.Pagamentos (FornecedorID);
+
+CREATE NONCLUSTERED INDEX IX_FactPagamentos_PagamentoID
+ON dbo.Pagamentos ([Tipo Pagamento ID]);
+
+CREATE NONCLUSTERED INDEX IX_FactPagamentos_TipoFornecimentoID
+ON dbo.Pagamentos ([Tipo Fornecimento ID]);
+
+CREATE NONCLUSTERED INDEX IX_FactPagamentos_BancosID
+ON dbo.Pagamentos (BancoID);
+
+CREATE NONCLUSTERED INDEX IX_FactPagamentos_Data
+ON dbo.Pagamentos (Data);
+
+
+
+```
