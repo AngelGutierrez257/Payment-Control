@@ -204,7 +204,7 @@ In the Main(), the variables are internalized in local variables, the directory 
 
   ```
 
-### Import Raw Data Container
+### Import Raw Data Sequence Container
 
 <img width="823" height="291" alt="Import Raw Data Container" src="https://github.com/user-attachments/assets/6087c5f7-36af-4b3f-9749-7d827a25e805" />
 
@@ -236,6 +236,70 @@ Finally, is uploaded to the import table and the columns mapped to the destinati
 <img width="846" height="837" alt="ListaFornecedoresExcelSource_Connector" src="https://github.com/user-attachments/assets/9723c88d-601c-48e8-8956-6a94175412a7" />
 
 <img width="847" height="838" alt="ListaFornecedoresExcelSource_Mapping" src="https://github.com/user-attachments/assets/e60fa94c-abf5-4157-b7b9-860751c5ebd1" />
+
+The Data Flow Task that imports the MapaPagamentos sheet to the Gestao Financeira DB is similar to the previous one, but refleting the more complex strucutre of the imported sheet: 
+
+<img width="708" height="344" alt="Import Excel to MapaPagamentos Stagging Data Flow" src="https://github.com/user-attachments/assets/a82e3756-7d4a-419d-ba27-a027af9612d3" /> 
+
+The Excel Source transformations is configured as follows: 
+
+<img width="849" height="836" alt="MapaPagamentos_ExcelSource_ConnectorPage" src="https://github.com/user-attachments/assets/12e9fcbf-3c3d-4d10-9f47-d09d222c1f4c" />
+
+<img width="848" height="842" alt="MapaPagamentos_ExcelSource_Mapping" src="https://github.com/user-attachments/assets/0d7e40c1-35d7-459e-bb2f-33ad3569c32c" />
+
+The derived column transformation works similarly to the previous derived column, adding the column ImportDate using the LoadDate variable:
+
+<img width="886" height="835" alt="MapaPagamentos LoadDate Derived Column" src="https://github.com/user-attachments/assets/81e48b92-14e9-475b-a4ac-0be941e8e5c9" /> 
+
+Then it is imported with an OLE DB Destination transformation, only declaring the connector, the destination table and the column mapping:
+
+<img width="850" height="835" alt="MapaPagamentos OleDB Destination " src="https://github.com/user-attachments/assets/f8c58e6e-4c39-48b9-9e4a-ceae2f0d95c3" />
+
+<img width="841" height="838" alt="MapaPagamentos OleDB Destination Mappings " src="https://github.com/user-attachments/assets/bdb369d2-ade8-4613-ac2d-8c12cd0ba381" />
+
+
+### Merge Statements Sequence Container
+
+The next container, that contains the merge statements executed in a specific order, starting with merging to the Suppliers Dimension (Lista Fornecedores) and consequently from the simplest merge to the merge for the fact table. The SQL Scripts are shown and explained in the SQL Scripts folder, Merge Statements.md file. Here the container and the execute sql tasks contained in it will be briefly explained. One point is that, as best practice, the execution of merges should be carried out by executing store procedures and not putting the complete merge statement in the siss task, but the urgency in put this pipeline into production led me to focus more on guaranteeing that the data given is reliable and trustworthy, and this aspect was overlooked. 
+
+<img width="820" height="431" alt="Merge Statements Container 1" src="https://github.com/user-attachments/assets/2a1873b4-8c84-4ab0-9ce4-69943b690254" /> 
+<img width="825" height="324" alt="Merge Statements Container 2" src="https://github.com/user-attachments/assets/9711388e-580a-4227-99fa-f2bca6d1f722" />
+
+The first Execute SQL Task is the Execute merge to Dim Fornecedores. All this tasks work the same. They use the OLE DB Connector to execute the sql statement contained in the SQL Statement field:
+
+<img width="843" height="773" alt="Execute Merge to Dim Fornecedores" src="https://github.com/user-attachments/assets/ccab258d-69fd-47df-9940-d2bec22155bd" /> 
+
+The second merge related task is the merge of Dim Bancos:
+
+<img width="843" height="770" alt="Execute Merge to Dim Bancos" src="https://github.com/user-attachments/assets/cee754b5-6707-4f10-97f4-a35c8c4d0636" />
+
+ The third merge related task is the merge to Dim Empresas. Has with the previous merge tasks, the only actions were defining the connector and adding the sql statement to execute:
+
+ <img width="844" height="737" alt="Execute Merge to Dim Empresa" src="https://github.com/user-attachments/assets/d89e7b67-d18a-4412-ac8e-9a6206d3da02" />
+
+ The fourth merge statement is the merge to Dim Tipo Fornecimento: 
+
+ <img width="843" height="773" alt="Execute Merge to Dim TipoFornecimento" src="https://github.com/user-attachments/assets/b628cf4f-4ed0-4512-90c0-e2b318b4a6d9" />
+
+ The fifth, merge to Dim Tipo Entidade:
+
+ <img width="845" height="771" alt="Execute Mege tipo entidade" src="https://github.com/user-attachments/assets/3da02f77-fb66-446d-ba33-3d79d525ff49" />
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
