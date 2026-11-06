@@ -285,7 +285,17 @@ The second merge related task is the merge of Dim Bancos:
 
  <img width="845" height="771" alt="Execute Mege tipo entidade" src="https://github.com/user-attachments/assets/3da02f77-fb66-446d-ba33-3d79d525ff49" />
 
- 
+ The sixth, merge to Tipo Pagamento:
+
+ <img width="843" height="769" alt="Execute Merge to Dim Pagamentos" src="https://github.com/user-attachments/assets/09c00592-9173-4fed-9862-0202ad11b292" />
+
+ And finally, the merge to the fact Pagamentos table. 
+
+<img width="839" height="768" alt="Execute Merge to Fact Pagamentos" src="https://github.com/user-attachments/assets/0d3ab6ce-c510-4867-81c9-8ed0ddde0778" />
+
+
+
+### Refresh Views Sequence Container
 
 
 
