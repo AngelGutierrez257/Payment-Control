@@ -60,6 +60,7 @@ Scripting / Automation: C# (.NET), Win32 API, T-SQL Stored Procedures & Function
 
 Security: SHA2-256 Hashing, Sensitive Package Parameters, Referential Integrity Constraints
 
+```text
 Gestao-Financeira/
 │
 ├── Schema/
@@ -82,6 +83,7 @@ Gestao-Financeira/
 └── SSIS/
     ├── Package.dtsx                     # Main SSIS ETL pipeline package
     └── EventHandlers.sql                # Centralized ETL error logging mechanism
+```
 
 Deployment & Execution
 Database Setup: Execute the DDL scripts to provision the Gestao Financeira database, schemas, staging tables, dimensions, and the fact table.
