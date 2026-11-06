@@ -297,7 +297,7 @@ The second merge related task is the merge of Dim Bancos:
 
 ### Refresh Views Sequence Container
 
-
+This sequence container, the last one before the tasks focused on sending the email, is, as the previous one, focused on executing sql statements. In this case, simple select statements in the views.  
 
 
 
