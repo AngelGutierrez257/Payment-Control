@@ -304,9 +304,228 @@ It contains the following Execute SQL Tasks:
 <img width="809" height="365" alt="Update Views Sequence Container 1" src="https://github.com/user-attachments/assets/29e39285-1c03-4149-b489-22848d01e585" />
 <img width="812" height="350" alt="Update Views Sequence Container 2" src="https://github.com/user-attachments/assets/484498ad-4a12-4bbb-b5d9-38924aca34b3" />
 
-As the Execute SQL Tasks are simply executing the select statement related to that view and connects to the db, one image will sufice. The SELECT SQL Scripts are in the (Select Views)[Select Views.md] file. 
+As the Execute SQL Tasks are simply executing the select statement related to that view and connects to the db, one image will sufice. The SELECT SQL Scripts are in the Select Views file.
+
+<img width="842" height="771" alt="Update View Pagamento em Atraso Agregado" src="https://github.com/user-attachments/assets/7394e032-36ad-4ad1-aeec-61e9122aaa19" />
 
 
+### Execute SP Generate HTML Report Task
+
+This task executes the store procedure GenerateFinancialHtmlReport. It initalizes the variable, stores the variable with the body resulting from the store procedure in the @Html variable and selects it to store the end result in the ssis variable HtmlReportBody to be passed to the next task. 
+
+The sql script used in this task is:
+
+```sql
+SET NOCOUNT ON;
+   DECLARE @Html NVARCHAR(MAX);
+   EXEC dbo.GenerateFinancialHtmlReport @OutputHTML = @Html OUTPUT;
+   SELECT @Html AS HtmlReport;
+```
+The task was defined as follows:
+
+<img width="840" height="769" alt="Execute SP for HTML_Improved" src="https://github.com/user-attachments/assets/40f4e91e-9dac-427c-b18d-0f83fbc7a8cf" />
+
+The result set was defined as:
+
+<img width="841" height="771" alt="Execute SP for HTML Email result set" src="https://github.com/user-attachments/assets/7fd40309-6715-40e2-a0e4-7db6ea6e11dd" />
+
+
+### Send Email Script Task
+
+The send email tasks receives the variable with the output generated in the previous task, stores it as string and sends it. This is done through a C# Script.
+
+The variables used are: 
+
+User::HtmlReportBody,$Package::appPass,$Package::ReceivingEmail,$Package::SendingEmail
+
+<img width="839" height="770" alt="Send HTML Email" src="https://github.com/user-attachments/assets/24c296a6-c7b4-4152-a627-fabcce3e1d66" />
+
+The C# Scrip begins by capturing the @HtmlOutput variable result to the C# variable htmlBody:
+
+```C#
+using System;
+using Microsoft.SqlServer.Dts.Runtime;
+
+namespace ScriptTaskProject
+{
+    [Microsoft.SqlServer.Dts.Tasks.ScriptTask.SSISScriptTaskEntryPointAttribute]
+    public partial class ScriptMain : Microsoft.SqlServer.Dts.Tasks.ScriptTask.VSTARTScriptObjectModelBase
+    {
+        public void Main()
+        {
+            try
+            {
+                // 1. Recupera o HTML que o Parameter Mapping injetou na vari�vel como String pura
+                string htmlBody = Dts.Variables["User::HtmlReportBody"].Value.ToString();
+```
+
+The next code block assesses the length of the variable htmlBody, reports a message and interrupts the execution, if the variable is empty:
+
+```C#
+bool fireAgain = true;
+                Dts.Events.FireInformation(0, "Email", "HtmlReportBody length: " + htmlBody.Length, "", 0, ref fireAgain);
+
+                if (string.IsNullOrWhiteSpace(htmlBody))
+                {
+                    Dts.Events.FireError(0, "Email", "HtmlReportBody is empty when the script runs.", "", 0);
+                    Dts.TaskResult = (int)ScriptResults.Failure;
+                    return;
+                }
+```
+
+The next block calls the variables that contain the sending and receiving email addresses and the pass to connect to the the email service provider:
+
+```C#
+string fromEmail = Dts.Variables["$Package::SendingEmail"].Value.ToString(); string toEmails = Dts.Variables["$Package::ReceivingEmail"].Value.ToString(); string appPassword = Dts.Variables["$Package::appPass"].GetSensitiveValue()?.ToString();
+```
+
+After that, the message is constructed. Firstly, the  sending and receiving email variables are assigned to the .NET class MailMessage to create the mail object and creates the send from and to attributes. 
+The second block below builds the body of the email and the necessary attributes to send the email correctly:
+
+```C#
+System.Net.Mail.MailMessage mail = new System.Net.Mail.MailMessage();
+                mail.From = new System.Net.Mail.MailAddress(fromEmail);
+                mail.To.Add(toEmails);
+
+                mail.Subject = "Relatório de Controlo de Pagamentos";
+                mail.SubjectEncoding = System.Text.Encoding.UTF8;
+                mail.Body = htmlBody;
+                mail.BodyEncoding = System.Text.Encoding.UTF8;
+                mail.IsBodyHtml = true;
+```
+
+After, the SMTP client is configured:
+
+```C#
+System.Net.Mail.SmtpClient smtp = new System.Net.Mail.SmtpClient("smtp.gmail.com", 587);
+                smtp.Credentials = new System.Net.NetworkCredential(fromEmail, appPassword);
+                smtp.EnableSsl = true;
+```
+
+And finally, the email is sent and error handling code is added in case the sending fails:
+
+```C#
+smtp.Send(mail);
+
+                Dts.TaskResult = (int)ScriptResults.Success;
+            }
+            catch (Exception ex)
+            {
+                Dts.Events.FireError(0, "Erro no Script de Envio de E-mail", ex.Message, string.Empty, 0);
+                Dts.TaskResult = (int)ScriptResults.Failure;
+            }
+        }
+
+        enum ScriptResults
+        {
+            Success = Microsoft.SqlServer.Dts.Runtime.DTSExecResult.Success,
+            Failure = Microsoft.SqlServer.Dts.Runtime.DTSExecResult.Failure
+        };
+    }
+}
+```
+
+### Delete MapaPagamentos Script Task
+
+Finally, the last task, uses a C# script to localize and delete the copied excel sheet.
+
+The ReadOnlyVariables are User::Destination_Excel_MapaPagamentos,User::LoadDate, which contain the filepath and the load date, that is just used as a timestamp.
+
+<img width="842" height="771" alt="Delete MapaPagametos Task" src="https://github.com/user-attachments/assets/ab72d790-bbee-435d-ab64-1916d91e44ae" />
+
+The C# Code, as an overvue, loads the variables to local string variables, has a conditional if statement that deletes the file if exists in the location and with the name provided and shows a message that it was deleted. 
+After, it has a simple catch error statement.
+
+```C#
+using System;
+using System.Data;
+using Microsoft.SqlServer.Dts.Runtime;
+using System.Windows.Forms;
+
+
+
+#region Namespaces
+using System;
+using System.Data;
+using Microsoft.SqlServer.Dts.Runtime;
+using System.Windows.Forms;
+using System.IO;
+#endregion
+
+namespace ST_bbe63ef538a74d0e989c48d5cea6903e
+{
+    /// <summary>
+    /// ScriptMain is the entry point class of the script.  Do not change the name, attributes,
+    /// or parent of this class.
+    /// </summary>
+	[Microsoft.SqlServer.Dts.Tasks.ScriptTask.SSISScriptTaskEntryPointAttribute]
+    public partial class ScriptMain : Microsoft.SqlServer.Dts.Tasks.ScriptTask.VSTARTScriptObjectModelBase
+    {
+        private bool _fireAgain = true;
+
+        enum ScriptResults
+        {
+            Success = Microsoft.SqlServer.Dts.Runtime.DTSExecResult.Success,
+            Failure = Microsoft.SqlServer.Dts.Runtime.DTSExecResult.Failure
+        }
+
+
+
+
+        /// <summary>
+        /// This method is called when this script task executes in the control flow.
+        /// Before returning from this method, set the value of Dts.TaskResult to indicate success or failure.
+        /// To open Help, press F1.
+        /// </summary>
+        public void Main()
+        {
+            {
+                try
+                {
+                    string destinationPath = (string)Dts.Variables["User::Destination_Excel_MapaPagamentos"].Value;
+                    DateTime loadDate = (DateTime)Dts.Variables["User::LoadDate"].Value;
+
+                    string destFileName = string.Format(
+                        "MapaPagamentos2026.xlsx", loadDate
+                    );
+                    string destPath = Path.Combine(destinationPath, destFileName);
+
+                    if (File.Exists(destPath))
+                    {
+                        File.Delete(destPath);
+                        Dts.Events.FireInformation(
+                            0,
+                            "Delete MapaPagamentos2026",
+                            $"Deleted '{destPath}'.",
+                            string.Empty,
+                            0,
+                            ref _fireAgain);
+                    }
+
+                    Dts.TaskResult = (int)ScriptResults.Success;
+                }
+                catch (Exception ex)
+                {
+                    Dts.Events.FireError(
+                        0,
+                        "Delete Excel File",
+                        ex.Message,
+                        string.Empty,
+                        0);
+
+                    Dts.TaskResult = (int)ScriptResults.Failure;
+                }
+            }
+        }
+    }
+}
+```
+
+This concludes the control flow of the Payments Control SSIS Package. 
+
+Just for curiosity, an example of an email sent can be found below:
+
+[Mail - Angel Gutiérrez - Outlook.pdf](https://github.com/user-attachments/files/34500466/Mail.-.Angel.Gutierrez.-.Outlook.pdf)
 
 
 
