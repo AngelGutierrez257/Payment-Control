@@ -299,6 +299,13 @@ The second merge related task is the merge of Dim Bancos:
 
 This sequence container, the last one before the tasks focused on sending the email, is, as the previous one, focused on executing sql statements. In this case, simple select statements in the views.  
 
+It contains the following Execute SQL Tasks:
+
+<img width="809" height="365" alt="Update Views Sequence Container 1" src="https://github.com/user-attachments/assets/29e39285-1c03-4149-b489-22848d01e585" />
+<img width="812" height="350" alt="Update Views Sequence Container 2" src="https://github.com/user-attachments/assets/484498ad-4a12-4bbb-b5d9-38924aca34b3" />
+
+As the Execute SQL Tasks are simply executing the select statement related to that view and connects to the db, one image will sufice. The SELECT SQL Scripts are in the (Select Views)[Select Views.md] file. 
+
 
 
 
