@@ -361,12 +361,13 @@ go
  EmpresaID int not null,
 [Nome Entidade] nvarchar(256) null,
 Descricao nvarchar(500) null,
-Valor float null,
+Valor decimal(18,3) null,
 [Banco de debito Previsto] nvarchar(256)  null,
 [Estado Pagamento] nvarchar(256) null, --substitui Em atraso?
 [Data Situação actual] date null,
 [LoadDate] date not null,
-HashValue varbinary(32)
+BusinessHashValue varbinary(32),
+ControlRowHashValue varbinary(32)
 )
 
 CREATE NONCLUSTERED INDEX IX_FactPagamentos_FornecedorID
