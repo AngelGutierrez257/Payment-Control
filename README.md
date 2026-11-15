@@ -61,7 +61,7 @@ Data flow
        EXECUTIVE REPORT GENERATION
           HTML / Email
 ```
-Main components
+Main components  
 Component	Technology	Responsibility  
 Source data	Excel	Operational payment and supplier information  
 ETL orchestration	SSIS	File handling, data ingestion and process coordination  
