@@ -1,3 +1,5 @@
+
+```text
 Payment Control – Financial Data Warehouse & ETL
 
 A practical Data Engineering project built with Microsoft SQL Server, T-SQL and SQL Server Integration Services (SSIS).
@@ -30,7 +32,7 @@ The objective is to transform operational payment information into structured, h
 The solution follows a dimensional Data Warehouse architecture inspired by Kimball methodology.
 
 Data flow
-```text
+
      OPERATIONAL DATA SOURCES
        Excel / Financial Files
                  |
@@ -60,7 +62,7 @@ Data flow
                  v
        EXECUTIVE REPORT GENERATION
           HTML / Email
-```
+
 Main components  
 Component	Technology	Responsibility  
 Source data	Excel	Operational payment and supplier information  
@@ -164,7 +166,7 @@ This provides a foundation for investigating failures and tracking ETL execution
 
 The repository contains the SQL implementation organized by functional responsibility.
 
-```text
+
 Payment-Control/
 │
 ├── Schema/
