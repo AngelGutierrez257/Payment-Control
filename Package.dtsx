@@ -4,8 +4,8 @@
   DTS:CreationDate="5/1/2026 4:06:27 PM"
   DTS:CreationName="Microsoft.Package"
 <<<<<<< HEAD
-  DTS:CreatorComputerName="LAPTOP-6NT36QS8"
-  DTS:CreatorName="LAPTOP-6NT36QS8\Angel"
+  DTS:CreatorComputerName="PC\User"
+  DTS:CreatorName="PC\User"
 =======
   DTS:CreatorComputerName="PC"
   DTS:CreatorName="PC\User"
@@ -47,7 +47,7 @@
         <DTS:ConnectionManager
           DTS:ConnectRetryCount="0"
           DTS:ConnectRetryInterval="0"
-          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=D:\CrystalCompass\Financial management\CopiaMapaPagamentos\MapaPagamentos2026.xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
+          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=Path\MapaPagamentos2026.xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -65,7 +65,7 @@
         <DTS:ConnectionManager
           DTS:ConnectRetryCount="0"
           DTS:ConnectRetryInterval="0"
-          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=D:\CrystalCompass\BI\Lista Fornecedores.xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
+          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=Path\Lista Fornecedores.xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -79,32 +79,32 @@
         <DTS:ConnectionManager
           DTS:ConnectRetryCount="0"
           DTS:ConnectRetryInterval="0"
-          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=D:\CrystalCompass\BI\Mapas pagamentos2026.xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
+          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=Path\Mapas pagamentos2026.xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
 >>>>>>> abcf5f16b09e70e0550952408e39771a69479f36
-      DTS:refId="Package.ConnectionManagers[LAPTOP-6NT36QS8\MSSQLSERVER01.Gestao Financeira]"
+      DTS:refId="Package.ConnectionManagers[SQL SERVER Instance.Gestao Financeira]"
       DTS:CreationName="OLEDB"
       DTS:DTSID="{5CFB790F-BB7A-4A4C-A531-B99F19146910}"
-      DTS:ObjectName="LAPTOP-6NT36QS8\MSSQLSERVER01.Gestao Financeira">
+      DTS:ObjectName="SQL SERVER Instance.Gestao Financeira">
       <DTS:ObjectData>
         <DTS:ConnectionManager
           DTS:ConnectRetryCount="1"
           DTS:ConnectRetryInterval="5"
-          DTS:ConnectionString="Data Source=LAPTOP-6NT36QS8\MSSQLSERVER01;Initial Catalog=Gestao Financeira;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;Application Name=SSIS-Package-{5CFB790F-BB7A-4A4C-A531-B99F19146910}LAPTOP-6NT36QS8\MSSQLSERVER01.Gestao Financeira;" />
+          DTS:ConnectionString="Data Source=SQL SERVER Instance;Initial Catalog=Gestao Financeira;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;Application Name=SSIS-Package-{5CFB790F-BB7A-4A4C-A531-B99F19146910}LAPTOP-6NT36QS8\MSSQLSERVER01.Gestao Financeira;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
 <<<<<<< HEAD
 =======
-      DTS:refId="Package.ConnectionManagers[LAPTOP-6NT36QS8\MSSQLSERVER01.Gestao Financeira 1]"
+      DTS:refId="Package.ConnectionManagers[SQL SERVER Instance.Gestao Financeira 1]"
       DTS:CreationName="ADO.NET:System.Data.SqlClient.SqlConnection, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
       DTS:DTSID="{3975E0DE-9935-4823-A673-F8B98BE1F790}"
-      DTS:ObjectName="LAPTOP-6NT36QS8\MSSQLSERVER01.Gestao Financeira 1">
+      DTS:ObjectName="SQL SERVER Instance.Gestao Financeira 1">
       <DTS:ObjectData>
         <DTS:ConnectionManager
-          DTS:ConnectionString="Data Source=LAPTOP-6NT36QS8\MSSQLSERVER01;Initial Catalog=Gestao Financeira;Integrated Security=True;TrustServerCertificate=True;Application Name=SSIS-Package-{3975E0DE-9935-4823-A673-F8B98BE1F790}LAPTOP-6NT36QS8\MSSQLSERVER01.Gestao Financeira 1;" />
+          DTS:ConnectionString="Data Source=SQL SERVER Instance;Initial Catalog=Gestao Financeira;Integrated Security=True;TrustServerCertificate=True;Application Name=SSIS-Package-{3975E0DE-9935-4823-A673-F8B98BE1F790}LAPTOP-6NT36QS8\MSSQLSERVER01.Gestao Financeira 1;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -115,7 +115,7 @@
       DTS:ObjectName="Mapas pagamentos2026.xlsx">
       <DTS:ObjectData>
         <DTS:ConnectionManager
-          DTS:ConnectionString="D:\CrystalCompass\Financial management\Mapas pagamentos2026.xlsx" />
+          DTS:ConnectionString="Path\Mapas pagamentos2026.xlsx" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
   </DTS:ConnectionManagers>
@@ -186,9 +186,9 @@
       DTS:ObjectName="Destination_Excel_MapaPagamentos">
       <DTS:VariableValue
 <<<<<<< HEAD
-        DTS:DataType="8">D:\Crystalcompass\Financial management\CopiaMapaPagamentos</DTS:VariableValue>
+        DTS:DataType="8">Path\CopiaMapaPagamentos</DTS:VariableValue>
 =======
-        DTS:DataType="8">D:\CrystalCompass\BI\CopiaMapaPagamentos\</DTS:VariableValue>
+        DTS:DataType="8">Path\CopiaMapaPagamentos\</DTS:VariableValue>
 >>>>>>> abcf5f16b09e70e0550952408e39771a69479f36
     </DTS:Variable>
     <DTS:Variable
@@ -238,7 +238,7 @@
       DTS:ObjectName="Source_Excel_MapaPagamentos">
       <DTS:VariableValue
 <<<<<<< HEAD
-        DTS:DataType="8">D:\CrystalCompass\Financial management\Mapas pagamentos2026.xlsx</DTS:VariableValue>
+        DTS:DataType="8">Path\Mapas pagamentos2026.xlsx</DTS:VariableValue>
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
@@ -249,7 +249,7 @@
       <DTS:VariableValue
         DTS:DataType="3">0</DTS:VariableValue>
 =======
-        DTS:DataType="8">D:\CrystalCompass\BI\Mapas pagamentos2026.xlsx</DTS:VariableValue>
+        DTS:DataType="8">Path\Mapas pagamentos2026.xlsx</DTS:VariableValue>
 >>>>>>> abcf5f16b09e70e0550952408e39771a69479f36
     </DTS:Variable>
   </DTS:Variables>
