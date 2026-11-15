@@ -31,8 +31,8 @@ from [dbo].[Pagamentos] as p
  left join [dbo].[Tipo Fornecimento] as tf on p.[Tipo Fornecimento ID] = tf.[ID] and tf.[IsCurrent] = 1
  left join [dbo].[Bancos] as b on p.[BancoID]=b.[ID] and b.[IsCurrent] = 1
  left join [dbo].[Empresa] as e on p.[EmpresaID] = e.[ID] and e.[IsCurrent] = 1
- where p.[Data] between cast(getdate() as date) and dateadd(day,7, cast(getdate() as date)) and p.[Valor] is not null and p.[Estado Pagamento] like '%prev%' or p.[Estado Pagamento] like '%atras%'
- )
+ where p.[Data] between cast(getdate() as date) and dateadd(day,7, cast(getdate() as date)) and p.[Valor] is not null and (p.[Estado Pagamento] like '%prev%' or p.[Estado Pagamento] like '%atras%'
+ ))
  select [Empresa], [Data de pagamento],[UltimaActualizacao],[Código Fornecedor],[Nome Entidade], [Montante],[Tipo Fornecimento], [Estado Pagamento],[Banco de Pagamento]
  from cte_data 
  where rownumber = 1;
