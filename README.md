@@ -62,18 +62,18 @@ Data flow
           HTML / Email
 ```
 Main components
-Component	Technology	Responsibility
-Source data	Excel	Operational payment and supplier information
-ETL orchestration	SSIS	File handling, data ingestion and process coordination
-Staging	SQL Server	Temporary storage of source data
-Data cleansing	T-SQL	Standardization and normalization
-Data Warehouse	SQL Server	Dimensions and payment fact table
-Historical tracking	T-SQL / SHA2-256	Change detection and SCD Type 2
-Reporting	SQL Views	Aggregated financial information
-Automation	C# / SSIS	HTML report generation and email dispatch
-Error auditing	SQL Server	ETL execution error logging
-3. Technical Implementation
-3.1 Data staging and cleansing
+Component	Technology	Responsibility  
+Source data	Excel	Operational payment and supplier information  
+ETL orchestration	SSIS	File handling, data ingestion and process coordination  
+Staging	SQL Server	Temporary storage of source data  
+Data cleansing	T-SQL	Standardization and normalization  
+Data Warehouse	SQL Server	Dimensions and payment fact table  
+Historical tracking	T-SQL / SHA2-256	Change detection and SCD Type 2  
+Reporting	SQL Views	Aggregated financial information  
+Automation	C# / SSIS	HTML report generation and email dispatch  
+Error auditing	SQL Server	ETL execution error logging  
+3. Technical Implementation  
+3.1 Data staging and cleansing  
 
 Raw operational information is first loaded into staging tables.
 
