@@ -164,7 +164,7 @@ This provides a foundation for investigating failures and tracking ETL execution
 
 The repository contains the SQL implementation organized by functional responsibility.
 
-text
+```text
 Payment-Control/
 │
 ├── Schema/
@@ -326,3 +326,4 @@ Author: Angel Gutierrez
 GitHub: @AngelGutierrez257
 
 Repository: Payment-Control
+```
