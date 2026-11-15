@@ -321,7 +321,7 @@ GO
 
 -- select DB_NAME() as currentDatabase;
 
-DROP TABLE IF EXISTS [dbo].[Tipos Pagamento]
+DROP TABLE IF EXISTS [dbo].[Tipo Pagamento]
 GO
 CREATE TABLE dbo.[Tipos Pagamento] (
     ID                  INT IDENTITY(1,1) PRIMARY KEY NOT NULL,
@@ -367,7 +367,7 @@ Valor decimal(18,3) null,
 [Data Situação actual] date null,
 [LoadDate] date not null,
 BusinessHashValue varbinary(32),
-ControlRowHashValue varbinary(32)
+ControlChangeRowHash varbinary(32)
 )
 
 CREATE NONCLUSTERED INDEX IX_FactPagamentos_FornecedorID
