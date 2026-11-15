@@ -30,7 +30,7 @@ The objective is to transform operational payment information into structured, h
 The solution follows a dimensional Data Warehouse architecture inspired by Kimball methodology.
 
 Data flow
-text
+```text
      OPERATIONAL DATA SOURCES
        Excel / Financial Files
                  |
@@ -60,7 +60,7 @@ text
                  v
        EXECUTIVE REPORT GENERATION
           HTML / Email
-
+```
 Main components
 Component	Technology	Responsibility
 Source data	Excel	Operational payment and supplier information
