@@ -34,7 +34,7 @@
       DTS:ObjectName="CopiaMapaPagamentos.xlsx">
       <DTS:ObjectData>
         <DTS:ConnectionManager
-          DTS:ConnectionString="D:\CrystalCompass\Financial management\CopiaMapaPagamentos\CopiaMapaPagamentos.xlsx" />
+          DTS:ConnectionString="Path/CopiaMapaPagamentos.xlsx" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
